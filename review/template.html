@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Onay {{ week }}</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --text:#1b1f24; --muted:#5f6b7a; --border:#dde2e8;
+          --ok:#188038; --ok-bg:#e6f4ea; --warn:#b06000; --warn-bg:#fef7e0; --bad:#c5221f; --bad-bg:#fce8e6; --accent:#1a73e8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111418; --card:#1b2026; --text:#e8eaed; --muted:#9aa4b1; --border:#2c333b;
+            --ok:#81c995; --ok-bg:#1e3a29; --warn:#fdd663; --warn-bg:#3d3418; --bad:#f28b82; --bad-bg:#47201e; --accent:#8ab4f8; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 16px 80px; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; } h2 { font-size: 1.15rem; margin: 0 0 8px; }
+  .muted { color: var(--muted); }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; margin-top:16px; }
+  .gate { border-left: 4px solid var(--accent); }
+  .gate code, .cmd { display:block; background:var(--bg); border:1px solid var(--border); border-radius:8px; padding:8px 10px; margin-top:6px; font: 13px ui-monospace, Consolas, monospace; overflow-x:auto; }
+  .stats { display:flex; gap:16px; flex-wrap:wrap; margin-top:8px; }
+  .stat b { font-size: 1.25rem; display:block; }
+  .label { font-size:.75rem; font-weight:600; letter-spacing:.05em; color:var(--muted); text-transform:uppercase; margin-top:12px; }
+  .hook { font-size: 1.3rem; font-weight: 700; }
+  .take { background: var(--warn-bg); border-radius: 8px; padding: 8px 10px; }
+  table { width:100%; border-collapse: collapse; margin-top:6px; font-size: .92rem; }
+  td, th { text-align:left; vertical-align: top; padding: 6px 8px; border-top: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; font-size: .8rem; }
+  .pill { display:inline-block; padding: 1px 8px; border-radius: 999px; font-size:.78rem; font-weight:600; white-space:nowrap; }
+  .supported { background:var(--ok-bg); color:var(--ok); }
+  .partial { background:var(--warn-bg); color:var(--warn); }
+  .unsupported, .not_found, .uncertain { background:var(--bad-bg); color:var(--bad); }
+  tr.flag td { background: var(--bad-bg); }
+  .evidence { color: var(--muted); font-style: italic; }
+  details summary { cursor:pointer; color: var(--accent); margin-top: 8px; }
+  a { color: var(--accent); word-break: break-all; }
+  .unknown li { margin: 2px 0; }
+  .visual { display:inline-block; border:1px solid var(--border); border-radius:6px; padding:2px 8px; margin: 2px 4px 2px 0; font-size:.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Bölüm onayı — {{ week }}</h1>
+  <div class="muted">Üretim: {{ generated_at }} · Bu sayfa senaryoyu, her iddianın kaynağını ve doğrulama sonucunu gösterir.</div>
+  <div class="stats">
+    <div class="stat"><b>{{ segments|length }}</b><span class="muted">haber</span></div>
+    <div class="stat"><b>{{ word_count }}</b><span class="muted">kelime</span></div>
+    <div class="stat"><b>~{{ est_seconds }} sn</b><span class="muted">tahmini süre</span></div>
+    <div class="stat"><b style="color:var(--bad)">{{ n_flags }}</b><span class="muted">kırmızı işaret</span></div>
+    <div class="stat"><b>{{ unknown_terms|length }}</b><span class="muted">sözlükte olmayan terim</span></div>
+  </div>
+
+  <section class="card gate">
+    <h2>Onay kapısı</h2>
+    {% if approved %}
+      <div><span class="pill supported">ONAYLANDI</span> {{ approved.approved_by }} · {{ approved.approved_at }}</div>
+    {% else %}
+      <div>Pipeline burada durdu. Kırmızı işaretleri inceleyin. Uygunsa onaylayın:</div>
+      <code>make approve WEEK={{ week }}</code>
+      <div class="muted" style="margin-top:6px">make yoksa: <code style="display:inline;padding:1px 6px">python -m pipeline approve --week {{ week }}</code>
+      {% if n_flags %} · kırmızı işaretler varken onay için <code style="display:inline;padding:1px 6px">--accept-flags</code> gerekir{% endif %}</div>
+      <div style="margin-top:10px">Düzeltme istemek için (senaryo yeniden yazılır, doğrulama tekrarlanır):</div>
+      <code>python -m pipeline revise --week {{ week }} --feedback "2. haberi çıkar, yerine TÜBİTAK duyurusunu koy"</code>
+    {% endif %}
+  </section>
+
+  <section class="card">
+    <div class="label">Kanca (0-2 sn)</div>
+    <div class="hook">{{ hook }}</div>
+    {% if teaser %}<div class="label">Merak boşluğu (teaser)</div><div>{{ teaser }}</div>{% endif %}
+  </section>
+
+  {% for seg in segments %}
+  <section class="card">
+    <h2>Haber {{ loop.index }}/{{ segments|length }} — {{ seg.headline }}</h2>
+    {% if seg.bridge %}<div class="label">Köprü cümlesi</div><div><i>{{ seg.bridge }}</i></div>{% endif %}
+    <div class="label">Anlatım</div>
+    <div>{{ seg.narration }}</div>
+    <div class="label">Bu senin için ne demek?</div>
+    <div class="take">{{ seg.student_take }}</div>
+    <details><summary>TTS'e gidecek fonetik metin</summary>
+      <div class="cmd">{{ seg.tts_narration }}</div><div class="cmd">{{ seg.tts_take }}</div></details>
+
+    <div class="label">İddialar ve doğrulama</div>
+    <table>
+      <tr><th>İddia</th><th>Sonuç</th><th>Kanıt / not</th></tr>
+      {% for c in seg.claims %}
+      <tr class="{{ 'flag' if c.flag }}">
+        <td>{{ c.text }}{% if c.uncertain %} <span class="pill uncertain">UNCERTAIN</span>{% endif %}
+          <div><a href="{{ c.source_url }}" target="_blank" rel="noopener">{{ c.source_url }}</a></div></td>
+        <td><span class="pill {{ c.verdict }}">{{ c.verdict }}</span></td>
+        <td>{% if c.evidence %}<div class="evidence">“{{ c.evidence }}”</div>{% endif %}<div>{{ c.note }}</div></td>
+      </tr>
+      {% endfor %}
+      {% for m in seg.missed %}
+      <tr class="{{ 'flag' if m.verdict != 'supported' }}">
+        <td>{{ m.text }} <span class="pill partial">listede yoktu</span></td>
+        <td><span class="pill {{ m.verdict }}">{{ m.verdict }}</span></td>
+        <td>{% if m.evidence %}<div class="evidence">“{{ m.evidence }}”</div>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </table>
+
+    {% if seg.numbers %}
+    <div class="label">Rakam taraması (kaynak metinde birebir geçiyor mu?)</div>
+    <div>{% for n in seg.numbers %}<span class="pill {{ 'supported' if n.in_source else 'unsupported' }}" style="margin-right:4px">{{ n.number }}</span>{% endfor %}</div>
+    {% endif %}
+
+    <div class="label">Görseller</div>
+    <div>{% for v in seg.visuals %}<span class="visual">{{ v.summary }}</span>{% endfor %}</div>
+    <div class="label">Kaynaklar</div>
+    <ul>{% for s in seg.sources %}<li><a href="{{ s }}" target="_blank" rel="noopener">{{ s }}</a></li>{% endfor %}</ul>
+  </section>
+  {% endfor %}
+
+  <section class="card">
+    {% if question %}<div class="label">Yorum sorusu</div><div class="hook">{{ question }}</div>{% endif %}
+    <div class="label">Kapanış</div>
+    <div>{{ outro }}</div>
+  </section>
+
+  <section class="card unknown">
+    <h2>Sözlükte olmayan terimler</h2>
+    {% if unknown_terms %}
+    <div class="muted">Bunlar İngilizce/kısaltma gibi görünüyor ve <code>config/pronunciation.json</code>'da yok. Doğru okunuşu ekleyip <code>python -m pipeline normalize --week {{ week }} --force</code> çalıştırın.</div>
+    <ul>{% for t in unknown_terms %}<li><b>{{ t }}</b> → şu an: <i>{{ unknown_tts[t] }}</i></li>{% endfor %}</ul>
+    <div class="label">Eklenecek satırlar (okunuşu düzeltip yapıştırın)</div>
+    <div class="cmd">{% for t in unknown_terms %}"{{ t }}": "{{ unknown_tts[t] }}",<br>{% endfor %}</div>
+    {% else %}<div class="muted">Yok.</div>{% endif %}
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,218 @@
+{
+  "week": "2026-W44",
+  "script_word_count": 195,
+  "script_hash": "de814a71a9e09762",
+  "checks": [
+    {
+      "segment": 1,
+      "claim_index": 0,
+      "verdict": "supported",
+      "evidence": "Türkiye’deki çeşitli kritik altyapı tesislerinin siber güvenlik zafiyetleri, bağımsız bir siber güvenlik araştırmacısının yaptığı çalışma ile gün yüzüne çıktı.",
+      "note": "Kaynak açıkça söylüyor."
+    },
+    {
+      "segment": 1,
+      "claim_index": 1,
+      "verdict": "supported",
+      "evidence": "Araştırmacı, sistemlerin giriş şifrelerinde ‘1071’ ve ‘1453’ gibi tahmin edilmesi oldukça kolay ve yaygın parolaların kullanıldığını tespit etti.",
+      "note": "Rakamlar birebir eşleşiyor."
+    },
+    {
+      "segment": 1,
+      "claim_index": 2,
+      "verdict": "supported",
+      "evidence": "Bu zafiyet nedeniyle su pompaları ve atık su arıtma tesislerini de içeren 430 kritik sisteme kolaylıkla erişim sağlandığı bildirildi.",
+      "note": "430 ve su pompaları birebir. Kaynağın özet maddesinde '430 farklı kritik tesise ait sistemler' ve çoğul 'araştırmacılar' geçiyor; senaryo ana metinle uyumlu."
+    },
+    {
+      "segment": 2,
+      "claim_index": 0,
+      "verdict": "supported",
+      "evidence": "We've put a deliberately vulnerable PHP installation behind our WAF",
+      "note": "'Güvenlik duvarı' WAF için kabul edilebilir çeviri."
+    },
+    {
+      "segment": 2,
+      "claim_index": 1,
+      "verdict": "supported",
+      "evidence": "Your mission, should you choose to accept it: bypass the WAF protections, exploit the PHP sandbox, and recover the contents of /flag.",
+      "note": "Kaynak açıkça söylüyor."
+    },
+    {
+      "segment": 2,
+      "claim_index": 2,
+      "verdict": "supported",
+      "evidence": "This limited-time challenge is run via Cloudflare's Bug Bounty program on HackerOne.",
+      "note": "Kaynak açıkça söylüyor."
+    },
+    {
+      "segment": 2,
+      "claim_index": 3,
+      "verdict": "supported",
+      "evidence": "All participants must sign up for a HackerOne account and review and agree to the Bounty Terms before participating in the CTF.",
+      "note": "Kaynak açıkça söylüyor."
+    },
+    {
+      "segment": 3,
+      "claim_index": 0,
+      "verdict": "supported",
+      "evidence": "We’re announcing Genie 4, our new world model for real-time interactive simulation.",
+      "note": "Kaynak bunu araştırma duyurusu olarak da niteliyor."
+    },
+    {
+      "segment": 3,
+      "claim_index": 1,
+      "verdict": "supported",
+      "evidence": "steer scenes in real time using natural language, like moving the camera, changing the weather, or introducing new characters.",
+      "note": "Kaynak açıkça söylüyor."
+    },
+    {
+      "segment": 3,
+      "claim_index": 2,
+      "verdict": "supported",
+      "evidence": "Every world also generates native audio on the fly, including ambient sounds, music, and interactive dialogue.",
+      "note": "Kaynak açıkça söylüyor."
+    },
+    {
+      "segment": 3,
+      "claim_index": 3,
+      "verdict": "supported",
+      "evidence": "We have started rolling out Genie 4 to a limited group of trusted testers.",
+      "note": "Kaynak açıkça söylüyor."
+    },
+    {
+      "segment": 4,
+      "claim_index": 0,
+      "verdict": "supported",
+      "evidence": "TÜBİTAK Temel Bilimler Araştırma Enstitüsü (TBAE) ... “Bütünleşik Algılama ve Haberleşme” (TBAE ISAC) Kış Okulu düzenlenecektir.",
+      "note": "Kaynak açıkça söylüyor."
+    },
+    {
+      "segment": 4,
+      "claim_index": 1,
+      "verdict": "supported",
+      "evidence": "6G ağları için kilit bir teknoloji olarak öne çıkmakta",
+      "note": "Kaynak açıkça söylüyor."
+    },
+    {
+      "segment": 4,
+      "claim_index": 2,
+      "verdict": "supported",
+      "evidence": "Kış Okulu Tarihleri: 23 – 25 Kasım 2026 Yer: Gebze, Türkiye",
+      "note": "Tarih ve yer birebir eşleşiyor."
+    },
+    {
+      "segment": 4,
+      "claim_index": 3,
+      "verdict": "supported",
+      "evidence": "Seçilen tüm katılımcılara ücretsiz konaklama ve Türkiye içi (otobüs/tren) ulaşım desteği sağlanacaktır.",
+      "note": "Kaynak açıkça söylüyor; anlatım da artık Türkiye içi kısıtını içeriyor."
+    },
+    {
+      "segment": 4,
+      "claim_index": 4,
+      "verdict": "supported",
+      "evidence": "Son Başvuru Tarihi: 12 Kasım 2026",
+      "note": "Tarih birebir eşleşiyor."
+    },
+    {
+      "segment": 4,
+      "claim_index": 5,
+      "verdict": "supported",
+      "evidence": "İlgili alanlardaki yüksek lisans ile doktora öğrencileri ve doktora sonrası araştırmacılara yüz yüze katılım için öncelik verilecektir.",
+      "note": "Kaynak açıkça söylüyor."
+    },
+    {
+      "segment": 4,
+      "claim_index": 6,
+      "verdict": "supported",
+      "evidence": "Bütünleşik Algılama ve Haberleşme Kış Okulu’na yüz yüze veya Zoom üzerinden çevrim içi katılmak için başvuru yapabilirsiniz.",
+      "note": "Kaynak açıkça söylüyor."
+    },
+    {
+      "segment": 4,
+      "claim_index": 7,
+      "verdict": "supported",
+      "evidence": "Yüz yüze katılım kontenjan 50 kişiyle sınırlıdır.",
+      "note": "Sayı birebir eşleşiyor."
+    }
+  ],
+  "missed": [
+    {
+      "segment": 1,
+      "text": "Hook: Kritik tesislerde 1071 ve 1453 şifreleri bulundu!",
+      "verdict": "supported",
+      "evidence": "Araştırmacı, sistemlerin giriş şifrelerinde ‘1071’ ve ‘1453’ gibi tahmin edilmesi oldukça kolay ve yaygın parolaların kullanıldığını tespit etti."
+    },
+    {
+      "segment": 4,
+      "text": "Teaser: Dört haber var; sonuncusu senin başvurabileceğin bir fırsat. (Vaat 4. segmentte karşılanıyor; 4 segment var.)",
+      "verdict": "supported",
+      "evidence": "Bütünleşik Algılama ve Haberleşme Kış Okulu’na yüz yüze veya Zoom üzerinden çevrim içi katılmak için başvuru yapabilirsiniz."
+    },
+    {
+      "segment": 4,
+      "text": "Anlatım: seçilenlere ücretsiz konaklama ve Türkiye içi ulaşım desteği var",
+      "verdict": "supported",
+      "evidence": "Seçilen tüm katılımcılara ücretsiz konaklama ve Türkiye içi (otobüs/tren) ulaşım desteği sağlanacaktır."
+    },
+    {
+      "segment": 3,
+      "text": "Öğrenci notu: Şimdilik sınırlı test grubunda; geniş erişim için Google duyurularını takip et (ikinci kısım tavsiye, yeni olgu içermiyor)",
+      "verdict": "supported",
+      "evidence": "We have started rolling out Genie 4 to a limited group of trusted testers."
+    }
+  ],
+  "numbers": {
+    "1": [
+      {
+        "number": "430",
+        "in_source": true
+      },
+      {
+        "number": "1071",
+        "in_source": true
+      },
+      {
+        "number": "1453",
+        "in_source": true
+      }
+    ],
+    "2": [],
+    "3": [
+      {
+        "number": "4",
+        "in_source": true
+      }
+    ],
+    "4": [
+      {
+        "number": "6",
+        "in_source": true
+      },
+      {
+        "number": "12",
+        "in_source": true
+      },
+      {
+        "number": "23",
+        "in_source": true
+      },
+      {
+        "number": "25",
+        "in_source": true
+      },
+      {
+        "number": "50",
+        "in_source": true
+      }
+    ]
+  },
+  "source_keys": {
+    "https://shiftdelete.net/turkiyede-kritik-altyapilarda-1071-ve-1453-sifreleri-kullaniliyor-risk-buyuk": "75e96cff1a45",
+    "https://blog.cloudflare.com/php-ctf/": "54be98d07f34",
+    "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/": "cd6ab167aa92",
+    "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/": "d17d13a0006a",
+    "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi": "b3e0ec500a71"
+  }
+}

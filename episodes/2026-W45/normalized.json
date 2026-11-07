@@ -1,0 +1,1067 @@
+{
+  "week": "2026-W45",
+  "script_word_count": 182,
+  "units": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "segment": null,
+      "display_text": "Google hesabınla ayda üç yapay zeka videosu ücretsiz!",
+      "tts_text": "gugıl hesabınla ayda üç yapay zeka videosu ücretsiz!",
+      "tokens": [
+        {
+          "display": "Google",
+          "tts": "gugıl",
+          "unknown": false
+        },
+        {
+          "display": "hesabınla",
+          "tts": "hesabınla",
+          "unknown": false
+        },
+        {
+          "display": "ayda",
+          "tts": "ayda",
+          "unknown": false
+        },
+        {
+          "display": "üç",
+          "tts": "üç",
+          "unknown": false
+        },
+        {
+          "display": "yapay",
+          "tts": "yapay",
+          "unknown": false
+        },
+        {
+          "display": "zeka",
+          "tts": "zeka",
+          "unknown": false
+        },
+        {
+          "display": "videosu",
+          "tts": "videosu",
+          "unknown": false
+        },
+        {
+          "display": "ücretsiz!",
+          "tts": "ücretsiz!",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "teaser",
+      "kind": "teaser",
+      "segment": null,
+      "display_text": "Dört haber var; sonuncusu lisans öğrencilerine açık bir burs.",
+      "tts_text": "Dört haber var; sonuncusu lisans öğrencilerine açık bir burs.",
+      "tokens": [
+        {
+          "display": "Dört",
+          "tts": "Dört",
+          "unknown": false
+        },
+        {
+          "display": "haber",
+          "tts": "haber",
+          "unknown": false
+        },
+        {
+          "display": "var;",
+          "tts": "var;",
+          "unknown": false
+        },
+        {
+          "display": "sonuncusu",
+          "tts": "sonuncusu",
+          "unknown": false
+        },
+        {
+          "display": "lisans",
+          "tts": "lisans",
+          "unknown": false
+        },
+        {
+          "display": "öğrencilerine",
+          "tts": "öğrencilerine",
+          "unknown": false
+        },
+        {
+          "display": "açık",
+          "tts": "açık",
+          "unknown": false
+        },
+        {
+          "display": "bir",
+          "tts": "bir",
+          "unknown": false
+        },
+        {
+          "display": "burs.",
+          "tts": "burs.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s1_narration",
+      "kind": "narration",
+      "segment": 1,
+      "display_text": "Google, yeni video modeli Omni 1.2 Flash'ı Google Vids'e getirdi. Google hesabı olan herkes ayda en fazla 3 adet 15 saniyelik videoyu ücretsiz üretebiliyor. Konuşmalar da artık daha doğal.",
+      "tts_text": "gugıl, yeni video modeli Omni bir nokta iki fleşı gugıl Vidse getirdi. gugıl hesabı olan herkes ayda en fazla üç adet on beş saniyelik videoyu ücretsiz üretebiliyor. Konuşmalar da artık daha doğal.",
+      "tokens": [
+        {
+          "display": "Google,",
+          "tts": "gugıl,",
+          "unknown": false
+        },
+        {
+          "display": "yeni",
+          "tts": "yeni",
+          "unknown": false
+        },
+        {
+          "display": "video",
+          "tts": "video",
+          "unknown": false
+        },
+        {
+          "display": "modeli",
+          "tts": "modeli",
+          "unknown": false
+        },
+        {
+          "display": "Omni",
+          "tts": "Omni",
+          "unknown": false
+        },
+        {
+          "display": "1.2",
+          "tts": "bir nokta iki",
+          "unknown": false
+        },
+        {
+          "display": "Flash'ı",
+          "tts": "fleşı",
+          "unknown": false
+        },
+        {
+          "display": "Google",
+          "tts": "gugıl",
+          "unknown": false
+        },
+        {
+          "display": "Vids'e",
+          "tts": "Vidse",
+          "unknown": false
+        },
+        {
+          "display": "getirdi.",
+          "tts": "getirdi.",
+          "unknown": false
+        },
+        {
+          "display": "Google",
+          "tts": "gugıl",
+          "unknown": false
+        },
+        {
+          "display": "hesabı",
+          "tts": "hesabı",
+          "unknown": false
+        },
+        {
+          "display": "olan",
+          "tts": "olan",
+          "unknown": false
+        },
+        {
+          "display": "herkes",
+          "tts": "herkes",
+          "unknown": false
+        },
+        {
+          "display": "ayda",
+          "tts": "ayda",
+          "unknown": false
+        },
+        {
+          "display": "en",
+          "tts": "en",
+          "unknown": false
+        },
+        {
+          "display": "fazla",
+          "tts": "fazla",
+          "unknown": false
+        },
+        {
+          "display": "3",
+          "tts": "üç",
+          "unknown": false
+        },
+        {
+          "display": "adet",
+          "tts": "adet",
+          "unknown": false
+        },
+        {
+          "display": "15",
+          "tts": "on beş",
+          "unknown": false
+        },
+        {
+          "display": "saniyelik",
+          "tts": "saniyelik",
+          "unknown": false
+        },
+        {
+          "display": "videoyu",
+          "tts": "videoyu",
+          "unknown": false
+        },
+        {
+          "display": "ücretsiz",
+          "tts": "ücretsiz",
+          "unknown": false
+        },
+        {
+          "display": "üretebiliyor.",
+          "tts": "üretebiliyor.",
+          "unknown": false
+        },
+        {
+          "display": "Konuşmalar",
+          "tts": "Konuşmalar",
+          "unknown": false
+        },
+        {
+          "display": "da",
+          "tts": "da",
+          "unknown": false
+        },
+        {
+          "display": "artık",
+          "tts": "artık",
+          "unknown": false
+        },
+        {
+          "display": "daha",
+          "tts": "daha",
+          "unknown": false
+        },
+        {
+          "display": "doğal.",
+          "tts": "doğal.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s1_take",
+      "kind": "take",
+      "segment": 1,
+      "display_text": "Proje tanıtım videon için Google Vids'te hemen deneyebilirsin.",
+      "tts_text": "Proje tanıtım videon için gugıl Vidste hemen deneyebilirsin.",
+      "tokens": [
+        {
+          "display": "Proje",
+          "tts": "Proje",
+          "unknown": false
+        },
+        {
+          "display": "tanıtım",
+          "tts": "tanıtım",
+          "unknown": false
+        },
+        {
+          "display": "videon",
+          "tts": "videon",
+          "unknown": false
+        },
+        {
+          "display": "için",
+          "tts": "için",
+          "unknown": false
+        },
+        {
+          "display": "Google",
+          "tts": "gugıl",
+          "unknown": false
+        },
+        {
+          "display": "Vids'te",
+          "tts": "Vidste",
+          "unknown": false
+        },
+        {
+          "display": "hemen",
+          "tts": "hemen",
+          "unknown": false
+        },
+        {
+          "display": "deneyebilirsin.",
+          "tts": "deneyebilirsin.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s2_bridge",
+      "kind": "bridge",
+      "segment": 2,
+      "display_text": "Videodan sonra sıra uygulamada.",
+      "tts_text": "Videodan sonra sıra uygulamada.",
+      "tokens": [
+        {
+          "display": "Videodan",
+          "tts": "Videodan",
+          "unknown": false
+        },
+        {
+          "display": "sonra",
+          "tts": "sonra",
+          "unknown": false
+        },
+        {
+          "display": "sıra",
+          "tts": "sıra",
+          "unknown": false
+        },
+        {
+          "display": "uygulamada.",
+          "tts": "uygulamada.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s2_narration",
+      "kind": "narration",
+      "segment": 2,
+      "display_text": "Kâğıda çizdiğin uygulama taslağının fotoğrafını Gemini'ye yükle, Canvas aracını seç ve kodlamasını iste. Gemini çizimi okuyup kodu yazıyor; renkleri ve özellikleri anında değiştirebiliyor.",
+      "tts_text": "Kâğıda çizdiğin uygulama taslağının fotoğrafını ceminiye yükle, Canvas aracını seç ve kodlamasını iste. cemini çizimi okuyup kodu yazıyor; renkleri ve özellikleri anında değiştirebiliyor.",
+      "tokens": [
+        {
+          "display": "Kâğıda",
+          "tts": "Kâğıda",
+          "unknown": false
+        },
+        {
+          "display": "çizdiğin",
+          "tts": "çizdiğin",
+          "unknown": false
+        },
+        {
+          "display": "uygulama",
+          "tts": "uygulama",
+          "unknown": false
+        },
+        {
+          "display": "taslağının",
+          "tts": "taslağının",
+          "unknown": false
+        },
+        {
+          "display": "fotoğrafını",
+          "tts": "fotoğrafını",
+          "unknown": false
+        },
+        {
+          "display": "Gemini'ye",
+          "tts": "ceminiye",
+          "unknown": false
+        },
+        {
+          "display": "yükle,",
+          "tts": "yükle,",
+          "unknown": false
+        },
+        {
+          "display": "Canvas",
+          "tts": "Canvas",
+          "unknown": false
+        },
+        {
+          "display": "aracını",
+          "tts": "aracını",
+          "unknown": false
+        },
+        {
+          "display": "seç",
+          "tts": "seç",
+          "unknown": false
+        },
+        {
+          "display": "ve",
+          "tts": "ve",
+          "unknown": false
+        },
+        {
+          "display": "kodlamasını",
+          "tts": "kodlamasını",
+          "unknown": false
+        },
+        {
+          "display": "iste.",
+          "tts": "iste.",
+          "unknown": false
+        },
+        {
+          "display": "Gemini",
+          "tts": "cemini",
+          "unknown": false
+        },
+        {
+          "display": "çizimi",
+          "tts": "çizimi",
+          "unknown": false
+        },
+        {
+          "display": "okuyup",
+          "tts": "okuyup",
+          "unknown": false
+        },
+        {
+          "display": "kodu",
+          "tts": "kodu",
+          "unknown": false
+        },
+        {
+          "display": "yazıyor;",
+          "tts": "yazıyor;",
+          "unknown": false
+        },
+        {
+          "display": "renkleri",
+          "tts": "renkleri",
+          "unknown": false
+        },
+        {
+          "display": "ve",
+          "tts": "ve",
+          "unknown": false
+        },
+        {
+          "display": "özellikleri",
+          "tts": "özellikleri",
+          "unknown": false
+        },
+        {
+          "display": "anında",
+          "tts": "anında",
+          "unknown": false
+        },
+        {
+          "display": "değiştirebiliyor.",
+          "tts": "değiştirebiliyor.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s2_take",
+      "kind": "take",
+      "segment": 2,
+      "display_text": "Proje fikrini önce kâğıda çiz, ilk sürümü Gemini'ye yazdır.",
+      "tts_text": "Proje fikrini önce kâğıda çiz, ilk sürümü ceminiye yazdır.",
+      "tokens": [
+        {
+          "display": "Proje",
+          "tts": "Proje",
+          "unknown": false
+        },
+        {
+          "display": "fikrini",
+          "tts": "fikrini",
+          "unknown": false
+        },
+        {
+          "display": "önce",
+          "tts": "önce",
+          "unknown": false
+        },
+        {
+          "display": "kâğıda",
+          "tts": "kâğıda",
+          "unknown": false
+        },
+        {
+          "display": "çiz,",
+          "tts": "çiz,",
+          "unknown": false
+        },
+        {
+          "display": "ilk",
+          "tts": "ilk",
+          "unknown": false
+        },
+        {
+          "display": "sürümü",
+          "tts": "sürümü",
+          "unknown": false
+        },
+        {
+          "display": "Gemini'ye",
+          "tts": "ceminiye",
+          "unknown": false
+        },
+        {
+          "display": "yazdır.",
+          "tts": "yazdır.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s3_bridge",
+      "kind": "bridge",
+      "segment": 3,
+      "display_text": "Kod demişken, bu ay oyun yapsana.",
+      "tts_text": "Kod demişken, bu ay oyun yapsana.",
+      "tokens": [
+        {
+          "display": "Kod",
+          "tts": "Kod",
+          "unknown": false
+        },
+        {
+          "display": "demişken,",
+          "tts": "demişken,",
+          "unknown": false
+        },
+        {
+          "display": "bu",
+          "tts": "bu",
+          "unknown": false
+        },
+        {
+          "display": "ay",
+          "tts": "ay",
+          "unknown": false
+        },
+        {
+          "display": "oyun",
+          "tts": "oyun",
+          "unknown": false
+        },
+        {
+          "display": "yapsana.",
+          "tts": "yapsana.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s3_narration",
+      "kind": "narration",
+      "segment": 3,
+      "display_text": "GitHub'ın bir ay süren oyun yarışması Game Off 14. kez başladı. Bu yılın teması SHIFT. Tek başına ya da takımla, istediğin motorla katılabilirsin; son teslim 1 Aralık.",
+      "tts_text": "githabın bir ay süren oyun yarışması Game Off on dört. kez başladı. Bu yılın teması şift. Tek başına ya da takımla, istediğin motorla katılabilirsin; son teslim bir Aralık.",
+      "tokens": [
+        {
+          "display": "GitHub'ın",
+          "tts": "githabın",
+          "unknown": false
+        },
+        {
+          "display": "bir",
+          "tts": "bir",
+          "unknown": false
+        },
+        {
+          "display": "ay",
+          "tts": "ay",
+          "unknown": false
+        },
+        {
+          "display": "süren",
+          "tts": "süren",
+          "unknown": false
+        },
+        {
+          "display": "oyun",
+          "tts": "oyun",
+          "unknown": false
+        },
+        {
+          "display": "yarışması",
+          "tts": "yarışması",
+          "unknown": false
+        },
+        {
+          "display": "Game",
+          "tts": "Game",
+          "unknown": false
+        },
+        {
+          "display": "Off",
+          "tts": "Off",
+          "unknown": false
+        },
+        {
+          "display": "14.",
+          "tts": "on dört.",
+          "unknown": false
+        },
+        {
+          "display": "kez",
+          "tts": "kez",
+          "unknown": false
+        },
+        {
+          "display": "başladı.",
+          "tts": "başladı.",
+          "unknown": false
+        },
+        {
+          "display": "Bu",
+          "tts": "Bu",
+          "unknown": false
+        },
+        {
+          "display": "yılın",
+          "tts": "yılın",
+          "unknown": false
+        },
+        {
+          "display": "teması",
+          "tts": "teması",
+          "unknown": false
+        },
+        {
+          "display": "SHIFT.",
+          "tts": "şift.",
+          "unknown": false
+        },
+        {
+          "display": "Tek",
+          "tts": "Tek",
+          "unknown": false
+        },
+        {
+          "display": "başına",
+          "tts": "başına",
+          "unknown": false
+        },
+        {
+          "display": "ya",
+          "tts": "ya",
+          "unknown": false
+        },
+        {
+          "display": "da",
+          "tts": "da",
+          "unknown": false
+        },
+        {
+          "display": "takımla,",
+          "tts": "takımla,",
+          "unknown": false
+        },
+        {
+          "display": "istediğin",
+          "tts": "istediğin",
+          "unknown": false
+        },
+        {
+          "display": "motorla",
+          "tts": "motorla",
+          "unknown": false
+        },
+        {
+          "display": "katılabilirsin;",
+          "tts": "katılabilirsin;",
+          "unknown": false
+        },
+        {
+          "display": "son",
+          "tts": "son",
+          "unknown": false
+        },
+        {
+          "display": "teslim",
+          "tts": "teslim",
+          "unknown": false
+        },
+        {
+          "display": "1",
+          "tts": "bir",
+          "unknown": false
+        },
+        {
+          "display": "Aralık.",
+          "tts": "Aralık.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s3_take",
+      "kind": "take",
+      "segment": 3,
+      "display_text": "İlk oyununu yapacaksan tek mekanik ve tek bölümle başla.",
+      "tts_text": "İlk oyununu yapacaksan tek mekanik ve tek bölümle başla.",
+      "tokens": [
+        {
+          "display": "İlk",
+          "tts": "İlk",
+          "unknown": false
+        },
+        {
+          "display": "oyununu",
+          "tts": "oyununu",
+          "unknown": false
+        },
+        {
+          "display": "yapacaksan",
+          "tts": "yapacaksan",
+          "unknown": false
+        },
+        {
+          "display": "tek",
+          "tts": "tek",
+          "unknown": false
+        },
+        {
+          "display": "mekanik",
+          "tts": "mekanik",
+          "unknown": false
+        },
+        {
+          "display": "ve",
+          "tts": "ve",
+          "unknown": false
+        },
+        {
+          "display": "tek",
+          "tts": "tek",
+          "unknown": false
+        },
+        {
+          "display": "bölümle",
+          "tts": "bölümle",
+          "unknown": false
+        },
+        {
+          "display": "başla.",
+          "tts": "başla.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s4_bridge",
+      "kind": "bridge",
+      "segment": 4,
+      "display_text": "Ve sona sakladığımız burs geldi.",
+      "tts_text": "Ve sona sakladığımız burs geldi.",
+      "tokens": [
+        {
+          "display": "Ve",
+          "tts": "Ve",
+          "unknown": false
+        },
+        {
+          "display": "sona",
+          "tts": "sona",
+          "unknown": false
+        },
+        {
+          "display": "sakladığımız",
+          "tts": "sakladığımız",
+          "unknown": false
+        },
+        {
+          "display": "burs",
+          "tts": "burs",
+          "unknown": false
+        },
+        {
+          "display": "geldi.",
+          "tts": "geldi.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s4_narration",
+      "kind": "narration",
+      "segment": 4,
+      "display_text": "TÜBİTAK'ın STAR programıyla lisans öğrencileri, araştırma projelerinde bursiyer olarak görev alabiliyor. Başvurular 2 Kasım'da başladı ve 16 Kasım saat 17.30'da kapanıyor.",
+      "tts_text": "tübitakın star programıyla lisans öğrencileri, araştırma projelerinde bursiyer olarak görev alabiliyor. Başvurular iki Kasımda başladı ve on altı Kasım saat on yedi otuzda kapanıyor.",
+      "tokens": [
+        {
+          "display": "TÜBİTAK'ın",
+          "tts": "tübitakın",
+          "unknown": false
+        },
+        {
+          "display": "STAR",
+          "tts": "star",
+          "unknown": false
+        },
+        {
+          "display": "programıyla",
+          "tts": "programıyla",
+          "unknown": false
+        },
+        {
+          "display": "lisans",
+          "tts": "lisans",
+          "unknown": false
+        },
+        {
+          "display": "öğrencileri,",
+          "tts": "öğrencileri,",
+          "unknown": false
+        },
+        {
+          "display": "araştırma",
+          "tts": "araştırma",
+          "unknown": false
+        },
+        {
+          "display": "projelerinde",
+          "tts": "projelerinde",
+          "unknown": false
+        },
+        {
+          "display": "bursiyer",
+          "tts": "bursiyer",
+          "unknown": false
+        },
+        {
+          "display": "olarak",
+          "tts": "olarak",
+          "unknown": false
+        },
+        {
+          "display": "görev",
+          "tts": "görev",
+          "unknown": false
+        },
+        {
+          "display": "alabiliyor.",
+          "tts": "alabiliyor.",
+          "unknown": false
+        },
+        {
+          "display": "Başvurular",
+          "tts": "Başvurular",
+          "unknown": false
+        },
+        {
+          "display": "2",
+          "tts": "iki",
+          "unknown": false
+        },
+        {
+          "display": "Kasım'da",
+          "tts": "Kasımda",
+          "unknown": false
+        },
+        {
+          "display": "başladı",
+          "tts": "başladı",
+          "unknown": false
+        },
+        {
+          "display": "ve",
+          "tts": "ve",
+          "unknown": false
+        },
+        {
+          "display": "16",
+          "tts": "on altı",
+          "unknown": false
+        },
+        {
+          "display": "Kasım",
+          "tts": "Kasım",
+          "unknown": false
+        },
+        {
+          "display": "saat",
+          "tts": "saat",
+          "unknown": false
+        },
+        {
+          "display": "17.30'da",
+          "tts": "on yedi otuzda",
+          "unknown": false
+        },
+        {
+          "display": "kapanıyor.",
+          "tts": "kapanıyor.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s4_take",
+      "kind": "take",
+      "segment": 4,
+      "display_text": "Projeleri BİDEB sisteminde incele; başvuru TÜBİTAK Yönetim Bilgi Sistemi'nden.",
+      "tts_text": "Projeleri bideb sisteminde incele; başvuru tübitak Yönetim Bilgi Sisteminden.",
+      "tokens": [
+        {
+          "display": "Projeleri",
+          "tts": "Projeleri",
+          "unknown": false
+        },
+        {
+          "display": "BİDEB",
+          "tts": "bideb",
+          "unknown": false
+        },
+        {
+          "display": "sisteminde",
+          "tts": "sisteminde",
+          "unknown": false
+        },
+        {
+          "display": "incele;",
+          "tts": "incele;",
+          "unknown": false
+        },
+        {
+          "display": "başvuru",
+          "tts": "başvuru",
+          "unknown": false
+        },
+        {
+          "display": "TÜBİTAK",
+          "tts": "tübitak",
+          "unknown": false
+        },
+        {
+          "display": "Yönetim",
+          "tts": "Yönetim",
+          "unknown": false
+        },
+        {
+          "display": "Bilgi",
+          "tts": "Bilgi",
+          "unknown": false
+        },
+        {
+          "display": "Sistemi'nden.",
+          "tts": "Sisteminden.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "question",
+      "kind": "question",
+      "segment": null,
+      "display_text": "Sen Game Off'a nasıl bir oyunla katılırdın? Yorumlara yaz.",
+      "tts_text": "Sen Game Offa nasıl bir oyunla katılırdın? Yorumlara yaz.",
+      "tokens": [
+        {
+          "display": "Sen",
+          "tts": "Sen",
+          "unknown": false
+        },
+        {
+          "display": "Game",
+          "tts": "Game",
+          "unknown": false
+        },
+        {
+          "display": "Off'a",
+          "tts": "Offa",
+          "unknown": false
+        },
+        {
+          "display": "nasıl",
+          "tts": "nasıl",
+          "unknown": false
+        },
+        {
+          "display": "bir",
+          "tts": "bir",
+          "unknown": false
+        },
+        {
+          "display": "oyunla",
+          "tts": "oyunla",
+          "unknown": false
+        },
+        {
+          "display": "katılırdın?",
+          "tts": "katılırdın?",
+          "unknown": false
+        },
+        {
+          "display": "Yorumlara",
+          "tts": "Yorumlara",
+          "unknown": false
+        },
+        {
+          "display": "yaz.",
+          "tts": "yaz.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "outro",
+      "kind": "outro",
+      "segment": null,
+      "display_text": "Takip et, haftaya yeni gündemle buradayız.",
+      "tts_text": "Takip et, haftaya yeni gündemle buradayız.",
+      "tokens": [
+        {
+          "display": "Takip",
+          "tts": "Takip",
+          "unknown": false
+        },
+        {
+          "display": "et,",
+          "tts": "et,",
+          "unknown": false
+        },
+        {
+          "display": "haftaya",
+          "tts": "haftaya",
+          "unknown": false
+        },
+        {
+          "display": "yeni",
+          "tts": "yeni",
+          "unknown": false
+        },
+        {
+          "display": "gündemle",
+          "tts": "gündemle",
+          "unknown": false
+        },
+        {
+          "display": "buradayız.",
+          "tts": "buradayız.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    }
+  ],
+  "unknown_terms": []
+}

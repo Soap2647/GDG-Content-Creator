@@ -1,0 +1,64 @@
+{
+  "week": "2099-W01",
+  "script_word_count": 110,
+  "checks": [
+    {
+      "segment": 1,
+      "claim_index": 0,
+      "verdict": "supported",
+      "evidence": "(test stub)",
+      "note": "TEST: Claude doğrulaması yapılmadı"
+    },
+    {
+      "segment": 2,
+      "claim_index": 0,
+      "verdict": "supported",
+      "evidence": "(test stub)",
+      "note": "TEST: Claude doğrulaması yapılmadı"
+    },
+    {
+      "segment": 3,
+      "claim_index": 0,
+      "verdict": "supported",
+      "evidence": "(test stub)",
+      "note": "TEST: Claude doğrulaması yapılmadı"
+    }
+  ],
+  "missed": [],
+  "numbers": {
+    "1": [
+      {
+        "number": "1000.0",
+        "in_source": false
+      },
+      {
+        "number": "2",
+        "in_source": true
+      },
+      {
+        "number": "3",
+        "in_source": true
+      },
+      {
+        "number": "3.0",
+        "in_source": true
+      },
+      {
+        "number": "300",
+        "in_source": true
+      },
+      {
+        "number": "300.0",
+        "in_source": true
+      }
+    ],
+    "2": [
+      {
+        "number": "2026",
+        "in_source": true
+      }
+    ],
+    "3": []
+  },
+  "source_keys": {}
+}

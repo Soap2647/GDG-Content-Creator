@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {"segment": 1, "claim_index": 0, "verdict": "supported", "evidence": "Google Vids, our video creation and editing tool, now runs on Google's newest video generation model: Omni 1.2 Flash.", "note": "Birebir destekleniyor."},
+    {"segment": 1, "claim_index": 1, "verdict": "supported", "evidence": "anyone with a Google account or Google Workspace subscription can generate up to three 15-second videos per month in Vids at no cost.", "note": "'En fazla' (up to), 3 adet, 15 sn ve aylık limit birebir eşleşiyor."},
+    {"segment": 1, "claim_index": 2, "verdict": "supported", "evidence": "Make clips that sound more natural. With improved speech narration, your social clips, concept explainers, and teaser videos feel like something you recorded yourself.", "note": "Destekleniyor; anlatımdaki 'Konuşmalar daha doğal' kabul edilebilir özet."},
+    {"segment": 2, "claim_index": 0, "verdict": "supported", "evidence": "What is easy for humans to skim past in code, agents see as a call to action.", "note": "Birebir destekleniyor."},
+    {"segment": 2, "claim_index": 1, "verdict": "supported", "evidence": "we quantify the impact of TODO distractions in the codebase and how agents act on them", "note": "Ölçüm destekleniyor; kaynak bunu 'unprompted bug detours add substantial overhead' diye sonuçlandırıyor."},
+    {"segment": 2, "claim_index": 2, "verdict": "supported", "evidence": "we created agents that scrubbed the totality of our codebases, finding bug references in the code that were marked as fixed or obsolete for cleanup.", "note": "Destekleniyor; özne artık 'Ekip' (kaynaktaki 'we'). Kaynak çoğul 'agents' ve tekil 'our todo cleaner' diyor."},
+    {"segment": 2, "claim_index": 3, "verdict": "supported", "evidence": "our todo cleaner has been able to remove thousands of actually obsolete references over the last 6 months exceeding 95% acceptance from human reviewers.", "note": "%95'in üzeri kabul birebir eşleşiyor."},
+    {"segment": 3, "claim_index": 0, "verdict": "supported", "evidence": "Game Off, GitHub’s annual month-long game jam, returns for its 14th year this November.", "note": "14. kez, Kasım, bir ay süren eşleşiyor. Anlatımdaki 'başladı' kaynakta 'returns this November'; makul."},
+    {"segment": 3, "claim_index": 1, "verdict": "supported", "evidence": "The theme for Game Off 2026 is SHIFT!", "note": "Birebir destekleniyor."},
+    {"segment": 3, "claim_index": 2, "verdict": "supported", "evidence": "Work alone or form a team. Use whichever programming languages, game engines, frameworks, libraries, and tools make sense for your game.", "note": "Birebir destekleniyor."},
+    {"segment": 3, "claim_index": 3, "verdict": "supported", "evidence": "You have until December 1, 2026, at 13:37 PST to build and submit a game inspired by SHIFT.", "note": "Tarih eşleşiyor. Saat (13:37 PST = TSİ 2 Aralık 00:37) anlatımda yok; yanlış değil, eksik."},
+    {"segment": 3, "claim_index": 4, "verdict": "supported", "evidence": "Pro tip: Start with one mechanic and one playable level.", "note": "Birebir destekleniyor."},
+    {"segment": 4, "claim_index": 0, "verdict": "supported", "evidence": "bursiyer olarak dâhil olacak lisans öğrencilerinin (STAR Lisans) bilimsel araştırma projelerinde görev almaları", "note": "Destekleniyor."},
+    {"segment": 4, "claim_index": 1, "verdict": "supported", "evidence": "2 Kasım 2026-16 Kasım 2026 (17.30, TSİ) tarihlerinde başvuru yapabileceklerdir.", "note": "Tarihler ve saat birebir eşleşiyor."},
+    {"segment": 4, "claim_index": 2, "verdict": "supported", "evidence": "Başvurular, TÜBİTAK Yönetim Bilgi Sistemiüzerinden alınacaktır. Proje listesine BİDEB Başvuru ve İzleme Sistemi üzerinden", "note": "Her iki kanal da birebir destekleniyor."}
+  ],
+  "missed": [
+    {"segment": 1, "text": "Hook: Google hesabınla ayda üç yapay zeka videosu bedava!", "verdict": "supported", "evidence": "anyone with a Google account or Google Workspace subscription can generate up to three 15-second videos per month in Vids at no cost."},
+    {"segment": 2, "text": "Anlatım: 'Google'ın geliştirici blogundaki analize göre' — Google adı kaynak metinde geçmiyor; yalnızca yayın yeri olan URL'den (developers.googleblog.com) çıkıyor. Yayın yeri atfı olarak kabul edilebilir.", "verdict": "supported", "evidence": "we quantify the impact of TODO distractions in the codebase and how agents act on them"},
+    {"segment": 3, "text": "Öğrenci notu: İlk oyununu yapacaksan tek mekanik ve tek bölümle başla.", "verdict": "supported", "evidence": "Pro tip: Start with one mechanic and one playable level."},
+    {"segment": 4, "text": "Teaser: sonuncusu lisans öğrencilerine açık bir burs (vaat 4. segmentte karşılanıyor)", "verdict": "supported", "evidence": "bursiyer olarak dâhil olacak lisans öğrencilerinin (STAR Lisans)"},
+    {"segment": 4, "text": "Öğrenci notu: Projeleri BİDEB sisteminde incele; başvuru TÜBİTAK Yönetim Bilgi Sistemi'nden.", "verdict": "supported", "evidence": "Başvurular, TÜBİTAK Yönetim Bilgi Sistemiüzerinden alınacaktır. Proje listesine BİDEB Başvuru ve İzleme Sistemi üzerinden"}
+  ]
+}

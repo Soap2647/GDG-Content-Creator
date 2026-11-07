@@ -1,0 +1,72 @@
+{
+  "hook": "Siri AI yıl sonuna kadar Türkçe öğreniyor!",
+  "segments": [
+    {
+      "headline": "Siri AI'a Türkçe geliyor",
+      "narration": "Apple, yapay zekâ destekli asistanı Siri AI'ın yıl sonuna kadar Türkçe desteği kazanacağını açıkladı. Asistan eylülde beta olarak yalnızca İngilizceyle başlamıştı. Kesin tarih ise henüz paylaşılmadı.",
+      "student_take": "Uygulama geliştiriyorsan, Türkçe sesli asistan senaryolarını şimdiden planlamaya başla.",
+      "visuals": [
+        {"component": "HeadlineCard"},
+        {"component": "SourceScreenshot", "screenshot_url": "https://webrazzi.com/2026/10/27/siri-ai-yil-sonuna-kadar-turkce-dil-destegi-kazanacak/"}
+      ],
+      "sources": ["https://webrazzi.com/2026/10/27/siri-ai-yil-sonuna-kadar-turkce-dil-destegi-kazanacak/"],
+      "claims": [
+        {"text": "Apple, Siri AI'ın yıl sonuna kadar Türkçe desteği kazanacağını açıkladı", "source_url": "https://webrazzi.com/2026/10/27/siri-ai-yil-sonuna-kadar-turkce-dil-destegi-kazanacak/", "uncertain": false},
+        {"text": "Siri AI eylülde beta olarak yalnızca İngilizceyle kullanıma açılmıştı", "source_url": "https://webrazzi.com/2026/10/27/siri-ai-yil-sonuna-kadar-turkce-dil-destegi-kazanacak/", "uncertain": false},
+        {"text": "Türkçe desteğinin kesin tarihi paylaşılmadı", "source_url": "https://webrazzi.com/2026/10/27/siri-ai-yil-sonuna-kadar-turkce-dil-destegi-kazanacak/", "uncertain": false}
+      ]
+    },
+    {
+      "headline": "Cloudflare'dan PHP CTF yarışması",
+      "narration": "Cloudflare, php2shell açıklarına karşı WAF korumasını sınamak için bir Capture the Flag yarışması başlattı. Amaç, korumayı aşıp sunucudaki flag dosyasını ele geçirmek. Yarışma, HackerOne üzerindeki Bug Bounty programıyla yürütülüyor.",
+      "student_take": "Güvenliğe ilgin varsa HackerOne hesabı aç, kuralları oku ve süre dolmadan dene.",
+      "visuals": [
+        {"component": "HeadlineCard"},
+        {"component": "Terminal", "code_language": "bash", "code_lines": ["# Hedef: PHP 8.5.11 + Apache 2", "# Kapsam: yalnızca POST /php/*", "# Bayrak: /flag"]},
+        {"component": "SourceScreenshot", "screenshot_url": "https://blog.cloudflare.com/php-ctf/"}
+      ],
+      "sources": ["https://blog.cloudflare.com/php-ctf/"],
+      "claims": [
+        {"text": "Cloudflare, PHP Capture the Flag yarışması başlattı", "source_url": "https://blog.cloudflare.com/php-ctf/", "uncertain": false},
+        {"text": "Yarışma php2shell açıklarına karşı WAF korumasını test ediyor", "source_url": "https://blog.cloudflare.com/php-ctf/", "uncertain": false},
+        {"text": "Amaç WAF'ı aşıp /flag dosyasının içeriğini ele geçirmek", "source_url": "https://blog.cloudflare.com/php-ctf/", "uncertain": false},
+        {"text": "Yarışma HackerOne üzerindeki Bug Bounty programıyla yürütülüyor ve süreli", "source_url": "https://blog.cloudflare.com/php-ctf/", "uncertain": false},
+        {"text": "Hedef PHP 8.5.11 ve Apache 2 çalıştırıyor; kapsam yalnızca POST /php/*", "source_url": "https://blog.cloudflare.com/php-ctf/", "uncertain": false}
+      ]
+    },
+    {
+      "headline": "Android'de rehber izni değişiyor",
+      "narration": "Yeni Android sürümünü hedefleyen uygulamalar, WRITE_CONTACTS izniyle rehbere doğrudan yazamayacak. Bunun yerine izin gerektirmeyen standart rehber intent'leri kullanılacak. Geniş erişim gereken uygulamalar için MANAGE_CONTACTS izni geliyor.",
+      "student_take": "Android uygulaman rehbere yazıyorsa, kodunu ACTION_INSERT intent'ine taşımaya başla.",
+      "visuals": [
+        {"component": "HeadlineCard"},
+        {"component": "CodeBlock", "code_language": "kotlin", "code_lines": ["val intent = Intent(Intent.ACTION_INSERT,", "    ContactsContract.Contacts.CONTENT_URI)", "context.startActivity(intent)"]},
+        {"component": "SourceScreenshot", "screenshot_url": "https://developer.android.com/blog/posts/reliable-way-to-add-and-edit-contacts-android"}
+      ],
+      "sources": ["https://developer.android.com/blog/posts/reliable-way-to-add-and-edit-contacts-android"],
+      "claims": [
+        {"text": "Yeni Android sürümünü hedefleyen uygulamalar WRITE_CONTACTS izniyle rehbere doğrudan yazamayacak", "source_url": "https://developer.android.com/blog/posts/reliable-way-to-add-and-edit-contacts-android", "uncertain": false},
+        {"text": "Standart rehber intent'leri (ACTION_INSERT, ACTION_EDIT, ACTION_INSERT_OR_EDIT) izin gerektirmeyecek", "source_url": "https://developer.android.com/blog/posts/reliable-way-to-add-and-edit-contacts-android", "uncertain": false},
+        {"text": "Geniş erişim gereken uygulamalar için MANAGE_CONTACTS izni geliyor", "source_url": "https://developer.android.com/blog/posts/reliable-way-to-add-and-edit-contacts-android", "uncertain": false}
+      ]
+    },
+    {
+      "headline": "Agent Skills artık bir vakfın",
+      "narration": "Anthropic, yapay zekâ ajanlarına yetenek kazandıran açık standart Agent Skills'i, Linux Foundation bünyesindeki Agentic AI Foundation'a bağışladı. Standardı ChatGPT, Cursor ve GitHub Copilot dahil 70'ten fazla platform kullanıyor.",
+      "student_take": "Bir SKILL.md dosyasıyla kendi ajan yeteneğini yaz, spesifikasyon agentskills.io'da.",
+      "visuals": [
+        {"component": "HeadlineCard"},
+        {"component": "StatCounter", "stat_value": 70, "stat_prefix": "", "stat_suffix": "+", "stat_label": "platform Agent Skills kullanıyor"},
+        {"component": "SourceScreenshot", "screenshot_url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"}
+      ],
+      "sources": ["https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"],
+      "claims": [
+        {"text": "Anthropic, Agent Skills standardını Agentic AI Foundation'a bağışladı", "source_url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation", "uncertain": false},
+        {"text": "Agentic AI Foundation, Linux Foundation bünyesinde", "source_url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation", "uncertain": false},
+        {"text": "ChatGPT, Cursor ve GitHub Copilot dahil 70'ten fazla platform Agent Skills'i entegre etti", "source_url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation", "uncertain": false},
+        {"text": "Bir skill, SKILL.md dosyası içeren bir klasördür; spesifikasyon agentskills.io'da", "source_url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation", "uncertain": false}
+      ]
+    }
+  ],
+  "outro": "Haftaya görüşmek üzere, takipte kal!"
+}

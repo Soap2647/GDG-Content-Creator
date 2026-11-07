@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TTS Kör Dinleme Testi</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #1b1f24; --muted: #5f6b7a; --border: #dde2e8;
+    --accent: #1a73e8; --accent-text: #ffffff; --done: #188038;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111418; --card: #1b2026; --text: #e8eaed; --muted: #9aa4b1; --border: #2c333b;
+            --accent: #8ab4f8; --accent-text: #0b1520; --done: #81c995; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 96px; }
+  h1 { font-size: 1.5rem; margin: 0 0 8px; }
+  p.lead { color: var(--muted); margin: 0 0 20px; }
+  .bar { position: sticky; top: 0; z-index: 2; background: var(--bg); padding: 12px 0;
+         display: flex; gap: 12px; align-items: center; flex-wrap: wrap; border-bottom: 1px solid var(--border); }
+  .bar input { flex: 1 1 180px; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px;
+               background: var(--card); color: var(--text); font: inherit; }
+  .bar .progress { color: var(--muted); font-variant-numeric: tabular-nums; }
+  button.primary { background: var(--accent); color: var(--accent-text); border: 0; border-radius: 8px;
+                   padding: 9px 16px; font: inherit; font-weight: 600; cursor: pointer; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-top: 16px; }
+  .card h2 { font-size: .8rem; color: var(--muted); margin: 0 0 4px; font-weight: 600; letter-spacing: .04em; }
+  .card .text { font-size: 1.05rem; margin: 0 0 12px; }
+  .clip { display: grid; grid-template-columns: 56px 1fr; gap: 8px 12px; align-items: center;
+          padding: 10px 0; border-top: 1px solid var(--border); }
+  .clip .label { font-weight: 600; color: var(--muted); }
+  .clip audio { width: 100%; height: 36px; }
+  .scores { grid-column: 2; display: flex; gap: 6px; }
+  .scores button { flex: 1; min-width: 0; padding: 6px 0; border: 1px solid var(--border); border-radius: 8px;
+                   background: transparent; color: var(--text); font: inherit; cursor: pointer; }
+  .scores button[aria-pressed="true"] { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+  .legend { color: var(--muted); font-size: .85rem; margin-top: 4px; }
+  .complete { color: var(--done); }
+</style>
+</head>
+<body>
+<main>
+  <h1>TTS Kör Dinleme Testi</h1>
+  <p class="lead">Her cümle için sesleri dinle ve <strong>doğallığı</strong> 1–5 arası puanla
+    (1: çok yapay / anlaşılmaz, 5: insan sunucudan ayırt edilemez). Model isimleri gizli, sıralama her açılışta karışık.
+    Telaffuz hatalarını (İngilizce terimler, rakamlar) puana yansıt. Bitince "JSON indir" ile sonucu gönder.</p>
+  <div class="bar">
+    <input id="rater" placeholder="Adın (zorunlu)" autocomplete="name">
+    <span class="progress" id="progress"></span>
+    <button class="primary" id="export">JSON indir</button>
+  </div>
+  <div id="list"></div>
+</main>
+<script>
+const DATA = /*__DATA__*/[];
+const STORE = "gdg-tts-blind-v1";
+let state = { rater: "", ratings: {} };
+try { state = JSON.parse(localStorage.getItem(STORE)) || state; } catch (e) {}
+const save = () => { try { localStorage.setItem(STORE, JSON.stringify(state)); } catch (e) {} };
+
+function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+const total = DATA.reduce((n, s) => n + s.clips.length, 0);
+function updateProgress() {
+  const done = Object.keys(state.ratings).length;
+  const el = document.getElementById("progress");
+  el.textContent = `${done} / ${total} puanlandı`;
+  el.classList.toggle("complete", done === total);
+}
+
+const list = document.getElementById("list");
+shuffle([...DATA]).forEach((s, si) => {
+  const card = document.createElement("section");
+  card.className = "card";
+  card.innerHTML = `<h2>CÜMLE ${si + 1}</h2><p class="text"></p>`;
+  card.querySelector(".text").textContent = s.text;
+  shuffle([...s.clips]).forEach((cid, ci) => {
+    const row = document.createElement("div");
+    row.className = "clip";
+    row.innerHTML = `<span class="label">Ses ${String.fromCharCode(65 + ci)}</span>
+      <audio controls preload="none" src="bt_${cid}.mp3"></audio><div class="scores"></div>`;
+    const scores = row.querySelector(".scores");
+    for (let v = 1; v <= 5; v++) {
+      const b = document.createElement("button");
+      b.textContent = v;
+      b.setAttribute("aria-pressed", state.ratings[cid] === v);
+      b.onclick = () => {
+        state.ratings[cid] = v; save(); updateProgress();
+        scores.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
+      };
+      scores.append(b);
+    }
+    card.append(row);
+  });
+  const legend = document.createElement("div");
+  legend.className = "legend";
+  legend.textContent = "1 çok yapay · 2 yapay · 3 kabul edilebilir · 4 doğal · 5 insan gibi";
+  card.append(legend);
+  list.append(card);
+});
+
+const raterEl = document.getElementById("rater");
+raterEl.value = state.rater || "";
+raterEl.oninput = () => { state.rater = raterEl.value.trim(); save(); };
+document.getElementById("export").onclick = () => {
+  if (!state.rater) { alert("Lütfen önce adını yaz."); raterEl.focus(); return; }
+  const out = { rater: state.rater, exported_at: new Date().toISOString(), ratings: state.ratings };
+  const blob = new Blob([JSON.stringify(out, null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `blind_ratings_${state.rater.replace(/\W+/g, "_")}.json`;
+  a.click();
+};
+updateProgress();
+</script>
+</body>
+</html>

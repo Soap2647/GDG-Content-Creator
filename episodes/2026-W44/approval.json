@@ -1,0 +1,11 @@
+{
+  "week": "2026-W44",
+  "approved_by": "Mert Yasin YÄ±lmaz",
+  "approved_at": "2026-10-28T21:16:00",
+  "accepted_flags": 0,
+  "hashes": {
+    "script": "de814a71a9e09762",
+    "normalized": "bd264034c0238692"
+  },
+  "tts_backend": "gemini"
+}

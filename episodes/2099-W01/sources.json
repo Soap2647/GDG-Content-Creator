@@ -1,0 +1,44 @@
+{
+  "week": "2099-W01",
+  "sources": [
+    {
+      "segment": 1,
+      "headline": "A2UI Express: 3 kat daha az token",
+      "url": "https://developers.googleblog.com/fast-reliable-a2ui/",
+      "domain": "developers.googleblog.com",
+      "claims": [
+        {
+          "text": "A2UI Express 3 kata kadar daha az token kullanıyor",
+          "uncertain": false,
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "segment": 2,
+      "headline": "TÜBİTAK Eureka çağrısı açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi",
+      "domain": "tubitak.gov.tr",
+      "claims": [
+        {
+          "text": "Türkiye-İspanya 2026 çağrısı açıldı",
+          "uncertain": false,
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "segment": 3,
+      "headline": "Java uzmanları Copilot'u nasıl kullanıyor?",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+      "domain": "github.blog",
+      "claims": [
+        {
+          "text": "Üç Java Champion Copilot kullanımını anlattı",
+          "uncertain": true,
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

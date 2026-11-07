@@ -1,0 +1,33 @@
+{
+  "raters": 1,
+  "models": [
+    {
+      "model": "pocket_tr_wite",
+      "mos": 3.875,
+      "n": 16,
+      "ci95": 0.617,
+      "z_mean": 0.904
+    },
+    {
+      "model": "chatterbox_v3",
+      "mos": 3.312,
+      "n": 16,
+      "ci95": 0.528,
+      "z_mean": 0.512
+    },
+    {
+      "model": "pocket_tr_kaan",
+      "mos": 2.125,
+      "n": 16,
+      "ci95": 0.434,
+      "z_mean": -0.316
+    },
+    {
+      "model": "freya",
+      "mos": 1,
+      "n": 16,
+      "ci95": 0.0,
+      "z_mean": -1.1
+    }
+  ]
+}

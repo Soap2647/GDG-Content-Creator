@@ -1,0 +1,322 @@
+{
+  "95fcda75": {
+    "model": "chatterbox_v3",
+    "variant": "phonetic",
+    "sentence": "s01"
+  },
+  "ae9e3169": {
+    "model": "freya",
+    "variant": "phonetic",
+    "sentence": "s01"
+  },
+  "11a28610": {
+    "model": "pocket_tr_kaan",
+    "variant": "phonetic",
+    "sentence": "s01"
+  },
+  "b75d040e": {
+    "model": "pocket_tr_wite",
+    "variant": "phonetic",
+    "sentence": "s01"
+  },
+  "9d6bb86e": {
+    "model": "chatterbox_v3",
+    "variant": "phonetic",
+    "sentence": "s02"
+  },
+  "5123c543": {
+    "model": "freya",
+    "variant": "phonetic",
+    "sentence": "s02"
+  },
+  "f525ea02": {
+    "model": "pocket_tr_kaan",
+    "variant": "phonetic",
+    "sentence": "s02"
+  },
+  "ef045c74": {
+    "model": "pocket_tr_wite",
+    "variant": "phonetic",
+    "sentence": "s02"
+  },
+  "809e16c0": {
+    "model": "chatterbox_v3",
+    "variant": "phonetic",
+    "sentence": "s03"
+  },
+  "c1648466": {
+    "model": "freya",
+    "variant": "phonetic",
+    "sentence": "s03"
+  },
+  "4354adb7": {
+    "model": "pocket_tr_kaan",
+    "variant": "phonetic",
+    "sentence": "s03"
+  },
+  "55bc83dd": {
+    "model": "pocket_tr_wite",
+    "variant": "phonetic",
+    "sentence": "s03"
+  },
+  "da48533d": {
+    "model": "chatterbox_v3",
+    "variant": "phonetic",
+    "sentence": "s04"
+  },
+  "0a036974": {
+    "model": "freya",
+    "variant": "phonetic",
+    "sentence": "s04"
+  },
+  "8d53260b": {
+    "model": "pocket_tr_kaan",
+    "variant": "phonetic",
+    "sentence": "s04"
+  },
+  "1696a4ef": {
+    "model": "pocket_tr_wite",
+    "variant": "phonetic",
+    "sentence": "s04"
+  },
+  "93bdd951": {
+    "model": "chatterbox_v3",
+    "variant": "phonetic",
+    "sentence": "s05"
+  },
+  "563aa000": {
+    "model": "freya",
+    "variant": "phonetic",
+    "sentence": "s05"
+  },
+  "a49e8427": {
+    "model": "pocket_tr_kaan",
+    "variant": "phonetic",
+    "sentence": "s05"
+  },
+  "2341ad3c": {
+    "model": "pocket_tr_wite",
+    "variant": "phonetic",
+    "sentence": "s05"
+  },
+  "5f28445c": {
+    "model": "chatterbox_v3",
+    "variant": "phonetic",
+    "sentence": "s06"
+  },
+  "91fbe12f": {
+    "model": "freya",
+    "variant": "phonetic",
+    "sentence": "s06"
+  },
+  "7104a820": {
+    "model": "pocket_tr_kaan",
+    "variant": "phonetic",
+    "sentence": "s06"
+  },
+  "9e9ca926": {
+    "model": "pocket_tr_wite",
+    "variant": "phonetic",
+    "sentence": "s06"
+  },
+  "b1727206": {
+    "model": "chatterbox_v3",
+    "variant": "phonetic",
+    "sentence": "s07"
+  },
+  "974ffd29": {
+    "model": "freya",
+    "variant": "phonetic",
+    "sentence": "s07"
+  },
+  "fc7d83aa": {
+    "model": "pocket_tr_kaan",
+    "variant": "phonetic",
+    "sentence": "s07"
+  },
+  "ed1c1f5d": {
+    "model": "pocket_tr_wite",
+    "variant": "phonetic",
+    "sentence": "s07"
+  },
+  "82f29af7": {
+    "model": "chatterbox_v3",
+    "variant": "phonetic",
+    "sentence": "s08"
+  },
+  "1fd46f02": {
+    "model": "freya",
+    "variant": "phonetic",
+    "sentence": "s08"
+  },
+  "b8effe8f": {
+    "model": "pocket_tr_kaan",
+    "variant": "phonetic",
+    "sentence": "s08"
+  },
+  "4f3ea4e2": {
+    "model": "pocket_tr_wite",
+    "variant": "phonetic",
+    "sentence": "s08"
+  },
+  "f539b381": {
+    "model": "chatterbox_v3",
+    "variant": "phonetic",
+    "sentence": "s09"
+  },
+  "eb5c0d8a": {
+    "model": "freya",
+    "variant": "phonetic",
+    "sentence": "s09"
+  },
+  "86eeb938": {
+    "model": "pocket_tr_kaan",
+    "variant": "phonetic",
+    "sentence": "s09"
+  },
+  "7da91054": {
+    "model": "pocket_tr_wite",
+    "variant": "phonetic",
+    "sentence": "s09"
+  },
+  "b59f3318": {
+    "model": "chatterbox_v3",
+    "variant": "phonetic",
+    "sentence": "s10"
+  },
+  "181a3ae0": {
+    "model": "freya",
+    "variant": "phonetic",
+    "sentence": "s10"
+  },
+  "6f87a9c7": {
+    "model": "pocket_tr_kaan",
+    "variant": "phonetic",
+    "sentence": "s10"
+  },
+  "689be491": {
+    "model": "pocket_tr_wite",
+    "variant": "phonetic",
+    "sentence": "s10"
+  },
+  "b6a9734d": {
+    "model": "chatterbox_v3",
+    "variant": "phonetic",
+    "sentence": "s11"
+  },
+  "f087b781": {
+    "model": "freya",
+    "variant": "phonetic",
+    "sentence": "s11"
+  },
+  "e3b3749c": {
+    "model": "pocket_tr_kaan",
+    "variant": "phonetic",
+    "sentence": "s11"
+  },
+  "eda0442a": {
+    "model": "pocket_tr_wite",
+    "variant": "phonetic",
+    "sentence": "s11"
+  },
+  "7429a5ce": {
+    "model": "chatterbox_v3",
+    "variant": "phonetic",
+    "sentence": "s12"
+  },
+  "6e327a23": {
+    "model": "freya",
+    "variant": "phonetic",
+    "sentence": "s12"
+  },
+  "c395a230": {
+    "model": "pocket_tr_kaan",
+    "variant": "phonetic",
+    "sentence": "s12"
+  },
+  "822c2d47": {
+    "model": "pocket_tr_wite",
+    "variant": "phonetic",
+    "sentence": "s12"
+  },
+  "9eb07860": {
+    "model": "chatterbox_v3",
+    "variant": "phonetic",
+    "sentence": "s13"
+  },
+  "3f620dda": {
+    "model": "freya",
+    "variant": "phonetic",
+    "sentence": "s13"
+  },
+  "06bd10af": {
+    "model": "pocket_tr_kaan",
+    "variant": "phonetic",
+    "sentence": "s13"
+  },
+  "28701cc1": {
+    "model": "pocket_tr_wite",
+    "variant": "phonetic",
+    "sentence": "s13"
+  },
+  "3c591e75": {
+    "model": "chatterbox_v3",
+    "variant": "phonetic",
+    "sentence": "s14"
+  },
+  "d7de16d9": {
+    "model": "freya",
+    "variant": "phonetic",
+    "sentence": "s14"
+  },
+  "c912450b": {
+    "model": "pocket_tr_kaan",
+    "variant": "phonetic",
+    "sentence": "s14"
+  },
+  "a2cadeb3": {
+    "model": "pocket_tr_wite",
+    "variant": "phonetic",
+    "sentence": "s14"
+  },
+  "a841ceb0": {
+    "model": "chatterbox_v3",
+    "variant": "phonetic",
+    "sentence": "s15"
+  },
+  "0cc3cee1": {
+    "model": "freya",
+    "variant": "phonetic",
+    "sentence": "s15"
+  },
+  "2488531b": {
+    "model": "pocket_tr_kaan",
+    "variant": "phonetic",
+    "sentence": "s15"
+  },
+  "66a3cac0": {
+    "model": "pocket_tr_wite",
+    "variant": "phonetic",
+    "sentence": "s15"
+  },
+  "51e00d24": {
+    "model": "chatterbox_v3",
+    "variant": "phonetic",
+    "sentence": "s16"
+  },
+  "3234722f": {
+    "model": "freya",
+    "variant": "phonetic",
+    "sentence": "s16"
+  },
+  "8d89eef3": {
+    "model": "pocket_tr_kaan",
+    "variant": "phonetic",
+    "sentence": "s16"
+  },
+  "d240bf95": {
+    "model": "pocket_tr_wite",
+    "variant": "phonetic",
+    "sentence": "s16"
+  }
+}

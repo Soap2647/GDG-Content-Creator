@@ -1,0 +1,956 @@
+{
+ "scores": [
+  {
+   "id": 0,
+   "score": 5,
+   "category": "opportunity",
+   "reason": "Firmalara yönelik Ar-Ge çağrısı; öğrenci girişimleri için ilgili",
+   "summary_tr": "TÜBİTAK, Eureka Network kapsamında Türkiye-İspanya 2026 ortak Ar-Ge çağrısını açtı."
+  },
+  {
+   "id": 1,
+   "score": 7,
+   "category": "developer",
+   "reason": "Üretken arayüz geliştirenler için somut hız ve maliyet kazancı",
+   "summary_tr": "Google, A2UI için A2UI Express formatını duyurdu; 3 kata kadar daha az token kullanıyor ve gecikmeyi azaltıyor."
+  },
+  {
+   "id": 2,
+   "score": 6,
+   "category": "developer",
+   "reason": "Geliştiricilerin günlük aracı Docs'a Markdown desteği",
+   "summary_tr": "Google Workspace, Docs ve Drive'da Markdown (.md) dosyalarına yerel destek getirdi."
+  },
+  {
+   "id": 3,
+   "score": 4,
+   "category": "ai",
+   "reason": "Kurumsal mimari örneği, öğrenciye uzak",
+   "summary_tr": "Project Chrysalis ile Google Cloud üzerinde yönetişimli yapay zekâ ajanları mimarisi anlatıldı."
+  },
+  {
+   "id": 4,
+   "score": 5,
+   "category": "web",
+   "reason": "API geliştiricileri için yeni özellik",
+   "summary_tr": "API Gateway, SSE, WebSocket ve gRPC dahil gerçek zamanlı akış desteği kazandı."
+  },
+  {
+   "id": 5,
+   "score": 6,
+   "category": "developer",
+   "reason": "Ajan geliştirmede çerçeveden bağımsız araç",
+   "summary_tr": "Agents CLI eklenti sistemi ADK, LangChain ve LangGraph gibi çerçevelerle ajan geliştirmeyi destekliyor."
+  },
+  {
+   "id": 6,
+   "score": 7,
+   "category": "mobile",
+   "reason": "Android geliştiricilerinin uyması gereken izin değişikliği",
+   "summary_tr": "Yeni Android sürümünü hedefleyen uygulamalar WRITE_CONTACTS izniyle rehbere doğrudan yazamayacak."
+  },
+  {
+   "id": 7,
+   "score": 6,
+   "category": "career",
+   "reason": "Güvenlik kariyeri ve bug bounty için ilham",
+   "summary_tr": "GitHub Bug Bounty ekibi bir araştırmacının yaklaşımını ve tavsiyelerini paylaştı."
+  },
+  {
+   "id": 8,
+   "score": 6,
+   "category": "developer",
+   "reason": "Büyük ölçekli altyapı mühendisliği örneği",
+   "summary_tr": "GitHub, depolarının neredeyse tamamının bir kopyasını Azure'a taşıdığını anlattı."
+  },
+  {
+   "id": 9,
+   "score": 5,
+   "category": "developer",
+   "reason": "Copilot kullanım örnekleri",
+   "summary_tr": "Üç Java Champion, GitHub Copilot'u nasıl kullandıklarını paylaştı."
+  },
+  {
+   "id": 10,
+   "score": 6,
+   "category": "ai",
+   "reason": "Yeni Gemini modelinin kullanım örnekleri",
+   "summary_tr": "Google, Gemini 4 Argon'un 8 kullanım örneğini paylaştı."
+  },
+  {
+   "id": 11,
+   "score": 2,
+   "category": "other",
+   "reason": "Tüketici ürünü",
+   "summary_tr": "Fitbit Edge tanıtıldı."
+  },
+  {
+   "id": 12,
+   "score": 5,
+   "category": "ai",
+   "reason": "Öğrenci odaklı ama tanıtım içerikli",
+   "summary_tr": "15 üniversite öğrencisi en sevdikleri Gemini özelliklerini paylaştı."
+  },
+  {
+   "id": 13,
+   "score": 6,
+   "category": "opportunity",
+   "reason": "Öğrencilere yönelik eğitici yapay zekâ oyunu",
+   "summary_tr": "Google'ın AI Quests serisine insan beynini haritalama temalı yeni görev eklendi."
+  },
+  {
+   "id": 14,
+   "score": 3,
+   "category": "other",
+   "reason": "Genel duyuru",
+   "summary_tr": "Google, Sahra altı Afrika'da şebeke dışı enerji projelerini anlattı."
+  },
+  {
+   "id": 15,
+   "score": 3,
+   "category": "other",
+   "reason": "Sosyal sorumluluk",
+   "summary_tr": "Google.org, çiftçilerin yapay zekâ destekli tarım hizmetlerine erişimi için 2,5 milyon dolar yatırım yapıyor."
+  },
+  {
+   "id": 16,
+   "score": 2,
+   "category": "other",
+   "reason": "Tüketici hikâyesi",
+   "summary_tr": "Google Beam'in asker ailelerini nasıl bağladığı anlatıldı."
+  },
+  {
+   "id": 17,
+   "score": 6,
+   "category": "ai",
+   "reason": "Gemini 4 Argon ile yapılan projeler, ilham verici",
+   "summary_tr": "Google, Gemini 4 Argon ile beş geliştiricinin yaptığı projeleri paylaştı."
+  },
+  {
+   "id": 18,
+   "score": 1,
+   "category": "other",
+   "reason": "Pazarlama",
+   "summary_tr": "Google Marketing Platform için aylık yenilik serisi başladı."
+  },
+  {
+   "id": 19,
+   "score": 4,
+   "category": "science",
+   "reason": "Enerji altyapısı",
+   "summary_tr": "Google ve Voltus 1 gigavatlık sanal güç santrali kuruyor."
+  },
+  {
+   "id": 20,
+   "score": 1,
+   "category": "other",
+   "reason": "Kültür içeriği",
+   "summary_tr": "Kadın heykeltıraşların kayıp atölyeleri yeniden canlandırıldı."
+  },
+  {
+   "id": 21,
+   "score": 1,
+   "category": "other",
+   "reason": "Reklam",
+   "summary_tr": "Reklam teklif ve bütçe araçları anlatıldı."
+  },
+  {
+   "id": 22,
+   "score": 1,
+   "category": "other",
+   "reason": "Tüketici",
+   "summary_tr": "Waze'e Şapkalı Kedi teması geldi."
+  },
+  {
+   "id": 23,
+   "score": 3,
+   "category": "other",
+   "reason": "Bölgesel ekonomi raporu",
+   "summary_tr": "Güneydoğu Asya dijital ekonomisinin 368 milyar dolara ulaşacağı öngörülüyor."
+  },
+  {
+   "id": 24,
+   "score": 3,
+   "category": "ai",
+   "reason": "Tüketici özelliği",
+   "summary_tr": "Gemini yolda eller serbest kişisel yardım sunuyor."
+  },
+  {
+   "id": 25,
+   "score": 4,
+   "category": "ai",
+   "reason": "Araştırma aracı",
+   "summary_tr": "LitPivot, araştırma fikirlerini literatür bağlamında geliştirmeye yardım ediyor."
+  },
+  {
+   "id": 26,
+   "score": 3,
+   "category": "ai",
+   "reason": "Niş donanım",
+   "summary_tr": "Modellerin AWS Trainium'da çalışıp çalışmadığını sorgulama aracı."
+  },
+  {
+   "id": 27,
+   "score": 4,
+   "category": "ai",
+   "reason": "Araştırma",
+   "summary_tr": "ThinkingBox ile veritabanı değerlendirmesini RL ödülüne çeviren yöntem."
+  },
+  {
+   "id": 28,
+   "score": 4,
+   "category": "ai",
+   "reason": "Açık model kullanımı",
+   "summary_tr": "IBM Granite zaman serisi modelleriyle topluluk tahmini."
+  },
+  {
+   "id": 29,
+   "score": 4,
+   "category": "ai",
+   "reason": "Araştırma sonucu",
+   "summary_tr": "NVIDIA Kumo Relational, ilişkisel veride eğitimsiz yüksek başarı bildiriyor."
+  },
+  {
+   "id": 30,
+   "score": 5,
+   "category": "ai",
+   "reason": "Küçük modellerde maliyet düşürme yöntemi",
+   "summary_tr": "Küçük dil modellerinin kelime dağarcığını özelleştirmenin çıkarım maliyetini %77 düşürebildiği anlatıldı."
+  },
+  {
+   "id": 31,
+   "score": 3,
+   "category": "ai",
+   "reason": "Niş",
+   "summary_tr": "TorchNeuron ile AWS Trainium'da sistem düzeyi profilleme."
+  },
+  {
+   "id": 32,
+   "score": 6,
+   "category": "ai",
+   "reason": "Açık konuşma modeli",
+   "summary_tr": "IBM Granite Speech 5.0 daha doğru ve hızlı yazıya dökme ve çeviri sunuyor."
+  },
+  {
+   "id": 33,
+   "score": 4,
+   "category": "ai",
+   "reason": "Müşteri hikâyesi",
+   "summary_tr": "Greptile, GPT-6 Astra ile hata tespitini genişletti."
+  },
+  {
+   "id": 34,
+   "score": 7,
+   "category": "science",
+   "reason": "Yapay zekânın bilimsel sonuç ürettiği iddiası, büyük gündem",
+   "summary_tr": "OpenAI, modellerinin Kakeya sanısı, Üstel Zaman Hipotezi ve kuantum renk dinamiğinde sonuçlar ürettiğini paylaştı."
+  },
+  {
+   "id": 35,
+   "score": 4,
+   "category": "security",
+   "reason": "Müşteri hikâyesi",
+   "summary_tr": "CodeRabbit, güvenlik analizinde GPT-6.1 Sol kullanıyor."
+  },
+  {
+   "id": 36,
+   "score": 4,
+   "category": "ai",
+   "reason": "Kullanım verisi",
+   "summary_tr": "OpenAI, ChatGPT'nin iş amaçlı kullanımına dair 165 iş etkinliği verisini paylaştı."
+  },
+  {
+   "id": 37,
+   "score": 1,
+   "category": "other",
+   "reason": "Pazarlama",
+   "summary_tr": "Fanatics, OpenAI ile alışveriş deneyimi geliştirdi."
+  },
+  {
+   "id": 38,
+   "score": 5,
+   "category": "developer",
+   "reason": "Codex kullanım örneği",
+   "summary_tr": "OpenAI mühendisleri Codex Ultrafast ile olay incelemesini saatlerden dakikalara indirdi."
+  },
+  {
+   "id": 39,
+   "score": 8,
+   "category": "ai",
+   "reason": "Haftanın büyük model duyurusu, bilgisayar kullanımı herkese",
+   "summary_tr": "OpenAI, hızlı ve yetenekli bilgisayar kullanımını herkese getiren GPT-6.1 Terra'yı tanıttı."
+  },
+  {
+   "id": 40,
+   "score": 5,
+   "category": "developer",
+   "reason": "Ölçeklenebilir sistem tasarımı örneği",
+   "summary_tr": "OpenAI, ChatGPT için depolama altyapısını nasıl ölçeklediğini anlattı."
+  },
+  {
+   "id": 41,
+   "score": 4,
+   "category": "security",
+   "reason": "Kurumsal güvenlik",
+   "summary_tr": "OpenAI, öncü model eğitim ortamının güvenliğini anlattı."
+  },
+  {
+   "id": 42,
+   "score": 3,
+   "category": "security",
+   "reason": "Bölgesel ortaklık",
+   "summary_tr": "OpenAI ve Polonya'nın NASK kurumu yapay zekâ güvenliğinde ortaklık kurdu."
+  },
+  {
+   "id": 43,
+   "score": 6,
+   "category": "developer",
+   "reason": "Geliştiricilere yeni API",
+   "summary_tr": "OpenAI, hızlı ve düşük maliyetli kararlar için Decisions API'yi tanıttı."
+  },
+  {
+   "id": 44,
+   "score": 4,
+   "category": "career",
+   "reason": "Kariyer rolü tanıtımı",
+   "summary_tr": "OpenAI'da forward deployed engineering rolü anlatıldı."
+  },
+  {
+   "id": 45,
+   "score": 2,
+   "category": "other",
+   "reason": "Kurumsal müşteri",
+   "summary_tr": "Uber, ChatGPT Work'ü çalışanlarına açıyor."
+  },
+  {
+   "id": 46,
+   "score": 2,
+   "category": "other",
+   "reason": "Kurumsal müşteri",
+   "summary_tr": "AT&T hukuk ekibi OpenAI ile çalışıyor."
+  },
+  {
+   "id": 47,
+   "score": 2,
+   "category": "other",
+   "reason": "Politika",
+   "summary_tr": "OpenAI dağıtım ortaklarıyla tutarlı standartları anlattı."
+  },
+  {
+   "id": 48,
+   "score": 5,
+   "category": "science",
+   "reason": "Açık veri ve harita",
+   "summary_tr": "Google DeepMind dünyadaki orman türlerini 10 metre çözünürlükte haritaladı."
+  },
+  {
+   "id": 49,
+   "score": 5,
+   "category": "ai",
+   "reason": "Sektör için büyük gelişme ama borsa haberi",
+   "summary_tr": "Anthropic, halka arz için SEC'e S-1 başvurusu yaptı."
+  },
+  {
+   "id": 50,
+   "score": 7,
+   "category": "developer",
+   "reason": "Açık ajan standardı, geliştiriciler kullanabilir",
+   "summary_tr": "Anthropic, Agent Skills'i Agentic AI Foundation'a bağışladı."
+  },
+  {
+   "id": 51,
+   "score": 5,
+   "category": "opportunity",
+   "reason": "Yaşam bilimleri araştırmacılarına başvuru çağrısı",
+   "summary_tr": "Anthropic, yaşam bilimleri topluluğundan misafir araştırmacı başvurusu alıyor."
+  },
+  {
+   "id": 52,
+   "score": 2,
+   "category": "other",
+   "reason": "Yönetim haberi",
+   "summary_tr": "Fizikçi Christopher Stubbs, Anthropic'in Uzun Vadeli Fayda Vakfı'na katıldı."
+  },
+  {
+   "id": 53,
+   "score": 5,
+   "category": "science",
+   "reason": "OpenAI bilim haberinin Türkçe kaynağı",
+   "summary_tr": "OpenAI, modellerinin üç bilimsel problemde yeni sonuçlar ürettiğini açıkladı."
+  },
+  {
+   "id": 54,
+   "score": 3,
+   "category": "hardware",
+   "reason": "Tüketici ürünü",
+   "summary_tr": "Apple, M6 işlemcili yeni iMac'i tanıttı."
+  },
+  {
+   "id": 55,
+   "score": 4,
+   "category": "hardware",
+   "reason": "Yerel yapay zekâ performansı vurgusu",
+   "summary_tr": "Apple, M6 çipli 14 inç MacBook Pro'yu tanıttı."
+  },
+  {
+   "id": 56,
+   "score": 3,
+   "category": "hardware",
+   "reason": "Tüketici sorunu",
+   "summary_tr": "iPhone Duo ekran çatlaması şikâyetleriyle gündemde."
+  },
+  {
+   "id": 57,
+   "score": 2,
+   "category": "other",
+   "reason": "Yatırım",
+   "summary_tr": "Bedrock Robotics 600 milyon dolar yatırım aldı."
+  },
+  {
+   "id": 58,
+   "score": 5,
+   "category": "science",
+   "reason": "Kuantum yazılımında büyük satın alma",
+   "summary_tr": "Intel, kuantum yazılım girişimi Classiq'i 2,2 milyar dolara satın alıyor."
+  },
+  {
+   "id": 59,
+   "score": 4,
+   "category": "other",
+   "reason": "Platform özelliği",
+   "summary_tr": "Instagram 90 dakikaya kadar yatay videoları test ediyor."
+  },
+  {
+   "id": 60,
+   "score": 5,
+   "category": "ai",
+   "reason": "GPT-6.1 Terra'nın Türkçe kaynağı",
+   "summary_tr": "OpenAI, bilgisayar kullanımına odaklanan GPT-6.1 Terra'yı tanıttı."
+  },
+  {
+   "id": 61,
+   "score": 5,
+   "category": "career",
+   "reason": "Sektördeki istihdam eğilimi",
+   "summary_tr": "Microsoft, 60 bin çalışanına gönüllü ayrılma teklif ediyor."
+  },
+  {
+   "id": 62,
+   "score": 7,
+   "category": "ai",
+   "reason": "Türk kullanıcıları doğrudan ilgilendiren yapay zekâ haberi",
+   "summary_tr": "Apple, Siri AI'ın yıl sonuna kadar Türkçe desteği kazanacağını açıkladı."
+  },
+  {
+   "id": 63,
+   "score": 4,
+   "category": "ai",
+   "reason": "Anthropic halka arzının Türkçe kaynağı",
+   "summary_tr": "Anthropic halka arz dosyasını yayımladı; dosyada 16,3 milyar dolar gelir yer alıyor."
+  },
+  {
+   "id": 64,
+   "score": 5,
+   "category": "ai",
+   "reason": "Bulut altyapısında yapay zekâ talebi",
+   "summary_tr": "AWS, yapay zekâ talebi nedeniyle 2027'ye kadarki bulut kapasitesinin büyük bölümünü sattı."
+  },
+  {
+   "id": 65,
+   "score": 3,
+   "category": "hardware",
+   "reason": "Tüketici ürünü",
+   "summary_tr": "Apple OLED ekranlı yeni iPad mini'yi tanıttı."
+  },
+  {
+   "id": 66,
+   "score": 3,
+   "category": "science",
+   "reason": "Enerji",
+   "summary_tr": "Commonwealth Fusion Systems ABD ile 85 milyon dolarlık destek anlaşması yaptı."
+  },
+  {
+   "id": 67,
+   "score": 2,
+   "category": "other",
+   "reason": "Kripto anketi",
+   "summary_tr": "Paribu kripto para algı araştırması yayımlandı."
+  },
+  {
+   "id": 68,
+   "score": 8,
+   "category": "opportunity",
+   "reason": "Öğrencilerin katılabileceği CTF ve bug bounty",
+   "summary_tr": "Cloudflare, Bug Bounty programına bağlı PHP Capture the Flag yarışması başlattı."
+  },
+  {
+   "id": 69,
+   "score": 4,
+   "category": "web",
+   "reason": "İnternet kesintileri raporu",
+   "summary_tr": "Cloudflare 2026 üçüncü çeyrek internet kesintilerini analiz etti."
+  },
+  {
+   "id": 70,
+   "score": 6,
+   "category": "security",
+   "reason": "Gerçek bir LLM servis güvenlik olayı",
+   "summary_tr": "Cloudflare, Workers AI'daki GLM-5.3 modelinde istekler arası KV önbellek sızıntısını ve çözümünü anlattı."
+  },
+  {
+   "id": 71,
+   "score": 4,
+   "category": "web",
+   "reason": "Altyapı mühendisliği",
+   "summary_tr": "Cloudflare büyük dosyalar için önbellek mimarisini yeniledi."
+  },
+  {
+   "id": 72,
+   "score": 5,
+   "category": "security",
+   "reason": "Kuantum sonrası kriptografi",
+   "summary_tr": "Cloudflare, coğrafi anahtar yönetimine kuantum sonrası kriptografi getirdi."
+  },
+  {
+   "id": 73,
+   "score": 2,
+   "category": "security",
+   "reason": "Bölgesel sertifika",
+   "summary_tr": "Cloudflare Güney Kore ISMS sertifikası aldı."
+  },
+  {
+   "id": 74,
+   "score": 4,
+   "category": "security",
+   "reason": "WAF özelliği",
+   "summary_tr": "Cloudflare WAF istek ve yanıtı birlikte inceleyebiliyor."
+  },
+  {
+   "id": 75,
+   "score": 5,
+   "category": "security",
+   "reason": "Güncel PHP açığı",
+   "summary_tr": "Cloudflare, php2shell açığına karşı varsayılan WAF koruması yayımladı."
+  },
+  {
+   "id": 76,
+   "score": 5,
+   "category": "web",
+   "reason": "Yapay zekâ ajanları için web standardı",
+   "summary_tr": "Commerce.com alan adları WebMCP ile yapay zekâ ajanlarına alışveriş araçları sunuyor."
+  },
+  {
+   "id": 77,
+   "score": 4,
+   "category": "security",
+   "reason": "Sertifika güvenliği",
+   "summary_tr": "Sekiz eMudhra ara sertifikasının zayıf anahtar kullandığı ortaya çıktı."
+  },
+  {
+   "id": 78,
+   "score": 4,
+   "category": "security",
+   "reason": "Gizlilik ve politika",
+   "summary_tr": "ABD hükümetinin gözetimle ilgili gizli mahkeme kararı gündemde."
+  },
+  {
+   "id": 79,
+   "score": 4,
+   "category": "other",
+   "reason": "Görüş yazısı",
+   "summary_tr": "Yazılım kalitesinin geçmişe göre değerlendirildiği bir deneme."
+  },
+  {
+   "id": 80,
+   "score": 7,
+   "category": "developer",
+   "reason": "Python geliştiricilerini doğrudan ilgilendiren karar",
+   "summary_tr": "Python'un deneysel JIT derleyicisinin kaldırılacağı bildirildi."
+  },
+  {
+   "id": 81,
+   "score": 5,
+   "category": "ai",
+   "reason": "Yapay zekâ içeriğinin güvenilirliği",
+   "summary_tr": "Wikipedia yapay zekâyla üretilmiş içerikleri temizliyor."
+  },
+  {
+   "id": 82,
+   "score": 4,
+   "category": "career",
+   "reason": "Görüş yazısı",
+   "summary_tr": "Yapay zekânın iş yükünü azaltmadığına dair deneyim yazısı."
+  },
+  {
+   "id": 83,
+   "score": 5,
+   "category": "ai",
+   "reason": "Veri kullanımı ve izin tartışması",
+   "summary_tr": "Roblox'un bir siteden izinsiz 145 GB model indirdiği iddia edildi."
+  },
+  {
+   "id": 84,
+   "score": 4,
+   "category": "career",
+   "reason": "Görüş yazısı",
+   "summary_tr": "Yapay zekâ çağında Mythical Man-Month üzerine deneme."
+  },
+  {
+   "id": 85,
+   "score": 4,
+   "category": "developer",
+   "reason": "Eğitim üzerine görüş",
+   "summary_tr": "Bir eğitmen OpenGL ES 3.0 öğretmeye neden devam ettiğini anlattı."
+  },
+  {
+   "id": 86,
+   "score": 5,
+   "category": "science",
+   "reason": "OpenAI bilim iddiasının makalesi",
+   "summary_tr": "Üstel Zaman Hipotezi'nin yanlış olduğunu öne süren makale."
+  },
+  {
+   "id": 87,
+   "score": 5,
+   "category": "developer",
+   "reason": "Yeni geliştirici protokolü",
+   "summary_tr": "Microsoft, Type Server Protocol belgesini yayımladı."
+  },
+  {
+   "id": 88,
+   "score": 3,
+   "category": "other",
+   "reason": "Nostalji",
+   "summary_tr": "Windows 11'de hâlâ çalışan en eski GUI uygulaması."
+  },
+  {
+   "id": 89,
+   "score": 4,
+   "category": "web",
+   "reason": "Web topluluğu",
+   "summary_tr": "CSS-Tricks'in yeni sahibi oldu."
+  },
+  {
+   "id": 90,
+   "score": 4,
+   "category": "science",
+   "reason": "Enerji",
+   "summary_tr": "Güneş enerjisinin nükleeri geçtiği anlatılıyor."
+  },
+  {
+   "id": 91,
+   "score": 5,
+   "category": "security",
+   "reason": "Bug bounty ödülü",
+   "summary_tr": "Sony, PS5 güvenlik açığını bulan kişiye 50 bin dolar ödül verdi."
+  },
+  {
+   "id": 92,
+   "score": 1,
+   "category": "hardware",
+   "reason": "Sızıntı",
+   "summary_tr": "vivo X500s ekran özellikleri sızdı."
+  },
+  {
+   "id": 93,
+   "score": 2,
+   "category": "hardware",
+   "reason": "Tüketici ürünü",
+   "summary_tr": "OnePlus Buds Clip açık kulaklığını duyurdu."
+  },
+  {
+   "id": 94,
+   "score": 2,
+   "category": "hardware",
+   "reason": "Sızıntı",
+   "summary_tr": "iPhone 18e özellikleri sızdı."
+  },
+  {
+   "id": 95,
+   "score": 1,
+   "category": "other",
+   "reason": "Otomotiv",
+   "summary_tr": "Range Rover modelleri geri çağrıldı."
+  },
+  {
+   "id": 96,
+   "score": 4,
+   "category": "science",
+   "reason": "OpenAI bilim haberinin Türkçe kaynağı",
+   "summary_tr": "OpenAI üç bilimsel kırılma yaptığını öne sürdü."
+  },
+  {
+   "id": 97,
+   "score": 3,
+   "category": "other",
+   "reason": "Platform özelliği",
+   "summary_tr": "Instagram uzun video özelliği test ediyor."
+  },
+  {
+   "id": 98,
+   "score": 4,
+   "category": "career",
+   "reason": "Microsoft haberinin Türkçe kaynağı",
+   "summary_tr": "Microsoft 60 bin çalışan için gönüllü ayrılma programı başlattı."
+  },
+  {
+   "id": 99,
+   "score": 2,
+   "category": "hardware",
+   "reason": "Tüketici sorunu",
+   "summary_tr": "Apple iPhone Duo ekran sorunu hakkında açıklama yaptı."
+  },
+  {
+   "id": 100,
+   "score": 1,
+   "category": "hardware",
+   "reason": "Ürün karşılaştırması",
+   "summary_tr": "İki Casper bilgisayar karşılaştırıldı."
+  },
+  {
+   "id": 101,
+   "score": 1,
+   "category": "other",
+   "reason": "Otomotiv",
+   "summary_tr": "Bursa'da yeni model üretimi başladı."
+  },
+  {
+   "id": 102,
+   "score": 2,
+   "category": "other",
+   "reason": "Oyun aksesuarı fiyatı",
+   "summary_tr": "GTA 6 temalı DualSense'in Türkiye fiyatı açıklandı."
+  },
+  {
+   "id": 103,
+   "score": 2,
+   "category": "other",
+   "reason": "Zam",
+   "summary_tr": "iPad Türkiye fiyatlarına zam geldi."
+  },
+  {
+   "id": 104,
+   "score": 4,
+   "category": "ai",
+   "reason": "GPT-6.1 Terra'nın Türkçe kaynağı",
+   "summary_tr": "OpenAI rutin bilgisayar işlerini devralacak GPT-6.1 Terra'yı tanıttı."
+  },
+  {
+   "id": 105,
+   "score": 5,
+   "category": "ai",
+   "reason": "Siri Türkçe haberinin ikinci kaynağı",
+   "summary_tr": "Apple, Siri AI'a yakında Türkçe geleceğini açıkladı."
+  },
+  {
+   "id": 106,
+   "score": 1,
+   "category": "hardware",
+   "reason": "Satın alma rehberi",
+   "summary_tr": "Mini LED ve OLED TV karşılaştırması."
+  },
+  {
+   "id": 107,
+   "score": 2,
+   "category": "other",
+   "reason": "Zam",
+   "summary_tr": "Apple Türkiye Mac fiyatlarına zam yaptı."
+  },
+  {
+   "id": 108,
+   "score": 3,
+   "category": "ai",
+   "reason": "Yaratıcı araçlara yapay zekâ",
+   "summary_tr": "Apple Creator Studio yapay zekâ özellikleriyle güncellendi."
+  },
+  {
+   "id": 109,
+   "score": 3,
+   "category": "hardware",
+   "reason": "Tüketici ürünü",
+   "summary_tr": "Apple M6 çipli iMac tanıtıldı."
+  },
+  {
+   "id": 110,
+   "score": 3,
+   "category": "hardware",
+   "reason": "Tüketici ürünü",
+   "summary_tr": "M6 çipli 14 inç MacBook Pro tanıtıldı."
+  },
+  {
+   "id": 111,
+   "score": 5,
+   "category": "opportunity",
+   "reason": "Türkiye'de gençlere yönelik hackathon, ama bitmiş",
+   "summary_tr": "KKB Hackathon 2026 genç geliştiricilerin katılımıyla sona erdi."
+  },
+  {
+   "id": 112,
+   "score": 3,
+   "category": "hardware",
+   "reason": "Tüketici ürünü",
+   "summary_tr": "Acer Predator Atlas 8 el konsolu fiyatı açıklandı."
+  },
+  {
+   "id": 113,
+   "score": 5,
+   "category": "security",
+   "reason": "Yapay zekâ ajanlarının riski",
+   "summary_tr": "Microsoft, kurumların yapay zekâ ajanlarına tam güvenmemesi gerektiğini söyledi."
+  },
+  {
+   "id": 114,
+   "score": 2,
+   "category": "other",
+   "reason": "Yönetim değişikliği",
+   "summary_tr": "X'in ürün sorumlusu değişti."
+  },
+  {
+   "id": 115,
+   "score": 2,
+   "category": "hardware",
+   "reason": "Sızıntı",
+   "summary_tr": "iPhone 18e özellikleri sızdı."
+  },
+  {
+   "id": 116,
+   "score": 1,
+   "category": "other",
+   "reason": "Otomotiv",
+   "summary_tr": "Fiat Doblo yeniden Türkiye'de üretilecek."
+  },
+  {
+   "id": 117,
+   "score": 1,
+   "category": "other",
+   "reason": "Tanıtım yazısı",
+   "summary_tr": "IT şirketlerinde proje yönetimi otomasyonu."
+  },
+  {
+   "id": 118,
+   "score": 4,
+   "category": "other",
+   "reason": "Kamu dijitalleşmesi",
+   "summary_tr": "Hastanelerde ıslak imza yerine SMS ve e-Nabız onayı başladı."
+  },
+  {
+   "id": 119,
+   "score": 6,
+   "category": "security",
+   "reason": "Açık model güvenliği, geliştiriciler için uyarı",
+   "summary_tr": "Cohere'in testinde Qwen3.8-Flash-Next modelinin Pekin'e veri göndermeye çalıştığı bildirildi."
+  },
+  {
+   "id": 120,
+   "score": 1,
+   "category": "hardware",
+   "reason": "Satın alma rehberi",
+   "summary_tr": "Laptop soğutucu önerileri."
+  },
+  {
+   "id": 121,
+   "score": 2,
+   "category": "science",
+   "reason": "Enerji",
+   "summary_tr": "ABD'de jeotermal ısı pompası projesi."
+  },
+  {
+   "id": 122,
+   "score": 4,
+   "category": "ai",
+   "reason": "GPT-6.1 Terra'nın Türkçe kaynağı",
+   "summary_tr": "OpenAI GPT-6.1 Terra'yı duyurdu."
+  },
+  {
+   "id": 123,
+   "score": 2,
+   "category": "other",
+   "reason": "Otomotiv",
+   "summary_tr": "Volkswagen Avrupa'da Çin yazılımına geçebilir."
+  },
+  {
+   "id": 124,
+   "score": 4,
+   "category": "security",
+   "reason": "Microsoft uyarısının Türkçe kaynağı",
+   "summary_tr": "Microsoft yöneticisi yapay zekâ modellerinin güvenilmez olduğunu söyledi."
+  },
+  {
+   "id": 125,
+   "score": 2,
+   "category": "other",
+   "reason": "Zam",
+   "summary_tr": "MacBook Neo ve Air zamlandı."
+  },
+  {
+   "id": 126,
+   "score": 1,
+   "category": "other",
+   "reason": "Otomotiv kazası",
+   "summary_tr": "Xpeng'den hava yastığı açıklaması."
+  },
+  {
+   "id": 127,
+   "score": 4,
+   "category": "ai",
+   "reason": "Anthropic halka arzının Türkçe kaynağı",
+   "summary_tr": "Anthropic Nasdaq'ta halka arz için başvurdu."
+  },
+  {
+   "id": 128,
+   "score": 3,
+   "category": "hardware",
+   "reason": "Tüketici ürünü",
+   "summary_tr": "M6 iMac Türkiye fiyatı açıklandı."
+  },
+  {
+   "id": 129,
+   "score": 3,
+   "category": "hardware",
+   "reason": "Tüketici ürünü",
+   "summary_tr": "M6 MacBook Pro Türkiye fiyatı açıklandı."
+  },
+  {
+   "id": 130,
+   "score": 3,
+   "category": "other",
+   "reason": "Otomotiv teknolojisi",
+   "summary_tr": "Otonom araçlar için turkuaz ışık önerisi."
+  },
+  {
+   "id": 131,
+   "score": 4,
+   "category": "ai",
+   "reason": "Yapay zekânın ekonomik etkisi",
+   "summary_tr": "Apollo ekonomistine göre yapay zekâ teknoloji dışı şirketlere henüz getiri sağlamadı."
+  },
+  {
+   "id": 132,
+   "score": 3,
+   "category": "hardware",
+   "reason": "Sızıntı",
+   "summary_tr": "Intel Nova Lake-S test sonuçları sızdı."
+  },
+  {
+   "id": 133,
+   "score": 4,
+   "category": "science",
+   "reason": "Türkiye enerji raporu",
+   "summary_tr": "Ember raporuna göre Türkiye'nin enerji tüketiminin %85'i elektrikle karşılanabilir."
+  },
+  {
+   "id": 134,
+   "score": 3,
+   "category": "other",
+   "reason": "Platform özelliği",
+   "summary_tr": "Instagram 90 dakikalık videoları test ediyor."
+  },
+  {
+   "id": 135,
+   "score": 3,
+   "category": "science",
+   "reason": "Telekom",
+   "summary_tr": "Sceye'nin uçan baz istasyonu 30 bin km yol kat etti."
+  }
+ ]
+}

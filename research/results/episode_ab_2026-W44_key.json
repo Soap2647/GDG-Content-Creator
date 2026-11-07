@@ -1,0 +1,102 @@
+{
+  "a62ca722": {
+    "model": "pocket_sentence",
+    "sentence": "hook"
+  },
+  "979e46dc": {
+    "model": "omnivoice_f",
+    "sentence": "hook"
+  },
+  "b3ba3064": {
+    "model": "ahenk_cep_cheerful",
+    "sentence": "hook"
+  },
+  "1c1b3876": {
+    "model": "ahenk",
+    "sentence": "hook"
+  },
+  "84041d4c": {
+    "model": "ahenk_cheerful",
+    "sentence": "hook"
+  },
+  "1d4f4607": {
+    "model": "pocket_sentence",
+    "sentence": "s1"
+  },
+  "9610fb41": {
+    "model": "omnivoice_f",
+    "sentence": "s1"
+  },
+  "30073768": {
+    "model": "ahenk_cep_cheerful",
+    "sentence": "s1"
+  },
+  "8d6a9a4b": {
+    "model": "ahenk",
+    "sentence": "s1"
+  },
+  "d0b67d81": {
+    "model": "ahenk_cheerful",
+    "sentence": "s1"
+  },
+  "56b064b1": {
+    "model": "pocket_sentence",
+    "sentence": "s2"
+  },
+  "85374cb7": {
+    "model": "omnivoice_f",
+    "sentence": "s2"
+  },
+  "a1dbdfee": {
+    "model": "ahenk_cep_cheerful",
+    "sentence": "s2"
+  },
+  "6a516340": {
+    "model": "ahenk",
+    "sentence": "s2"
+  },
+  "3ec51670": {
+    "model": "ahenk_cheerful",
+    "sentence": "s2"
+  },
+  "f9098e53": {
+    "model": "pocket_sentence",
+    "sentence": "s3"
+  },
+  "db1e97fc": {
+    "model": "omnivoice_f",
+    "sentence": "s3"
+  },
+  "41c920ed": {
+    "model": "ahenk_cep_cheerful",
+    "sentence": "s3"
+  },
+  "c53a4b8f": {
+    "model": "ahenk",
+    "sentence": "s3"
+  },
+  "a532e468": {
+    "model": "ahenk_cheerful",
+    "sentence": "s3"
+  },
+  "3354cfbb": {
+    "model": "pocket_sentence",
+    "sentence": "s4"
+  },
+  "b3b18558": {
+    "model": "omnivoice_f",
+    "sentence": "s4"
+  },
+  "a701f592": {
+    "model": "ahenk_cep_cheerful",
+    "sentence": "s4"
+  },
+  "6f2b229f": {
+    "model": "ahenk",
+    "sentence": "s4"
+  },
+  "ad58e21e": {
+    "model": "ahenk_cheerful",
+    "sentence": "s4"
+  }
+}

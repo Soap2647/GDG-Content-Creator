@@ -1,0 +1,45 @@
+# Haber kaynakları. type: rss (varsayılan) veya html (RSS'i olmayan sayfalar: link_pattern ile duyuru linkleri seçilir).
+# lang: kaynağın dili; weight: puanlamada küçük öncelik (1.0 nötr). Tüm adresler 2026-10-27'de test edildi.
+
+sources:
+  # Google / Android / Chrome
+  - {name: Google Blog, url: "https://blog.google/rss/", lang: en, weight: 1.1}
+  - {name: Google Developers Blog, url: "https://developers.googleblog.com/feeds/posts/default", lang: en, weight: 1.2}
+  - {name: Android Developers Blog, url: "https://android-developers.googleblog.com/feeds/posts/default", lang: en, weight: 1.2}
+  - {name: Chrome for Developers, url: "https://developer.chrome.com/static/blog/feed.xml", lang: en, weight: 1.1}
+  - {name: Chromium Blog, url: "https://blog.chromium.org/feeds/posts/default", lang: en}
+
+  # Geliştirici platformları
+  - {name: GitHub Blog, url: "https://github.blog/feed/", lang: en, weight: 1.2}
+  - {name: Hugging Face Blog, url: "https://huggingface.co/blog/feed.xml", lang: en}
+  - {name: Cloudflare Blog, url: "https://blog.cloudflare.com/rss/", lang: en, weight: 0.9}
+
+  # Büyük AI laboratuvarları
+  - {name: OpenAI News, url: "https://openai.com/news/rss.xml", lang: en}
+  - {name: Google DeepMind, url: "https://deepmind.google/blog/rss.xml", lang: en}
+  - name: Anthropic News
+    type: html
+    url: "https://www.anthropic.com/news"
+    link_pattern: '^/news/[a-z0-9-]+$'
+    exclude: ['/news/announcements', '/news/features', '/news/product', '/news/policy', '/news/societal-impacts']
+    base: "https://www.anthropic.com"
+    lang: en
+
+  # Topluluk
+  - {name: Hacker News (100+ puan), url: "https://hnrss.org/frontpage?points=100", lang: en, weight: 0.9}
+
+  # Türkçe teknoloji haberleri
+  - {name: Webrazzi, url: "https://webrazzi.com/feed/", lang: tr}
+  - {name: Webtekno, url: "https://www.webtekno.com/rss.xml", lang: tr, weight: 0.9}
+  - {name: ShiftDelete.Net, url: "https://shiftdelete.net/feed", lang: tr, weight: 0.9}
+  - {name: DonanımHaber, url: "https://www.donanimhaber.com/rss/tum/", lang: tr, weight: 0.9}
+
+  # Öğrenci fırsatları
+  - {name: TÜBİTAK Duyuruları, url: "https://www.tubitak.gov.tr/tr/rss.xml", lang: tr, weight: 1.3}
+  - name: TEKNOFEST Duyuruları
+    type: html
+    url: "https://www.teknofest.org/tr/"
+    link_pattern: '^/tr/duyurular/[a-z0-9-]+/$'
+    base: "https://www.teknofest.org"
+    lang: tr
+    weight: 1.3

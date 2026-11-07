@@ -1,0 +1,1132 @@
+{
+  "week": "2026-W44",
+  "script_word_count": 195,
+  "units": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "segment": null,
+      "display_text": "Kritik tesislerde 1071 ve 1453 şifreleri bulundu!",
+      "tts_text": "Kritik tesislerde bin yetmiş bir ve bin dört yüz elli üç şifreleri bulundu!",
+      "tokens": [
+        {
+          "display": "Kritik",
+          "tts": "Kritik",
+          "unknown": false
+        },
+        {
+          "display": "tesislerde",
+          "tts": "tesislerde",
+          "unknown": false
+        },
+        {
+          "display": "1071",
+          "tts": "bin yetmiş bir",
+          "unknown": false
+        },
+        {
+          "display": "ve",
+          "tts": "ve",
+          "unknown": false
+        },
+        {
+          "display": "1453",
+          "tts": "bin dört yüz elli üç",
+          "unknown": false
+        },
+        {
+          "display": "şifreleri",
+          "tts": "şifreleri",
+          "unknown": false
+        },
+        {
+          "display": "bulundu!",
+          "tts": "bulundu!",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "teaser",
+      "kind": "teaser",
+      "segment": null,
+      "display_text": "Dört haber var; sonuncusu senin başvurabileceğin bir fırsat.",
+      "tts_text": "Dört haber var; sonuncusu senin başvurabileceğin bir fırsat.",
+      "tokens": [
+        {
+          "display": "Dört",
+          "tts": "Dört",
+          "unknown": false
+        },
+        {
+          "display": "haber",
+          "tts": "haber",
+          "unknown": false
+        },
+        {
+          "display": "var;",
+          "tts": "var;",
+          "unknown": false
+        },
+        {
+          "display": "sonuncusu",
+          "tts": "sonuncusu",
+          "unknown": false
+        },
+        {
+          "display": "senin",
+          "tts": "senin",
+          "unknown": false
+        },
+        {
+          "display": "başvurabileceğin",
+          "tts": "başvurabileceğin",
+          "unknown": false
+        },
+        {
+          "display": "bir",
+          "tts": "bir",
+          "unknown": false
+        },
+        {
+          "display": "fırsat.",
+          "tts": "fırsat.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s1_narration",
+      "kind": "narration",
+      "segment": 1,
+      "display_text": "Bağımsız bir araştırmacı, Türkiye'deki kritik altyapılarda 1071 ve 1453 gibi şifreler kullanıldığını tespit etti. Bu zayıf parolalarla su pompaları dahil 430 sisteme erişildiği bildirildi.",
+      "tts_text": "Bağımsız bir araştırmacı, Türkiyedeki kritik altyapılarda bin yetmiş bir ve bin dört yüz elli üç gibi şifreler kullanıldığını tespit etti. Bu zayıf parolalarla su pompaları dahil dört yüz otuz sisteme erişildiği bildirildi.",
+      "tokens": [
+        {
+          "display": "Bağımsız",
+          "tts": "Bağımsız",
+          "unknown": false
+        },
+        {
+          "display": "bir",
+          "tts": "bir",
+          "unknown": false
+        },
+        {
+          "display": "araştırmacı,",
+          "tts": "araştırmacı,",
+          "unknown": false
+        },
+        {
+          "display": "Türkiye'deki",
+          "tts": "Türkiyedeki",
+          "unknown": false
+        },
+        {
+          "display": "kritik",
+          "tts": "kritik",
+          "unknown": false
+        },
+        {
+          "display": "altyapılarda",
+          "tts": "altyapılarda",
+          "unknown": false
+        },
+        {
+          "display": "1071",
+          "tts": "bin yetmiş bir",
+          "unknown": false
+        },
+        {
+          "display": "ve",
+          "tts": "ve",
+          "unknown": false
+        },
+        {
+          "display": "1453",
+          "tts": "bin dört yüz elli üç",
+          "unknown": false
+        },
+        {
+          "display": "gibi",
+          "tts": "gibi",
+          "unknown": false
+        },
+        {
+          "display": "şifreler",
+          "tts": "şifreler",
+          "unknown": false
+        },
+        {
+          "display": "kullanıldığını",
+          "tts": "kullanıldığını",
+          "unknown": false
+        },
+        {
+          "display": "tespit",
+          "tts": "tespit",
+          "unknown": false
+        },
+        {
+          "display": "etti.",
+          "tts": "etti.",
+          "unknown": false
+        },
+        {
+          "display": "Bu",
+          "tts": "Bu",
+          "unknown": false
+        },
+        {
+          "display": "zayıf",
+          "tts": "zayıf",
+          "unknown": false
+        },
+        {
+          "display": "parolalarla",
+          "tts": "parolalarla",
+          "unknown": false
+        },
+        {
+          "display": "su",
+          "tts": "su",
+          "unknown": false
+        },
+        {
+          "display": "pompaları",
+          "tts": "pompaları",
+          "unknown": false
+        },
+        {
+          "display": "dahil",
+          "tts": "dahil",
+          "unknown": false
+        },
+        {
+          "display": "430",
+          "tts": "dört yüz otuz",
+          "unknown": false
+        },
+        {
+          "display": "sisteme",
+          "tts": "sisteme",
+          "unknown": false
+        },
+        {
+          "display": "erişildiği",
+          "tts": "erişildiği",
+          "unknown": false
+        },
+        {
+          "display": "bildirildi.",
+          "tts": "bildirildi.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s1_take",
+      "kind": "take",
+      "segment": 1,
+      "display_text": "Kendi hesaplarında tahmin edilebilir şifre kullanma, iki adımlı doğrulamayı aç.",
+      "tts_text": "Kendi hesaplarında tahmin edilebilir şifre kullanma, iki adımlı doğrulamayı aç.",
+      "tokens": [
+        {
+          "display": "Kendi",
+          "tts": "Kendi",
+          "unknown": false
+        },
+        {
+          "display": "hesaplarında",
+          "tts": "hesaplarında",
+          "unknown": false
+        },
+        {
+          "display": "tahmin",
+          "tts": "tahmin",
+          "unknown": false
+        },
+        {
+          "display": "edilebilir",
+          "tts": "edilebilir",
+          "unknown": false
+        },
+        {
+          "display": "şifre",
+          "tts": "şifre",
+          "unknown": false
+        },
+        {
+          "display": "kullanma,",
+          "tts": "kullanma,",
+          "unknown": false
+        },
+        {
+          "display": "iki",
+          "tts": "iki",
+          "unknown": false
+        },
+        {
+          "display": "adımlı",
+          "tts": "adımlı",
+          "unknown": false
+        },
+        {
+          "display": "doğrulamayı",
+          "tts": "doğrulamayı",
+          "unknown": false
+        },
+        {
+          "display": "aç.",
+          "tts": "aç.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s2_bridge",
+      "kind": "bridge",
+      "segment": 2,
+      "display_text": "Peki savunmayı sen test etmek istersen?",
+      "tts_text": "Peki savunmayı sen test etmek istersen?",
+      "tokens": [
+        {
+          "display": "Peki",
+          "tts": "Peki",
+          "unknown": false
+        },
+        {
+          "display": "savunmayı",
+          "tts": "savunmayı",
+          "unknown": false
+        },
+        {
+          "display": "sen",
+          "tts": "sen",
+          "unknown": false
+        },
+        {
+          "display": "test",
+          "tts": "test",
+          "unknown": false
+        },
+        {
+          "display": "etmek",
+          "tts": "etmek",
+          "unknown": false
+        },
+        {
+          "display": "istersen?",
+          "tts": "istersen?",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s2_narration",
+      "kind": "narration",
+      "segment": 2,
+      "display_text": "Cloudflare, kasıtlı olarak açık bırakılmış bir PHP kurulumunu güvenlik duvarının arkasına koydu. Görev: korumayı aşıp flag dosyasını ele geçirmek. Yarışma sınırlı süreli, HackerOne'daki ödül programı üzerinden yürüyor.",
+      "tts_text": "klaud fler, kasıtlı olarak açık bırakılmış bir pi eyç pi kurulumunu güvenlik duvarının arkasına koydu. Görev: korumayı aşıp fleg dosyasını ele geçirmek. Yarışma sınırlı süreli, hekır vandaki ödül programı üzerinden yürüyor.",
+      "tokens": [
+        {
+          "display": "Cloudflare,",
+          "tts": "klaud fler,",
+          "unknown": false
+        },
+        {
+          "display": "kasıtlı",
+          "tts": "kasıtlı",
+          "unknown": false
+        },
+        {
+          "display": "olarak",
+          "tts": "olarak",
+          "unknown": false
+        },
+        {
+          "display": "açık",
+          "tts": "açık",
+          "unknown": false
+        },
+        {
+          "display": "bırakılmış",
+          "tts": "bırakılmış",
+          "unknown": false
+        },
+        {
+          "display": "bir",
+          "tts": "bir",
+          "unknown": false
+        },
+        {
+          "display": "PHP",
+          "tts": "pi eyç pi",
+          "unknown": false
+        },
+        {
+          "display": "kurulumunu",
+          "tts": "kurulumunu",
+          "unknown": false
+        },
+        {
+          "display": "güvenlik",
+          "tts": "güvenlik",
+          "unknown": false
+        },
+        {
+          "display": "duvarının",
+          "tts": "duvarının",
+          "unknown": false
+        },
+        {
+          "display": "arkasına",
+          "tts": "arkasına",
+          "unknown": false
+        },
+        {
+          "display": "koydu.",
+          "tts": "koydu.",
+          "unknown": false
+        },
+        {
+          "display": "Görev:",
+          "tts": "Görev:",
+          "unknown": false
+        },
+        {
+          "display": "korumayı",
+          "tts": "korumayı",
+          "unknown": false
+        },
+        {
+          "display": "aşıp",
+          "tts": "aşıp",
+          "unknown": false
+        },
+        {
+          "display": "flag",
+          "tts": "fleg",
+          "unknown": false
+        },
+        {
+          "display": "dosyasını",
+          "tts": "dosyasını",
+          "unknown": false
+        },
+        {
+          "display": "ele",
+          "tts": "ele",
+          "unknown": false
+        },
+        {
+          "display": "geçirmek.",
+          "tts": "geçirmek.",
+          "unknown": false
+        },
+        {
+          "display": "Yarışma",
+          "tts": "Yarışma",
+          "unknown": false
+        },
+        {
+          "display": "sınırlı",
+          "tts": "sınırlı",
+          "unknown": false
+        },
+        {
+          "display": "süreli,",
+          "tts": "süreli,",
+          "unknown": false
+        },
+        {
+          "display": "HackerOne'daki",
+          "tts": "hekır vandaki",
+          "unknown": false
+        },
+        {
+          "display": "ödül",
+          "tts": "ödül",
+          "unknown": false
+        },
+        {
+          "display": "programı",
+          "tts": "programı",
+          "unknown": false
+        },
+        {
+          "display": "üzerinden",
+          "tts": "üzerinden",
+          "unknown": false
+        },
+        {
+          "display": "yürüyor.",
+          "tts": "yürüyor.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s2_take",
+      "kind": "take",
+      "segment": 2,
+      "display_text": "Katılmak için HackerOne hesabı gerekiyor; önce kuralları dikkatlice oku.",
+      "tts_text": "Katılmak için hekır van hesabı gerekiyor; önce kuralları dikkatlice oku.",
+      "tokens": [
+        {
+          "display": "Katılmak",
+          "tts": "Katılmak",
+          "unknown": false
+        },
+        {
+          "display": "için",
+          "tts": "için",
+          "unknown": false
+        },
+        {
+          "display": "HackerOne",
+          "tts": "hekır van",
+          "unknown": false
+        },
+        {
+          "display": "hesabı",
+          "tts": "hesabı",
+          "unknown": false
+        },
+        {
+          "display": "gerekiyor;",
+          "tts": "gerekiyor;",
+          "unknown": false
+        },
+        {
+          "display": "önce",
+          "tts": "önce",
+          "unknown": false
+        },
+        {
+          "display": "kuralları",
+          "tts": "kuralları",
+          "unknown": false
+        },
+        {
+          "display": "dikkatlice",
+          "tts": "dikkatlice",
+          "unknown": false
+        },
+        {
+          "display": "oku.",
+          "tts": "oku.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s3_bridge",
+      "kind": "bridge",
+      "segment": 3,
+      "display_text": "Güvenlikten çıkıp sanal dünyalara geçelim.",
+      "tts_text": "Güvenlikten çıkıp sanal dünyalara geçelim.",
+      "tokens": [
+        {
+          "display": "Güvenlikten",
+          "tts": "Güvenlikten",
+          "unknown": false
+        },
+        {
+          "display": "çıkıp",
+          "tts": "çıkıp",
+          "unknown": false
+        },
+        {
+          "display": "sanal",
+          "tts": "sanal",
+          "unknown": false
+        },
+        {
+          "display": "dünyalara",
+          "tts": "dünyalara",
+          "unknown": false
+        },
+        {
+          "display": "geçelim.",
+          "tts": "geçelim.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s3_narration",
+      "kind": "narration",
+      "segment": 3,
+      "display_text": "Google DeepMind, yeni dünya modeli Genie 4'ü duyurdu. Doğal dille sahneyi gerçek zamanlı yönetebiliyor, havayı değiştirip yeni karakter ekleyebiliyorsun. Her dünya kendi sesini de anında üretiyor.",
+      "tts_text": "gugıl dip maynd, yeni dünya modeli cini dördü duyurdu. Doğal dille sahneyi gerçek zamanlı yönetebiliyor, havayı değiştirip yeni karakter ekleyebiliyorsun. Her dünya kendi sesini de anında üretiyor.",
+      "tokens": [
+        {
+          "display": "Google",
+          "tts": "gugıl",
+          "unknown": false
+        },
+        {
+          "display": "DeepMind,",
+          "tts": "dip maynd,",
+          "unknown": false
+        },
+        {
+          "display": "yeni",
+          "tts": "yeni",
+          "unknown": false
+        },
+        {
+          "display": "dünya",
+          "tts": "dünya",
+          "unknown": false
+        },
+        {
+          "display": "modeli",
+          "tts": "modeli",
+          "unknown": false
+        },
+        {
+          "display": "Genie",
+          "tts": "cini",
+          "unknown": false
+        },
+        {
+          "display": "4'ü",
+          "tts": "dördü",
+          "unknown": false
+        },
+        {
+          "display": "duyurdu.",
+          "tts": "duyurdu.",
+          "unknown": false
+        },
+        {
+          "display": "Doğal",
+          "tts": "Doğal",
+          "unknown": false
+        },
+        {
+          "display": "dille",
+          "tts": "dille",
+          "unknown": false
+        },
+        {
+          "display": "sahneyi",
+          "tts": "sahneyi",
+          "unknown": false
+        },
+        {
+          "display": "gerçek",
+          "tts": "gerçek",
+          "unknown": false
+        },
+        {
+          "display": "zamanlı",
+          "tts": "zamanlı",
+          "unknown": false
+        },
+        {
+          "display": "yönetebiliyor,",
+          "tts": "yönetebiliyor,",
+          "unknown": false
+        },
+        {
+          "display": "havayı",
+          "tts": "havayı",
+          "unknown": false
+        },
+        {
+          "display": "değiştirip",
+          "tts": "değiştirip",
+          "unknown": false
+        },
+        {
+          "display": "yeni",
+          "tts": "yeni",
+          "unknown": false
+        },
+        {
+          "display": "karakter",
+          "tts": "karakter",
+          "unknown": false
+        },
+        {
+          "display": "ekleyebiliyorsun.",
+          "tts": "ekleyebiliyorsun.",
+          "unknown": false
+        },
+        {
+          "display": "Her",
+          "tts": "Her",
+          "unknown": false
+        },
+        {
+          "display": "dünya",
+          "tts": "dünya",
+          "unknown": false
+        },
+        {
+          "display": "kendi",
+          "tts": "kendi",
+          "unknown": false
+        },
+        {
+          "display": "sesini",
+          "tts": "sesini",
+          "unknown": false
+        },
+        {
+          "display": "de",
+          "tts": "de",
+          "unknown": false
+        },
+        {
+          "display": "anında",
+          "tts": "anında",
+          "unknown": false
+        },
+        {
+          "display": "üretiyor.",
+          "tts": "üretiyor.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s3_take",
+      "kind": "take",
+      "segment": 3,
+      "display_text": "Şimdilik sınırlı test grubunda; geniş erişim için Google duyurularını takip et.",
+      "tts_text": "Şimdilik sınırlı test grubunda; geniş erişim için gugıl duyurularını takip et.",
+      "tokens": [
+        {
+          "display": "Şimdilik",
+          "tts": "Şimdilik",
+          "unknown": false
+        },
+        {
+          "display": "sınırlı",
+          "tts": "sınırlı",
+          "unknown": false
+        },
+        {
+          "display": "test",
+          "tts": "test",
+          "unknown": false
+        },
+        {
+          "display": "grubunda;",
+          "tts": "grubunda;",
+          "unknown": false
+        },
+        {
+          "display": "geniş",
+          "tts": "geniş",
+          "unknown": false
+        },
+        {
+          "display": "erişim",
+          "tts": "erişim",
+          "unknown": false
+        },
+        {
+          "display": "için",
+          "tts": "için",
+          "unknown": false
+        },
+        {
+          "display": "Google",
+          "tts": "gugıl",
+          "unknown": false
+        },
+        {
+          "display": "duyurularını",
+          "tts": "duyurularını",
+          "unknown": false
+        },
+        {
+          "display": "takip",
+          "tts": "takip",
+          "unknown": false
+        },
+        {
+          "display": "et.",
+          "tts": "et.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s4_bridge",
+      "kind": "bridge",
+      "segment": 4,
+      "display_text": "Ve sona sakladığımız fırsat geldi.",
+      "tts_text": "Ve sona sakladığımız fırsat geldi.",
+      "tokens": [
+        {
+          "display": "Ve",
+          "tts": "Ve",
+          "unknown": false
+        },
+        {
+          "display": "sona",
+          "tts": "sona",
+          "unknown": false
+        },
+        {
+          "display": "sakladığımız",
+          "tts": "sakladığımız",
+          "unknown": false
+        },
+        {
+          "display": "fırsat",
+          "tts": "fırsat",
+          "unknown": false
+        },
+        {
+          "display": "geldi.",
+          "tts": "geldi.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s4_narration",
+      "kind": "narration",
+      "segment": 4,
+      "display_text": "TÜBİTAK, 6G ağları için kilit teknoloji olan Bütünleşik Algılama ve Haberleşme üzerine kış okulu düzenliyor. 23 ile 25 Kasım arasında Gebze'de; seçilenlere ücretsiz konaklama ve Türkiye içi ulaşım desteği var.",
+      "tts_text": "tübitak, altı ci ağları için kilit teknoloji olan Bütünleşik Algılama ve Haberleşme üzerine kış okulu düzenliyor. yirmi üç ile yirmi beş Kasım arasında Gebzede; seçilenlere ücretsiz konaklama ve Türkiye içi ulaşım desteği var.",
+      "tokens": [
+        {
+          "display": "TÜBİTAK,",
+          "tts": "tübitak,",
+          "unknown": false
+        },
+        {
+          "display": "6G",
+          "tts": "altı ci",
+          "unknown": false
+        },
+        {
+          "display": "ağları",
+          "tts": "ağları",
+          "unknown": false
+        },
+        {
+          "display": "için",
+          "tts": "için",
+          "unknown": false
+        },
+        {
+          "display": "kilit",
+          "tts": "kilit",
+          "unknown": false
+        },
+        {
+          "display": "teknoloji",
+          "tts": "teknoloji",
+          "unknown": false
+        },
+        {
+          "display": "olan",
+          "tts": "olan",
+          "unknown": false
+        },
+        {
+          "display": "Bütünleşik",
+          "tts": "Bütünleşik",
+          "unknown": false
+        },
+        {
+          "display": "Algılama",
+          "tts": "Algılama",
+          "unknown": false
+        },
+        {
+          "display": "ve",
+          "tts": "ve",
+          "unknown": false
+        },
+        {
+          "display": "Haberleşme",
+          "tts": "Haberleşme",
+          "unknown": false
+        },
+        {
+          "display": "üzerine",
+          "tts": "üzerine",
+          "unknown": false
+        },
+        {
+          "display": "kış",
+          "tts": "kış",
+          "unknown": false
+        },
+        {
+          "display": "okulu",
+          "tts": "okulu",
+          "unknown": false
+        },
+        {
+          "display": "düzenliyor.",
+          "tts": "düzenliyor.",
+          "unknown": false
+        },
+        {
+          "display": "23",
+          "tts": "yirmi üç",
+          "unknown": false
+        },
+        {
+          "display": "ile",
+          "tts": "ile",
+          "unknown": false
+        },
+        {
+          "display": "25",
+          "tts": "yirmi beş",
+          "unknown": false
+        },
+        {
+          "display": "Kasım",
+          "tts": "Kasım",
+          "unknown": false
+        },
+        {
+          "display": "arasında",
+          "tts": "arasında",
+          "unknown": false
+        },
+        {
+          "display": "Gebze'de;",
+          "tts": "Gebzede;",
+          "unknown": false
+        },
+        {
+          "display": "seçilenlere",
+          "tts": "seçilenlere",
+          "unknown": false
+        },
+        {
+          "display": "ücretsiz",
+          "tts": "ücretsiz",
+          "unknown": false
+        },
+        {
+          "display": "konaklama",
+          "tts": "konaklama",
+          "unknown": false
+        },
+        {
+          "display": "ve",
+          "tts": "ve",
+          "unknown": false
+        },
+        {
+          "display": "Türkiye",
+          "tts": "Türkiye",
+          "unknown": false
+        },
+        {
+          "display": "içi",
+          "tts": "içi",
+          "unknown": false
+        },
+        {
+          "display": "ulaşım",
+          "tts": "ulaşım",
+          "unknown": false
+        },
+        {
+          "display": "desteği",
+          "tts": "desteği",
+          "unknown": false
+        },
+        {
+          "display": "var.",
+          "tts": "var.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s4_take",
+      "kind": "take",
+      "segment": 4,
+      "display_text": "Son başvuru 12 Kasım; yüz yüze öncelik lisansüstünde, çevrim içi katılıma da başvurabilirsin.",
+      "tts_text": "Son başvuru on iki Kasım; yüz yüze öncelik lisansüstünde, çevrim içi katılıma da başvurabilirsin.",
+      "tokens": [
+        {
+          "display": "Son",
+          "tts": "Son",
+          "unknown": false
+        },
+        {
+          "display": "başvuru",
+          "tts": "başvuru",
+          "unknown": false
+        },
+        {
+          "display": "12",
+          "tts": "on iki",
+          "unknown": false
+        },
+        {
+          "display": "Kasım;",
+          "tts": "Kasım;",
+          "unknown": false
+        },
+        {
+          "display": "yüz",
+          "tts": "yüz",
+          "unknown": false
+        },
+        {
+          "display": "yüze",
+          "tts": "yüze",
+          "unknown": false
+        },
+        {
+          "display": "öncelik",
+          "tts": "öncelik",
+          "unknown": false
+        },
+        {
+          "display": "lisansüstünde,",
+          "tts": "lisansüstünde,",
+          "unknown": false
+        },
+        {
+          "display": "çevrim",
+          "tts": "çevrim",
+          "unknown": false
+        },
+        {
+          "display": "içi",
+          "tts": "içi",
+          "unknown": false
+        },
+        {
+          "display": "katılıma",
+          "tts": "katılıma",
+          "unknown": false
+        },
+        {
+          "display": "da",
+          "tts": "da",
+          "unknown": false
+        },
+        {
+          "display": "başvurabilirsin.",
+          "tts": "başvurabilirsin.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "question",
+      "kind": "question",
+      "segment": null,
+      "display_text": "Genie 4'le nasıl bir dünya kurardın? Yorumlara yaz.",
+      "tts_text": "cini dörtle nasıl bir dünya kurardın? Yorumlara yaz.",
+      "tokens": [
+        {
+          "display": "Genie",
+          "tts": "cini",
+          "unknown": false
+        },
+        {
+          "display": "4'le",
+          "tts": "dörtle",
+          "unknown": false
+        },
+        {
+          "display": "nasıl",
+          "tts": "nasıl",
+          "unknown": false
+        },
+        {
+          "display": "bir",
+          "tts": "bir",
+          "unknown": false
+        },
+        {
+          "display": "dünya",
+          "tts": "dünya",
+          "unknown": false
+        },
+        {
+          "display": "kurardın?",
+          "tts": "kurardın?",
+          "unknown": false
+        },
+        {
+          "display": "Yorumlara",
+          "tts": "Yorumlara",
+          "unknown": false
+        },
+        {
+          "display": "yaz.",
+          "tts": "yaz.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "outro",
+      "kind": "outro",
+      "segment": null,
+      "display_text": "Takip et, haftaya yeni gündemle buradayız.",
+      "tts_text": "Takip et, haftaya yeni gündemle buradayız.",
+      "tokens": [
+        {
+          "display": "Takip",
+          "tts": "Takip",
+          "unknown": false
+        },
+        {
+          "display": "et,",
+          "tts": "et,",
+          "unknown": false
+        },
+        {
+          "display": "haftaya",
+          "tts": "haftaya",
+          "unknown": false
+        },
+        {
+          "display": "yeni",
+          "tts": "yeni",
+          "unknown": false
+        },
+        {
+          "display": "gündemle",
+          "tts": "gündemle",
+          "unknown": false
+        },
+        {
+          "display": "buradayız.",
+          "tts": "buradayız.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    }
+  ],
+  "unknown_terms": []
+}

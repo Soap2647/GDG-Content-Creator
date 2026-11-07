@@ -1,0 +1,803 @@
+{
+  "week": "2099-W01",
+  "fps": 30,
+  "durationInFrames": 1673,
+  "voice": "audio/voice.wav",
+  "music": "media/bed.mp3",
+  "whoosh": "media/whoosh.mp3",
+  "pop": "media/pop.mp3",
+  "logo": null,
+  "hook": "Yapay zekâ arayüzleri üç kat hızlanıyor!",
+  "outroText": "Haftaya görüşmek üzere, takipte kal!",
+  "outroSeconds": 3,
+  "units": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "segment": null,
+      "start": 0.0,
+      "end": 2.8,
+      "words": [
+        {
+          "text": "Yapay",
+          "start": 0.188,
+          "end": 0.5
+        },
+        {
+          "text": "zekâ",
+          "start": 0.5,
+          "end": 0.84
+        },
+        {
+          "text": "arayüzleri",
+          "start": 0.84,
+          "end": 1.28
+        },
+        {
+          "text": "üç",
+          "start": 1.28,
+          "end": 1.5
+        },
+        {
+          "text": "kat",
+          "start": 1.5,
+          "end": 1.72
+        },
+        {
+          "text": "hızlanıyor!",
+          "start": 1.72,
+          "end": 2.24
+        }
+      ]
+    },
+    {
+      "id": "s1_narration",
+      "kind": "narration",
+      "segment": 1,
+      "start": 3.25,
+      "end": 18.17,
+      "words": [
+        {
+          "text": "Google,",
+          "start": 3.437,
+          "end": 3.77
+        },
+        {
+          "text": "yapay",
+          "start": 3.77,
+          "end": 4.25
+        },
+        {
+          "text": "zekânın",
+          "start": 4.25,
+          "end": 4.69
+        },
+        {
+          "text": "arayüz",
+          "start": 4.69,
+          "end": 5.13
+        },
+        {
+          "text": "üretmesini",
+          "start": 5.13,
+          "end": 5.63
+        },
+        {
+          "text": "sağlayan",
+          "start": 5.63,
+          "end": 6.19
+        },
+        {
+          "text": "A2UI",
+          "start": 6.19,
+          "end": 6.87
+        },
+        {
+          "text": "için",
+          "start": 6.87,
+          "end": 7.17
+        },
+        {
+          "text": "yeni",
+          "start": 7.17,
+          "end": 7.51
+        },
+        {
+          "text": "bir",
+          "start": 7.51,
+          "end": 7.65
+        },
+        {
+          "text": "format",
+          "start": 7.65,
+          "end": 7.99
+        },
+        {
+          "text": "duyurdu.",
+          "start": 7.99,
+          "end": 8.51
+        },
+        {
+          "text": "A2UI",
+          "start": 9.435,
+          "end": 9.91
+        },
+        {
+          "text": "Express,",
+          "start": 9.91,
+          "end": 10.19
+        },
+        {
+          "text": "%300'e",
+          "start": 10.19,
+          "end": 11.55
+        },
+        {
+          "text": "varan",
+          "start": 11.55,
+          "end": 11.81
+        },
+        {
+          "text": "değil,",
+          "start": 11.81,
+          "end": 12.05
+        },
+        {
+          "text": "3",
+          "start": 12.05,
+          "end": 12.41
+        },
+        {
+          "text": "kata",
+          "start": 12.41,
+          "end": 12.75
+        },
+        {
+          "text": "varan",
+          "start": 12.75,
+          "end": 13.05
+        },
+        {
+          "text": "oranda",
+          "start": 13.05,
+          "end": 13.37
+        },
+        {
+          "text": "daha",
+          "start": 13.37,
+          "end": 13.59
+        },
+        {
+          "text": "az",
+          "start": 13.59,
+          "end": 13.83
+        },
+        {
+          "text": "token",
+          "start": 13.83,
+          "end": 14.07
+        },
+        {
+          "text": "kullanıyor",
+          "start": 14.07,
+          "end": 14.71
+        },
+        {
+          "text": "ve",
+          "start": 14.71,
+          "end": 15.01
+        },
+        {
+          "text": "bilinen",
+          "start": 15.01,
+          "end": 15.37
+        },
+        {
+          "text": "ekranları",
+          "start": 15.37,
+          "end": 15.89
+        },
+        {
+          "text": "300",
+          "start": 15.89,
+          "end": 16.647
+        },
+        {
+          "text": "ms",
+          "start": 16.647,
+          "end": 16.95
+        },
+        {
+          "text": "altında",
+          "start": 16.95,
+          "end": 17.25
+        },
+        {
+          "text": "çiziyor.",
+          "start": 17.25,
+          "end": 17.67
+        }
+      ]
+    },
+    {
+      "id": "s1_take",
+      "kind": "take",
+      "segment": 1,
+      "start": 18.62,
+      "end": 24.46,
+      "words": [
+        {
+          "text": "Python,",
+          "start": 18.827,
+          "end": 19.277
+        },
+        {
+          "text": "TypeScript",
+          "start": 19.277,
+          "end": 19.92
+        },
+        {
+          "text": "veya",
+          "start": 19.92,
+          "end": 20.22
+        },
+        {
+          "text": "Dart",
+          "start": 20.22,
+          "end": 20.54
+        },
+        {
+          "text": "biliyorsan,",
+          "start": 20.54,
+          "end": 21.22
+        },
+        {
+          "text": "Agent",
+          "start": 21.22,
+          "end": 21.635
+        },
+        {
+          "text": "SDK",
+          "start": 21.635,
+          "end": 22.12
+        },
+        {
+          "text": "ile",
+          "start": 22.12,
+          "end": 22.42
+        },
+        {
+          "text": "kendi",
+          "start": 22.42,
+          "end": 22.74
+        },
+        {
+          "text": "üretken",
+          "start": 22.74,
+          "end": 23.16
+        },
+        {
+          "text": "arayüzünü",
+          "start": 23.16,
+          "end": 23.72
+        },
+        {
+          "text": "dene.",
+          "start": 23.72,
+          "end": 24.04
+        }
+      ]
+    },
+    {
+      "id": "s2_narration",
+      "kind": "narration",
+      "segment": 2,
+      "start": 24.91,
+      "end": 32.03,
+      "words": [
+        {
+          "text": "TÜBİTAK,",
+          "start": 25.078,
+          "end": 25.47
+        },
+        {
+          "text": "Eureka",
+          "start": 25.47,
+          "end": 25.97
+        },
+        {
+          "text": "Network",
+          "start": 25.97,
+          "end": 26.17
+        },
+        {
+          "text": "kapsamında",
+          "start": 26.17,
+          "end": 26.97
+        },
+        {
+          "text": "Türkiye",
+          "start": 26.97,
+          "end": 27.33
+        },
+        {
+          "text": "ve",
+          "start": 27.33,
+          "end": 27.63
+        },
+        {
+          "text": "İspanya",
+          "start": 27.63,
+          "end": 28.03
+        },
+        {
+          "text": "arasındaki",
+          "start": 28.03,
+          "end": 28.45
+        },
+        {
+          "text": "2026",
+          "start": 28.45,
+          "end": 29.29
+        },
+        {
+          "text": "yılı",
+          "start": 29.29,
+          "end": 29.83
+        },
+        {
+          "text": "ortak",
+          "start": 29.83,
+          "end": 30.21
+        },
+        {
+          "text": "Ar-Ge",
+          "start": 30.21,
+          "end": 30.67
+        },
+        {
+          "text": "çağrısını",
+          "start": 30.67,
+          "end": 31.25
+        },
+        {
+          "text": "açtı.",
+          "start": 31.25,
+          "end": 31.55
+        }
+      ]
+    },
+    {
+      "id": "s2_take",
+      "kind": "take",
+      "segment": 2,
+      "start": 32.48,
+      "end": 37.84,
+      "words": [
+        {
+          "text": "Girişim",
+          "start": 32.648,
+          "end": 33.08
+        },
+        {
+          "text": "ya",
+          "start": 33.08,
+          "end": 33.16
+        },
+        {
+          "text": "da",
+          "start": 33.16,
+          "end": 33.24
+        },
+        {
+          "text": "proje",
+          "start": 33.24,
+          "end": 33.6
+        },
+        {
+          "text": "ekibindeysen",
+          "start": 33.6,
+          "end": 34.38
+        },
+        {
+          "text": "çağrı",
+          "start": 34.38,
+          "end": 34.7
+        },
+        {
+          "text": "metnini",
+          "start": 34.7,
+          "end": 35.1
+        },
+        {
+          "text": "incele,",
+          "start": 35.1,
+          "end": 35.56
+        },
+        {
+          "text": "ortak",
+          "start": 35.64,
+          "end": 36.24
+        },
+        {
+          "text": "bulma",
+          "start": 36.24,
+          "end": 36.46
+        },
+        {
+          "text": "sürecini",
+          "start": 36.46,
+          "end": 36.88
+        },
+        {
+          "text": "kaçırma.",
+          "start": 36.88,
+          "end": 37.36
+        }
+      ]
+    },
+    {
+      "id": "s3_narration",
+      "kind": "narration",
+      "segment": 3,
+      "start": 38.29,
+      "end": 48.25,
+      "words": [
+        {
+          "text": "GitHub,",
+          "start": 38.457,
+          "end": 38.996
+        },
+        {
+          "text": "üç",
+          "start": 38.996,
+          "end": 39.15
+        },
+        {
+          "text": "Java",
+          "start": 39.15,
+          "end": 39.49
+        },
+        {
+          "text": "Champion'ın",
+          "start": 39.49,
+          "end": 40.057
+        },
+        {
+          "text": "GitHub",
+          "start": 40.057,
+          "end": 40.397
+        },
+        {
+          "text": "Copilot",
+          "start": 40.397,
+          "end": 40.85
+        },
+        {
+          "text": "ile",
+          "start": 40.85,
+          "end": 41.01
+        },
+        {
+          "text": "üretkenliklerini",
+          "start": 41.01,
+          "end": 41.81
+        },
+        {
+          "text": "nasıl",
+          "start": 41.81,
+          "end": 42.01
+        },
+        {
+          "text": "artırdığını",
+          "start": 42.01,
+          "end": 42.63
+        },
+        {
+          "text": "anlattı.",
+          "start": 42.63,
+          "end": 43.17
+        },
+        {
+          "text": "Örnekler,",
+          "start": 44.004,
+          "end": 44.53
+        },
+        {
+          "text": "test",
+          "start": 44.57,
+          "end": 44.79
+        },
+        {
+          "text": "yazımı",
+          "start": 44.79,
+          "end": 45.27
+        },
+        {
+          "text": "ve",
+          "start": 45.27,
+          "end": 45.43
+        },
+        {
+          "text": "kod",
+          "start": 45.43,
+          "end": 45.71
+        },
+        {
+          "text": "incelemesi",
+          "start": 45.71,
+          "end": 46.13
+        },
+        {
+          "text": "gibi",
+          "start": 46.13,
+          "end": 46.37
+        },
+        {
+          "text": "günlük",
+          "start": 46.37,
+          "end": 46.79
+        },
+        {
+          "text": "işlere",
+          "start": 46.79,
+          "end": 47.11
+        },
+        {
+          "text": "odaklanıyor.",
+          "start": 47.11,
+          "end": 47.73
+        }
+      ]
+    },
+    {
+      "id": "s3_take",
+      "kind": "take",
+      "segment": 3,
+      "start": 48.7,
+      "end": 52.22,
+      "words": [
+        {
+          "text": "GitHub",
+          "start": 48.882,
+          "end": 49.213
+        },
+        {
+          "text": "Student",
+          "start": 49.213,
+          "end": 49.599
+        },
+        {
+          "text": "Developer",
+          "start": 49.599,
+          "end": 50.095
+        },
+        {
+          "text": "Pack",
+          "start": 50.095,
+          "end": 50.26
+        },
+        {
+          "text": "ile",
+          "start": 50.26,
+          "end": 50.48
+        },
+        {
+          "text": "Copilot'u",
+          "start": 50.48,
+          "end": 51.06
+        },
+        {
+          "text": "projende",
+          "start": 51.06,
+          "end": 51.46
+        },
+        {
+          "text": "dene.",
+          "start": 51.46,
+          "end": 51.8
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "kind": "outro",
+      "segment": null,
+      "start": 52.67,
+      "end": 55.31,
+      "words": [
+        {
+          "text": "Haftaya",
+          "start": 52.848,
+          "end": 53.15
+        },
+        {
+          "text": "görüşmek",
+          "start": 53.15,
+          "end": 53.59
+        },
+        {
+          "text": "üzere,",
+          "start": 53.59,
+          "end": 53.97
+        },
+        {
+          "text": "takipte",
+          "start": 53.99,
+          "end": 54.55
+        },
+        {
+          "text": "kal!",
+          "start": 54.55,
+          "end": 54.77
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "index": 1,
+      "headline": "A2UI Express: 3 kat daha az token",
+      "studentTake": "Python, TypeScript veya Dart biliyorsan, Agent SDK ile kendi üretken arayüzünü dene.",
+      "sourceLabel": "Kaynak: developers.googleblog.com",
+      "visuals": [
+        {
+          "component": "HeadlineCard",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": null
+        },
+        {
+          "component": "StatCounter",
+          "stat_value": 3.0,
+          "stat_prefix": null,
+          "stat_suffix": "x",
+          "stat_label": "daha az token",
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": null
+        },
+        {
+          "component": "MiniChart",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": "Ekran çizim süresi",
+          "chart_labels": [
+            "Hedef",
+            "A2UI controlled"
+          ],
+          "chart_values": [
+            1000.0,
+            300.0
+          ],
+          "chart_unit": "ms",
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": null
+        },
+        {
+          "component": "SourceScreenshot",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": "https://developers.googleblog.com/fast-reliable-a2ui/",
+          "screenshot": "screenshots/b8729281aa3f.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "headline": "TÜBİTAK Eureka çağrısı açıldı",
+      "studentTake": "Girişim ya da proje ekibindeysen çağrı metnini incele, ortak bulma sürecini kaçırma.",
+      "sourceLabel": "Kaynak: tubitak.gov.tr",
+      "visuals": [
+        {
+          "component": "HeadlineCard",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": null
+        },
+        {
+          "component": "SourceScreenshot",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": "https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi",
+          "screenshot": "screenshots/09ae40580e48.png"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "headline": "Java uzmanları Copilot'u nasıl kullanıyor?",
+      "studentTake": "GitHub Student Developer Pack ile Copilot'u projende dene.",
+      "sourceLabel": "Kaynak: github.blog",
+      "visuals": [
+        {
+          "component": "HeadlineCard",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": null
+        },
+        {
+          "component": "Terminal",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": [
+            "gh extension install github/gh-copilot",
+            "gh copilot suggest \"run tests\""
+          ],
+          "screenshot_url": null
+        },
+        {
+          "component": "SourceScreenshot",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+          "screenshot": "screenshots/d3ec3a595c33.png"
+        }
+      ]
+    }
+  ],
+  "musicVolume": 0.18,
+  "duckVolume": 0.06
+}

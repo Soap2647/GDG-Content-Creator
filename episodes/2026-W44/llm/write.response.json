@@ -1,0 +1,202 @@
+{
+  "hook": "Kritik tesislerde 1071 ve 1453 şifreleri bulundu!",
+  "teaser": "Dört haber var; sonuncusu senin başvurabileceğin bir fırsat.",
+  "segments": [
+    {
+      "bridge": "",
+      "headline": "Kritik tesislerde şifre: 1071 ve 1453",
+      "narration": "Bağımsız bir araştırmacı, Türkiye'deki kritik altyapılarda 1071 ve 1453 gibi şifreler kullanıldığını tespit etti. Bu zayıf parolalarla su pompaları dahil 430 sisteme erişildiği bildirildi.",
+      "student_take": "Kendi hesaplarında tahmin edilebilir şifre kullanma, iki adımlı doğrulamayı aç.",
+      "visuals": [
+        {
+          "component": "HeadlineCard"
+        },
+        {
+          "component": "StatCounter",
+          "stat_value": 430,
+          "stat_prefix": "",
+          "stat_suffix": "",
+          "stat_label": "kritik sisteme erişildi"
+        },
+        {
+          "component": "SourceScreenshot",
+          "screenshot_url": "https://shiftdelete.net/turkiyede-kritik-altyapilarda-1071-ve-1453-sifreleri-kullaniliyor-risk-buyuk"
+        }
+      ],
+      "sources": [
+        "https://shiftdelete.net/turkiyede-kritik-altyapilarda-1071-ve-1453-sifreleri-kullaniliyor-risk-buyuk"
+      ],
+      "claims": [
+        {
+          "text": "Bağımsız bir siber güvenlik araştırmacısı Türkiye'deki kritik altyapılarda zafiyet tespit etti",
+          "source_url": "https://shiftdelete.net/turkiyede-kritik-altyapilarda-1071-ve-1453-sifreleri-kullaniliyor-risk-buyuk",
+          "uncertain": false
+        },
+        {
+          "text": "Sistemlerin giriş şifrelerinde 1071 ve 1453 gibi parolalar kullanılıyordu",
+          "source_url": "https://shiftdelete.net/turkiyede-kritik-altyapilarda-1071-ve-1453-sifreleri-kullaniliyor-risk-buyuk",
+          "uncertain": false
+        },
+        {
+          "text": "Zayıf parolalarla su pompaları dahil 430 kritik sisteme erişim sağlandığı bildirildi",
+          "source_url": "https://shiftdelete.net/turkiyede-kritik-altyapilarda-1071-ve-1453-sifreleri-kullaniliyor-risk-buyuk",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "bridge": "Peki savunmayı sen test etmek istersen?",
+      "headline": "Cloudflare'den PHP CTF yarışması",
+      "narration": "Cloudflare, kasıtlı olarak açık bırakılmış bir PHP kurulumunu güvenlik duvarının arkasına koydu. Görev: korumayı aşıp flag dosyasını ele geçirmek. Yarışma sınırlı süreli, HackerOne'daki ödül programı üzerinden yürüyor.",
+      "student_take": "Katılmak için HackerOne hesabı gerekiyor; önce kuralları dikkatlice oku.",
+      "visuals": [
+        {
+          "component": "HeadlineCard"
+        },
+        {
+          "component": "SourceScreenshot",
+          "screenshot_url": "https://blog.cloudflare.com/php-ctf/"
+        }
+      ],
+      "sources": [
+        "https://blog.cloudflare.com/php-ctf/"
+      ],
+      "claims": [
+        {
+          "text": "Cloudflare, kasıtlı olarak savunmasız bir PHP kurulumunu WAF'ının arkasına koydu",
+          "source_url": "https://blog.cloudflare.com/php-ctf/",
+          "uncertain": false
+        },
+        {
+          "text": "Görev WAF korumalarını aşıp /flag dosyasının içeriğini ele geçirmek",
+          "source_url": "https://blog.cloudflare.com/php-ctf/",
+          "uncertain": false
+        },
+        {
+          "text": "Yarışma sınırlı süreli ve Cloudflare'in HackerOne'daki Bug Bounty programı üzerinden yürüyor",
+          "source_url": "https://blog.cloudflare.com/php-ctf/",
+          "uncertain": false
+        },
+        {
+          "text": "Katılımcıların HackerOne hesabı açması ve Bounty kurallarını kabul etmesi gerekiyor",
+          "source_url": "https://blog.cloudflare.com/php-ctf/",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "bridge": "Güvenlikten çıkıp sanal dünyalara geçelim.",
+      "headline": "Genie 4: Sesli ve yönetilebilir sanal dünyalar",
+      "narration": "Google DeepMind, yeni dünya modeli Genie 4'ü duyurdu. Doğal dille sahneyi gerçek zamanlı yönetebiliyor, havayı değiştirip yeni karakter ekleyebiliyorsun. Her dünya kendi sesini de anında üretiyor.",
+      "student_take": "Şimdilik sınırlı test grubunda; geniş erişim için Google duyurularını takip et.",
+      "visuals": [
+        {
+          "component": "HeadlineCard"
+        },
+        {
+          "component": "SourceScreenshot",
+          "screenshot_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
+        },
+        {
+          "component": "SourceScreenshot",
+          "screenshot_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+        }
+      ],
+      "sources": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+        "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+      ],
+      "claims": [
+        {
+          "text": "Google DeepMind yeni dünya modeli Genie 4'ü duyurdu",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+          "uncertain": false
+        },
+        {
+          "text": "Genie 4'te sahneler doğal dille gerçek zamanlı yönlendirilebiliyor; hava değiştirilebiliyor, yeni karakterler eklenebiliyor",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+          "uncertain": false
+        },
+        {
+          "text": "Her dünya ortam sesi, müzik ve diyalog dahil sesini anında üretiyor",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+          "uncertain": false
+        },
+        {
+          "text": "Genie 4 şimdilik sınırlı bir güvenilir test grubuna açılıyor",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "bridge": "Ve sona sakladığımız fırsat geldi.",
+      "headline": "TÜBİTAK kış okulu: Başvurular açık",
+      "narration": "TÜBİTAK, 6G ağları için kilit teknoloji olan Bütünleşik Algılama ve Haberleşme üzerine kış okulu düzenliyor. 23 ile 25 Kasım arasında Gebze'de; seçilenlere ücretsiz konaklama ve Türkiye içi ulaşım desteği var.",
+      "student_take": "Son başvuru 12 Kasım; yüz yüze öncelik lisansüstünde, çevrim içi katılıma da başvurabilirsin.",
+      "visuals": [
+        {
+          "component": "HeadlineCard"
+        },
+        {
+          "component": "StatCounter",
+          "stat_value": 50,
+          "stat_prefix": "",
+          "stat_suffix": " kişi",
+          "stat_label": "yüz yüze katılım kontenjanı"
+        },
+        {
+          "component": "SourceScreenshot",
+          "screenshot_url": "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi"
+        }
+      ],
+      "sources": [
+        "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi"
+      ],
+      "claims": [
+        {
+          "text": "TÜBİTAK TBAE, Bütünleşik Algılama ve Haberleşme Kış Okulu düzenliyor",
+          "source_url": "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
+          "uncertain": false
+        },
+        {
+          "text": "Bütünleşik Algılama ve Haberleşme 6G ağları için kilit bir teknoloji",
+          "source_url": "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
+          "uncertain": false
+        },
+        {
+          "text": "Kış okulu 23-25 Kasım 2026'da Gebze'de",
+          "source_url": "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
+          "uncertain": false
+        },
+        {
+          "text": "Seçilen katılımcılara ücretsiz konaklama ve Türkiye içi ulaşım desteği sağlanacak",
+          "source_url": "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
+          "uncertain": false
+        },
+        {
+          "text": "Son başvuru tarihi 12 Kasım 2026",
+          "source_url": "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
+          "uncertain": false
+        },
+        {
+          "text": "Yüz yüze katılımda yüksek lisans, doktora öğrencileri ve doktora sonrası araştırmacılara öncelik veriliyor",
+          "source_url": "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
+          "uncertain": false
+        },
+        {
+          "text": "Zoom üzerinden çevrim içi katılım için de başvuru yapılabiliyor",
+          "source_url": "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
+          "uncertain": false
+        },
+        {
+          "text": "Yüz yüze katılım kontenjanı 50 kişi",
+          "source_url": "https://tubitak.gov.tr/tr/duyuru/butunlesik-algilama-ve-haberlesme-kis-okulu-2026-yili-basvurulari-basladi",
+          "uncertain": false
+        }
+      ]
+    }
+  ],
+  "question": "Genie 4'le nasıl bir dünya kurardın? Yorumlara yaz.",
+  "outro": "Takip et, haftaya yeni gündemle buradayız."
+}

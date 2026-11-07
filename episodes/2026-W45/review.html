@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Onay 2026-W45</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --text:#1b1f24; --muted:#5f6b7a; --border:#dde2e8;
+          --ok:#188038; --ok-bg:#e6f4ea; --warn:#b06000; --warn-bg:#fef7e0; --bad:#c5221f; --bad-bg:#fce8e6; --accent:#1a73e8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111418; --card:#1b2026; --text:#e8eaed; --muted:#9aa4b1; --border:#2c333b;
+            --ok:#81c995; --ok-bg:#1e3a29; --warn:#fdd663; --warn-bg:#3d3418; --bad:#f28b82; --bad-bg:#47201e; --accent:#8ab4f8; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 16px 80px; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; } h2 { font-size: 1.15rem; margin: 0 0 8px; }
+  .muted { color: var(--muted); }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; margin-top:16px; }
+  .gate { border-left: 4px solid var(--accent); }
+  .gate code, .cmd { display:block; background:var(--bg); border:1px solid var(--border); border-radius:8px; padding:8px 10px; margin-top:6px; font: 13px ui-monospace, Consolas, monospace; overflow-x:auto; }
+  .stats { display:flex; gap:16px; flex-wrap:wrap; margin-top:8px; }
+  .stat b { font-size: 1.25rem; display:block; }
+  .label { font-size:.75rem; font-weight:600; letter-spacing:.05em; color:var(--muted); text-transform:uppercase; margin-top:12px; }
+  .hook { font-size: 1.3rem; font-weight: 700; }
+  .take { background: var(--warn-bg); border-radius: 8px; padding: 8px 10px; }
+  table { width:100%; border-collapse: collapse; margin-top:6px; font-size: .92rem; }
+  td, th { text-align:left; vertical-align: top; padding: 6px 8px; border-top: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; font-size: .8rem; }
+  .pill { display:inline-block; padding: 1px 8px; border-radius: 999px; font-size:.78rem; font-weight:600; white-space:nowrap; }
+  .supported { background:var(--ok-bg); color:var(--ok); }
+  .partial { background:var(--warn-bg); color:var(--warn); }
+  .unsupported, .not_found, .uncertain { background:var(--bad-bg); color:var(--bad); }
+  tr.flag td { background: var(--bad-bg); }
+  .evidence { color: var(--muted); font-style: italic; }
+  details summary { cursor:pointer; color: var(--accent); margin-top: 8px; }
+  a { color: var(--accent); word-break: break-all; }
+  .unknown li { margin: 2px 0; }
+  .visual { display:inline-block; border:1px solid var(--border); border-radius:6px; padding:2px 8px; margin: 2px 4px 2px 0; font-size:.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Bölüm onayı — 2026-W45</h1>
+  <div class="muted">Üretim: 2026-11-07 21:10 · Bu sayfa senaryoyu, her iddianın kaynağını ve doğrulama sonucunu gösterir.</div>
+  <div class="stats">
+    <div class="stat"><b>4</b><span class="muted">haber</span></div>
+    <div class="stat"><b>182</b><span class="muted">kelime</span></div>
+    <div class="stat"><b>~95.8 sn</b><span class="muted">tahmini süre</span></div>
+    <div class="stat"><b style="color:var(--bad)">1</b><span class="muted">kırmızı işaret</span></div>
+    <div class="stat"><b>0</b><span class="muted">sözlükte olmayan terim</span></div>
+  </div>
+
+  <section class="card gate">
+    <h2>Onay kapısı</h2>
+    
+      <div><span class="pill supported">ONAYLANDI</span> Mert Yasin YÄ±lmaz · 2026-11-07T21:10:44</div>
+    
+  </section>
+
+  <section class="card">
+    <div class="label">Kanca (0-2 sn)</div>
+    <div class="hook">Google hesabınla ayda üç yapay zeka videosu ücretsiz!</div>
+    <div class="label">Merak boşluğu (teaser)</div><div>Dört haber var; sonuncusu lisans öğrencilerine açık bir burs.</div>
+  </section>
+
+  
+  <section class="card">
+    <h2>Haber 1/4 — Google Vids&#39;te ücretsiz yapay zeka videosu</h2>
+    
+    <div class="label">Anlatım</div>
+    <div>Google, yeni video modeli Omni 1.2 Flash&#39;ı Google Vids&#39;e getirdi. Google hesabı olan herkes ayda en fazla 3 adet 15 saniyelik videoyu ücretsiz üretebiliyor. Konuşmalar da artık daha doğal.</div>
+    <div class="label">Bu senin için ne demek?</div>
+    <div class="take">Proje tanıtım videon için Google Vids&#39;te hemen deneyebilirsin.</div>
+    <details><summary>TTS'e gidecek fonetik metin</summary>
+      <div class="cmd">gugıl, yeni video modeli Omni bir nokta iki fleşı gugıl Vidse getirdi. gugıl hesabı olan herkes ayda en fazla üç adet on beş saniyelik videoyu ücretsiz üretebiliyor. Konuşmalar da artık daha doğal.</div><div class="cmd">Proje tanıtım videon için gugıl Vidste hemen deneyebilirsin.</div></details>
+
+    <div class="label">İddialar ve doğrulama</div>
+    <table>
+      <tr><th>İddia</th><th>Sonuç</th><th>Kanıt / not</th></tr>
+      
+      <tr class="">
+        <td>Google Vids artık Google&#39;ın en yeni video modeli Omni 1.2 Flash ile çalışıyor
+          <div><a href="https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/" target="_blank" rel="noopener">https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“Google Vids, our video creation and editing tool, now runs on Google&#39;s newest video generation model: Omni 1.2 Flash.”</div><div>Birebir destekleniyor.</div></td>
+      </tr>
+      
+      <tr class="">
+        <td>Google hesabı olan herkes Vids&#39;te ayda en fazla 3 adet 15 saniyelik videoyu ücretsiz üretebiliyor
+          <div><a href="https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/" target="_blank" rel="noopener">https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“anyone with a Google account or Google Workspace subscription can generate up to three 15-second videos per month in Vids at no cost.”</div><div>&#39;En fazla&#39; (up to), 3 adet, 15 sn ve aylık limit birebir eşleşiyor.</div></td>
+      </tr>
+      
+      <tr class="">
+        <td>Gelişmiş konuşma seslendirmesiyle klipler daha doğal duyuluyor
+          <div><a href="https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/" target="_blank" rel="noopener">https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“Make clips that sound more natural. With improved speech narration, your social clips, concept explainers, and teaser videos feel like something you recorded yourself.”</div><div>Destekleniyor; anlatımdaki &#39;Konuşmalar daha doğal&#39; kabul edilebilir özet.</div></td>
+      </tr>
+      
+      
+      <tr class="">
+        <td>Hook: Google hesabınla ayda üç yapay zeka videosu ücretsiz! <span class="pill partial">listede yoktu</span></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“anyone with a Google account or Google Workspace subscription can generate up to three 15-second videos per month in Vids at no cost.”</div></td>
+      </tr>
+      
+    </table>
+
+    
+    <div class="label">Rakam taraması (kaynak metinde birebir geçiyor mu?)</div>
+    <div><span class="pill unsupported" style="margin-right:4px">3</span><span class="pill supported" style="margin-right:4px">15</span><span class="pill supported" style="margin-right:4px">1.2</span></div>
+    
+
+    <div class="label">Görseller</div>
+    <div><span class="visual">HeadlineCard</span><span class="visual">StatCounter: 3.0 video — her ay ücretsiz, 15 saniyelik</span><span class="visual">SourceScreenshot: https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/</span></div>
+    <div class="label">Kaynaklar</div>
+    <ul><li><a href="https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/" target="_blank" rel="noopener">https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/</a></li></ul>
+  </section>
+  
+  <section class="card">
+    <h2>Haber 2/4 — Gemini, kâğıttaki çizimi uygulamaya çeviriyor</h2>
+    <div class="label">Köprü cümlesi</div><div><i>Videodan sonra sıra uygulamada.</i></div>
+    <div class="label">Anlatım</div>
+    <div>Kâğıda çizdiğin uygulama taslağının fotoğrafını Gemini&#39;ye yükle, Canvas aracını seç ve kodlamasını iste. Gemini çizimi okuyup kodu yazıyor; renkleri ve özellikleri anında değiştirebiliyor.</div>
+    <div class="label">Bu senin için ne demek?</div>
+    <div class="take">Proje fikrini önce kâğıda çiz, ilk sürümü Gemini&#39;ye yazdır.</div>
+    <details><summary>TTS'e gidecek fonetik metin</summary>
+      <div class="cmd">Kâğıda çizdiğin uygulama taslağının fotoğrafını ceminiye yükle, Canvas aracını seç ve kodlamasını iste. cemini çizimi okuyup kodu yazıyor; renkleri ve özellikleri anında değiştirebiliyor.</div><div class="cmd">Proje fikrini önce kâğıda çiz, ilk sürümü ceminiye yazdır.</div></details>
+
+    <div class="label">İddialar ve doğrulama</div>
+    <table>
+      <tr><th>İddia</th><th>Sonuç</th><th>Kanıt / not</th></tr>
+      
+      <tr class="">
+        <td>Uygulama taslağı gibi bir çizimin fotoğrafı Gemini&#39;ye yüklenebiliyor
+          <div><a href="https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/" target="_blank" rel="noopener">https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“Upload a photo of your sketch, like an app mock-up, habit tracker, or game board to Gemini.”</div><div>Birebir destekleniyor. Anlatımdaki &#39;kâğıda çizdiğin&#39; kaynaktaki &#39;Great app ideas often start on paper&#39; ile uyumlu.</div></td>
+      </tr>
+      
+      <tr class="">
+        <td>Canvas aracı seçilip Gemini&#39;den uygulamayı kodlaması istenebiliyor
+          <div><a href="https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/" target="_blank" rel="noopener">https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“Select the Canvas tool and ask Gemini: &#34;Can you code this app?&#34;”</div><div>Birebir destekleniyor.</div></td>
+      </tr>
+      
+      <tr class="">
+        <td>Gemini görseli okuyup kodu yazıyor
+          <div><a href="https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/" target="_blank" rel="noopener">https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“Gemini reads your visual and writes the code.”</div><div>Birebir destekleniyor.</div></td>
+      </tr>
+      
+      <tr class="">
+        <td>Gemini renkleri, yazı tiplerini ve özellikleri gerçek zamanlı değiştirebiliyor
+          <div><a href="https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/" target="_blank" rel="noopener">https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“Gemini can adjust colors, fonts, or features in real time.”</div><div>Destekleniyor. Anlatım yazı tiplerini atlıyor ve &#39;gerçek zamanlı&#39;yı &#39;anında&#39; diye veriyor; anlam aynı.</div></td>
+      </tr>
+      
+      
+      <tr class="">
+        <td>Başlık: Gemini, kâğıttaki çizimi uygulamaya çeviriyor <span class="pill partial">listede yoktu</span></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“Transform a quick drawing into a live app with Gemini.”</div></td>
+      </tr>
+      
+      <tr class="">
+        <td>Köprü: Videodan sonra sıra uygulamada. (yeni olgu yok; 3. segmentin &#39;Kod demişken&#39; köprüsü de 2. segmentteki &#39;kodu yazıyor&#39; ile tutarlı) <span class="pill partial">listede yoktu</span></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“Gemini reads your visual and writes the code.”</div></td>
+      </tr>
+      
+      <tr class="">
+        <td>Öğrenci notu: Proje fikrini önce kâğıda çiz, ilk sürümü Gemini&#39;ye yazdır. <span class="pill partial">listede yoktu</span></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“Great app ideas often start on paper. Turn them into interactive tools with Gemini.”</div></td>
+      </tr>
+      
+    </table>
+
+    
+
+    <div class="label">Görseller</div>
+    <div><span class="visual">HeadlineCard</span><span class="visual">SourceScreenshot: https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/</span></div>
+    <div class="label">Kaynaklar</div>
+    <ul><li><a href="https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/" target="_blank" rel="noopener">https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/</a></li></ul>
+  </section>
+  
+  <section class="card">
+    <h2>Haber 3/4 — GitHub Game Off 2026 başladı</h2>
+    <div class="label">Köprü cümlesi</div><div><i>Kod demişken, bu ay oyun yapsana.</i></div>
+    <div class="label">Anlatım</div>
+    <div>GitHub&#39;ın bir ay süren oyun yarışması Game Off 14. kez başladı. Bu yılın teması SHIFT. Tek başına ya da takımla, istediğin motorla katılabilirsin; son teslim 1 Aralık.</div>
+    <div class="label">Bu senin için ne demek?</div>
+    <div class="take">İlk oyununu yapacaksan tek mekanik ve tek bölümle başla.</div>
+    <details><summary>TTS'e gidecek fonetik metin</summary>
+      <div class="cmd">githabın bir ay süren oyun yarışması Game Off on dört. kez başladı. Bu yılın teması şift. Tek başına ya da takımla, istediğin motorla katılabilirsin; son teslim bir Aralık.</div><div class="cmd">İlk oyununu yapacaksan tek mekanik ve tek bölümle başla.</div></details>
+
+    <div class="label">İddialar ve doğrulama</div>
+    <table>
+      <tr><th>İddia</th><th>Sonuç</th><th>Kanıt / not</th></tr>
+      
+      <tr class="">
+        <td>GitHub&#39;ın bir ay süren oyun yarışması Game Off 14. kez Kasım&#39;da düzenleniyor
+          <div><a href="https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/" target="_blank" rel="noopener">https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“Game Off, GitHub’s annual month-long game jam, returns for its 14th year this November.”</div><div>14. kez, Kasım, bir ay süren eşleşiyor. Anlatımdaki &#39;başladı&#39; kaynakta &#39;returns this November&#39;; makul.</div></td>
+      </tr>
+      
+      <tr class="">
+        <td>Game Off 2026&#39;nın teması SHIFT
+          <div><a href="https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/" target="_blank" rel="noopener">https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“The theme for Game Off 2026 is SHIFT!”</div><div>Birebir destekleniyor.</div></td>
+      </tr>
+      
+      <tr class="">
+        <td>Katılımcılar tek başına ya da takım olarak, istedikleri dil ve oyun motoruyla katılabilir
+          <div><a href="https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/" target="_blank" rel="noopener">https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“Work alone or form a team. Use whichever programming languages, game engines, frameworks, libraries, and tools make sense for your game.”</div><div>Birebir destekleniyor.</div></td>
+      </tr>
+      
+      <tr class="">
+        <td>Oyunların son teslim tarihi 1 Aralık 2026
+          <div><a href="https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/" target="_blank" rel="noopener">https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“You have until December 1, 2026, at 13:37 PST to build and submit a game inspired by SHIFT.”</div><div>Tarih eşleşiyor. Saat (13:37 PST = TSİ 2 Aralık 00:37) anlatımda yok; yanlış değil, eksik.</div></td>
+      </tr>
+      
+      <tr class="">
+        <td>Kaynak, önce tek bir mekanik ve oynanabilir tek bir bölümle başlamayı tavsiye ediyor
+          <div><a href="https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/" target="_blank" rel="noopener">https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“Pro tip: Start with one mechanic and one playable level.”</div><div>Birebir destekleniyor.</div></td>
+      </tr>
+      
+      
+      <tr class="">
+        <td>Öğrenci notu: İlk oyununu yapacaksan tek mekanik ve tek bölümle başla. <span class="pill partial">listede yoktu</span></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“Pro tip: Start with one mechanic and one playable level.”</div></td>
+      </tr>
+      
+    </table>
+
+    
+    <div class="label">Rakam taraması (kaynak metinde birebir geçiyor mu?)</div>
+    <div><span class="pill supported" style="margin-right:4px">1</span><span class="pill supported" style="margin-right:4px">14</span><span class="pill supported" style="margin-right:4px">2026</span></div>
+    
+
+    <div class="label">Görseller</div>
+    <div><span class="visual">HeadlineCard</span><span class="visual">SourceScreenshot: https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/</span></div>
+    <div class="label">Kaynaklar</div>
+    <ul><li><a href="https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/" target="_blank" rel="noopener">https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/</a></li></ul>
+  </section>
+  
+  <section class="card">
+    <h2>Haber 4/4 — TÜBİTAK STAR: Lisans başvuruları açık</h2>
+    <div class="label">Köprü cümlesi</div><div><i>Ve sona sakladığımız burs geldi.</i></div>
+    <div class="label">Anlatım</div>
+    <div>TÜBİTAK&#39;ın STAR programıyla lisans öğrencileri, araştırma projelerinde bursiyer olarak görev alabiliyor. Başvurular 2 Kasım&#39;da başladı ve 16 Kasım saat 17.30&#39;da kapanıyor.</div>
+    <div class="label">Bu senin için ne demek?</div>
+    <div class="take">Projeleri BİDEB sisteminde incele; başvuru TÜBİTAK Yönetim Bilgi Sistemi&#39;nden.</div>
+    <details><summary>TTS'e gidecek fonetik metin</summary>
+      <div class="cmd">tübitakın star programıyla lisans öğrencileri, araştırma projelerinde bursiyer olarak görev alabiliyor. Başvurular iki Kasımda başladı ve on altı Kasım saat on yedi otuzda kapanıyor.</div><div class="cmd">Projeleri bideb sisteminde incele; başvuru tübitak Yönetim Bilgi Sisteminden.</div></details>
+
+    <div class="label">İddialar ve doğrulama</div>
+    <table>
+      <tr><th>İddia</th><th>Sonuç</th><th>Kanıt / not</th></tr>
+      
+      <tr class="">
+        <td>2247-C STAR programıyla lisans öğrencileri araştırma projelerinde bursiyer olarak görev alabiliyor
+          <div><a href="https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi" target="_blank" rel="noopener">https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“bursiyer olarak dâhil olacak lisans öğrencilerinin (STAR Lisans) bilimsel araştırma projelerinde görev almaları”</div><div>Destekleniyor.</div></td>
+      </tr>
+      
+      <tr class="">
+        <td>Başvurular 2 Kasım 2026&#39;da başladı, 16 Kasım 2026 saat 17.30&#39;da (TSİ) kapanıyor
+          <div><a href="https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi" target="_blank" rel="noopener">https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“2 Kasım 2026-16 Kasım 2026 (17.30, TSİ) tarihlerinde başvuru yapabileceklerdir.”</div><div>Tarihler ve saat birebir eşleşiyor.</div></td>
+      </tr>
+      
+      <tr class="">
+        <td>Proje listesine BİDEB Başvuru ve İzleme Sistemi&#39;nden ulaşılıyor, başvurular TÜBİTAK Yönetim Bilgi Sistemi üzerinden alınıyor
+          <div><a href="https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi" target="_blank" rel="noopener">https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“Başvurular, TÜBİTAK Yönetim Bilgi Sistemiüzerinden alınacaktır. Proje listesine BİDEB Başvuru ve İzleme Sistemi üzerinden”</div><div>Her iki kanal da birebir destekleniyor.</div></td>
+      </tr>
+      
+      
+      <tr class="">
+        <td>Teaser: sonuncusu lisans öğrencilerine açık bir burs (vaat 4. segmentte karşılanıyor) <span class="pill partial">listede yoktu</span></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“bursiyer olarak dâhil olacak lisans öğrencilerinin (STAR Lisans)”</div></td>
+      </tr>
+      
+      <tr class="">
+        <td>Öğrenci notu: Projeleri BİDEB sisteminde incele; başvuru TÜBİTAK Yönetim Bilgi Sistemi&#39;nden. <span class="pill partial">listede yoktu</span></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“Başvurular, TÜBİTAK Yönetim Bilgi Sistemiüzerinden alınacaktır. Proje listesine BİDEB Başvuru ve İzleme Sistemi üzerinden”</div></td>
+      </tr>
+      
+    </table>
+
+    
+    <div class="label">Rakam taraması (kaynak metinde birebir geçiyor mu?)</div>
+    <div><span class="pill supported" style="margin-right:4px">2</span><span class="pill supported" style="margin-right:4px">16</span><span class="pill supported" style="margin-right:4px">17.30</span></div>
+    
+
+    <div class="label">Görseller</div>
+    <div><span class="visual">HeadlineCard</span><span class="visual">StatCounter: 16.0 Kasım — son başvuru, saat 17.30</span><span class="visual">SourceScreenshot: https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi</span></div>
+    <div class="label">Kaynaklar</div>
+    <ul><li><a href="https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi" target="_blank" rel="noopener">https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi</a></li></ul>
+  </section>
+  
+
+  <section class="card">
+    <div class="label">Yorum sorusu</div><div class="hook">Sen Game Off&#39;a nasıl bir oyunla katılırdın? Yorumlara yaz.</div>
+    <div class="label">Kapanış</div>
+    <div>Takip et, haftaya yeni gündemle buradayız.</div>
+  </section>
+
+  <section class="card unknown">
+    <h2>Sözlükte olmayan terimler</h2>
+    <div class="muted">Yok.</div>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,1100 @@
+{
+  "week": "2026-W44",
+  "fps": 30,
+  "durationInFrames": 2588,
+  "voice": "audio/voice.wav",
+  "music": "media/bed.mp3",
+  "whoosh": "media/whoosh.mp3",
+  "pop": "media/pop.mp3",
+  "logo": "media/gdg_logo.png",
+  "hook": "Siri AI yıl sonuna kadar Türkçe öğreniyor!",
+  "outroText": "Haftaya görüşmek üzere, takipte kal!",
+  "outroSeconds": 3,
+  "units": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "segment": null,
+      "start": 0.0,
+      "end": 2.72,
+      "words": [
+        {
+          "text": "Siri",
+          "start": 0.0,
+          "end": 0.24
+        },
+        {
+          "text": "AI",
+          "start": 0.24,
+          "end": 0.56
+        },
+        {
+          "text": "yıl",
+          "start": 0.56,
+          "end": 0.88
+        },
+        {
+          "text": "sonuna",
+          "start": 0.88,
+          "end": 1.32
+        },
+        {
+          "text": "kadar",
+          "start": 1.32,
+          "end": 1.5
+        },
+        {
+          "text": "Türkçe",
+          "start": 1.5,
+          "end": 2.08
+        },
+        {
+          "text": "öğreniyor!",
+          "start": 2.08,
+          "end": 2.52
+        }
+      ]
+    },
+    {
+      "id": "s1_narration",
+      "kind": "narration",
+      "segment": 1,
+      "start": 3.17,
+      "end": 15.97,
+      "words": [
+        {
+          "text": "Apple,",
+          "start": 3.204,
+          "end": 3.55
+        },
+        {
+          "text": "yapay",
+          "start": 3.55,
+          "end": 4.15
+        },
+        {
+          "text": "zekâ",
+          "start": 4.15,
+          "end": 4.45
+        },
+        {
+          "text": "destekli",
+          "start": 4.45,
+          "end": 5.09
+        },
+        {
+          "text": "asistanı",
+          "start": 5.09,
+          "end": 5.67
+        },
+        {
+          "text": "Siri",
+          "start": 5.67,
+          "end": 5.85
+        },
+        {
+          "text": "AI'ın",
+          "start": 5.85,
+          "end": 6.43
+        },
+        {
+          "text": "yıl",
+          "start": 6.43,
+          "end": 6.63
+        },
+        {
+          "text": "sonuna",
+          "start": 6.63,
+          "end": 7.03
+        },
+        {
+          "text": "kadar",
+          "start": 7.03,
+          "end": 7.27
+        },
+        {
+          "text": "Türkçe",
+          "start": 7.27,
+          "end": 7.81
+        },
+        {
+          "text": "desteği",
+          "start": 7.81,
+          "end": 8.23
+        },
+        {
+          "text": "kazanacağını",
+          "start": 8.23,
+          "end": 8.91
+        },
+        {
+          "text": "açıkladı.",
+          "start": 8.91,
+          "end": 9.35
+        },
+        {
+          "text": "Asistan",
+          "start": 9.51,
+          "end": 10.29
+        },
+        {
+          "text": "eylülde",
+          "start": 10.29,
+          "end": 10.77
+        },
+        {
+          "text": "beta",
+          "start": 10.77,
+          "end": 10.95
+        },
+        {
+          "text": "olarak",
+          "start": 10.95,
+          "end": 11.29
+        },
+        {
+          "text": "yalnızca",
+          "start": 11.29,
+          "end": 12.01
+        },
+        {
+          "text": "İngilizceyle",
+          "start": 12.01,
+          "end": 12.59
+        },
+        {
+          "text": "başlamıştı.",
+          "start": 12.59,
+          "end": 13.29
+        },
+        {
+          "text": "Kesin",
+          "start": 13.37,
+          "end": 14.03
+        },
+        {
+          "text": "tarih",
+          "start": 14.03,
+          "end": 14.43
+        },
+        {
+          "text": "ise",
+          "start": 14.43,
+          "end": 14.57
+        },
+        {
+          "text": "henüz",
+          "start": 14.57,
+          "end": 15.03
+        },
+        {
+          "text": "paylaşılmadı.",
+          "start": 15.03,
+          "end": 15.67
+        }
+      ]
+    },
+    {
+      "id": "s1_take",
+      "kind": "take",
+      "segment": 1,
+      "start": 16.42,
+      "end": 21.22,
+      "words": [
+        {
+          "text": "Uygulama",
+          "start": 16.442,
+          "end": 16.76
+        },
+        {
+          "text": "geliştiriyorsan,",
+          "start": 16.76,
+          "end": 17.62
+        },
+        {
+          "text": "Türkçe",
+          "start": 17.62,
+          "end": 18.16
+        },
+        {
+          "text": "sesli",
+          "start": 18.16,
+          "end": 18.54
+        },
+        {
+          "text": "asistan",
+          "start": 18.54,
+          "end": 18.98
+        },
+        {
+          "text": "senaryolarını",
+          "start": 18.98,
+          "end": 19.7
+        },
+        {
+          "text": "şimdiden",
+          "start": 19.7,
+          "end": 20.14
+        },
+        {
+          "text": "planlamaya",
+          "start": 20.14,
+          "end": 20.7
+        },
+        {
+          "text": "başla.",
+          "start": 20.7,
+          "end": 21.06
+        }
+      ]
+    },
+    {
+      "id": "s2_narration",
+      "kind": "narration",
+      "segment": 2,
+      "start": 21.67,
+      "end": 36.07,
+      "words": [
+        {
+          "text": "Cloudflare,",
+          "start": 21.691,
+          "end": 22.482
+        },
+        {
+          "text": "php2shell",
+          "start": 22.482,
+          "end": 23.43
+        },
+        {
+          "text": "açıklarına",
+          "start": 23.43,
+          "end": 24.05
+        },
+        {
+          "text": "karşı",
+          "start": 24.05,
+          "end": 24.43
+        },
+        {
+          "text": "WAF",
+          "start": 24.43,
+          "end": 24.77
+        },
+        {
+          "text": "korumasını",
+          "start": 24.77,
+          "end": 25.31
+        },
+        {
+          "text": "sınamak",
+          "start": 25.31,
+          "end": 25.77
+        },
+        {
+          "text": "için",
+          "start": 25.77,
+          "end": 25.97
+        },
+        {
+          "text": "bir",
+          "start": 25.97,
+          "end": 26.15
+        },
+        {
+          "text": "Capture the Flag",
+          "start": 26.15,
+          "end": 26.93
+        },
+        {
+          "text": "yarışması",
+          "start": 26.93,
+          "end": 27.45
+        },
+        {
+          "text": "başlattı.",
+          "start": 27.45,
+          "end": 28.21
+        },
+        {
+          "text": "Amaç,",
+          "start": 28.33,
+          "end": 29.13
+        },
+        {
+          "text": "korumayı",
+          "start": 29.15,
+          "end": 29.57
+        },
+        {
+          "text": "aşıp",
+          "start": 29.57,
+          "end": 29.89
+        },
+        {
+          "text": "sunucudaki",
+          "start": 29.89,
+          "end": 30.39
+        },
+        {
+          "text": "flag",
+          "start": 30.39,
+          "end": 30.63
+        },
+        {
+          "text": "dosyasını",
+          "start": 30.63,
+          "end": 31.23
+        },
+        {
+          "text": "ele",
+          "start": 31.23,
+          "end": 31.43
+        },
+        {
+          "text": "geçirmek.",
+          "start": 31.43,
+          "end": 32.03
+        },
+        {
+          "text": "Yarışma,",
+          "start": 32.11,
+          "end": 32.91
+        },
+        {
+          "text": "HackerOne",
+          "start": 32.91,
+          "end": 33.55
+        },
+        {
+          "text": "üzerindeki",
+          "start": 33.55,
+          "end": 34.11
+        },
+        {
+          "text": "Bug Bounty",
+          "start": 34.11,
+          "end": 34.65
+        },
+        {
+          "text": "programıyla",
+          "start": 34.65,
+          "end": 35.23
+        },
+        {
+          "text": "yürütülüyor.",
+          "start": 35.23,
+          "end": 35.83
+        }
+      ]
+    },
+    {
+      "id": "s2_take",
+      "kind": "take",
+      "segment": 2,
+      "start": 36.52,
+      "end": 41.8,
+      "words": [
+        {
+          "text": "Güvenliğe",
+          "start": 36.52,
+          "end": 36.98
+        },
+        {
+          "text": "ilgin",
+          "start": 36.98,
+          "end": 37.32
+        },
+        {
+          "text": "varsa",
+          "start": 37.32,
+          "end": 37.58
+        },
+        {
+          "text": "HackerOne",
+          "start": 37.58,
+          "end": 38.46
+        },
+        {
+          "text": "hesabı",
+          "start": 38.46,
+          "end": 39.02
+        },
+        {
+          "text": "aç,",
+          "start": 39.02,
+          "end": 39.22
+        },
+        {
+          "text": "kuralları",
+          "start": 39.36,
+          "end": 39.9
+        },
+        {
+          "text": "oku",
+          "start": 39.9,
+          "end": 40.34
+        },
+        {
+          "text": "ve",
+          "start": 40.34,
+          "end": 40.46
+        },
+        {
+          "text": "süre",
+          "start": 40.46,
+          "end": 40.78
+        },
+        {
+          "text": "dolmadan",
+          "start": 40.78,
+          "end": 41.22
+        },
+        {
+          "text": "dene.",
+          "start": 41.22,
+          "end": 41.58
+        }
+      ]
+    },
+    {
+      "id": "s3_narration",
+      "kind": "narration",
+      "segment": 3,
+      "start": 42.25,
+      "end": 56.17,
+      "words": [
+        {
+          "text": "Yeni",
+          "start": 42.265,
+          "end": 42.53
+        },
+        {
+          "text": "Android",
+          "start": 42.53,
+          "end": 42.75
+        },
+        {
+          "text": "sürümünü",
+          "start": 42.75,
+          "end": 43.37
+        },
+        {
+          "text": "hedefleyen",
+          "start": 43.37,
+          "end": 44.03
+        },
+        {
+          "text": "uygulamalar,",
+          "start": 44.03,
+          "end": 44.75
+        },
+        {
+          "text": "WRITE_CONTACTS",
+          "start": 44.75,
+          "end": 45.57
+        },
+        {
+          "text": "izniyle",
+          "start": 45.57,
+          "end": 46.25
+        },
+        {
+          "text": "rehbere",
+          "start": 46.25,
+          "end": 46.65
+        },
+        {
+          "text": "doğrudan",
+          "start": 46.65,
+          "end": 47.19
+        },
+        {
+          "text": "yazamayacak.",
+          "start": 47.19,
+          "end": 47.75
+        },
+        {
+          "text": "Bunun",
+          "start": 47.91,
+          "end": 48.39
+        },
+        {
+          "text": "yerine",
+          "start": 48.39,
+          "end": 48.83
+        },
+        {
+          "text": "izin",
+          "start": 48.83,
+          "end": 49.17
+        },
+        {
+          "text": "gerektirmeyen",
+          "start": 49.17,
+          "end": 49.81
+        },
+        {
+          "text": "standart",
+          "start": 49.81,
+          "end": 50.37
+        },
+        {
+          "text": "rehber",
+          "start": 50.37,
+          "end": 50.79
+        },
+        {
+          "text": "intent'leri",
+          "start": 50.79,
+          "end": 51.29
+        },
+        {
+          "text": "kullanılacak.",
+          "start": 51.29,
+          "end": 51.93
+        },
+        {
+          "text": "Geniş",
+          "start": 52.13,
+          "end": 52.71
+        },
+        {
+          "text": "erişim",
+          "start": 52.71,
+          "end": 53.07
+        },
+        {
+          "text": "gereken",
+          "start": 53.07,
+          "end": 53.37
+        },
+        {
+          "text": "uygulamalar",
+          "start": 53.37,
+          "end": 53.93
+        },
+        {
+          "text": "için",
+          "start": 53.93,
+          "end": 54.17
+        },
+        {
+          "text": "MANAGE_CONTACTS",
+          "start": 54.17,
+          "end": 55.05
+        },
+        {
+          "text": "izni",
+          "start": 55.05,
+          "end": 55.57
+        },
+        {
+          "text": "geliyor.",
+          "start": 55.57,
+          "end": 55.75
+        }
+      ]
+    },
+    {
+      "id": "s3_take",
+      "kind": "take",
+      "segment": 3,
+      "start": 56.62,
+      "end": 61.74,
+      "words": [
+        {
+          "text": "Android",
+          "start": 56.648,
+          "end": 56.86
+        },
+        {
+          "text": "uygulaman",
+          "start": 56.86,
+          "end": 57.44
+        },
+        {
+          "text": "rehbere",
+          "start": 57.44,
+          "end": 57.92
+        },
+        {
+          "text": "yazıyorsa,",
+          "start": 57.92,
+          "end": 58.4
+        },
+        {
+          "text": "kodunu",
+          "start": 58.54,
+          "end": 59.18
+        },
+        {
+          "text": "ACTION_INSERT",
+          "start": 59.18,
+          "end": 59.972
+        },
+        {
+          "text": "intent'ine",
+          "start": 59.972,
+          "end": 60.62
+        },
+        {
+          "text": "taşımaya",
+          "start": 60.62,
+          "end": 61.08
+        },
+        {
+          "text": "başla.",
+          "start": 61.08,
+          "end": 61.44
+        }
+      ]
+    },
+    {
+      "id": "s4_narration",
+      "kind": "narration",
+      "segment": 4,
+      "start": 62.19,
+      "end": 76.27,
+      "words": [
+        {
+          "text": "Anthropic,",
+          "start": 62.216,
+          "end": 62.71
+        },
+        {
+          "text": "yapay",
+          "start": 62.71,
+          "end": 63.31
+        },
+        {
+          "text": "zekâ",
+          "start": 63.31,
+          "end": 63.63
+        },
+        {
+          "text": "ajanlarına",
+          "start": 63.63,
+          "end": 64.17
+        },
+        {
+          "text": "yetenek",
+          "start": 64.17,
+          "end": 64.59
+        },
+        {
+          "text": "kazandıran",
+          "start": 64.59,
+          "end": 65.13
+        },
+        {
+          "text": "açık",
+          "start": 65.13,
+          "end": 65.37
+        },
+        {
+          "text": "standart",
+          "start": 65.37,
+          "end": 65.99
+        },
+        {
+          "text": "Agent Skills'i,",
+          "start": 65.99,
+          "end": 66.564
+        },
+        {
+          "text": "Linux Foundation",
+          "start": 66.564,
+          "end": 67.33
+        },
+        {
+          "text": "bünyesindeki",
+          "start": 67.33,
+          "end": 68.39
+        },
+        {
+          "text": "Agentic AI Foundation'a",
+          "start": 68.39,
+          "end": 69.97
+        },
+        {
+          "text": "bağışladı.",
+          "start": 69.97,
+          "end": 70.37
+        },
+        {
+          "text": "Standardı",
+          "start": 70.37,
+          "end": 71.234
+        },
+        {
+          "text": "ChatGPT,",
+          "start": 71.234,
+          "end": 72.194
+        },
+        {
+          "text": "Cursor",
+          "start": 72.194,
+          "end": 72.77
+        },
+        {
+          "text": "ve",
+          "start": 72.77,
+          "end": 73.07
+        },
+        {
+          "text": "GitHub",
+          "start": 73.07,
+          "end": 73.404
+        },
+        {
+          "text": "Copilot",
+          "start": 73.404,
+          "end": 73.85
+        },
+        {
+          "text": "dahil",
+          "start": 73.85,
+          "end": 74.29
+        },
+        {
+          "text": "70'ten",
+          "start": 74.29,
+          "end": 74.81
+        },
+        {
+          "text": "fazla",
+          "start": 74.81,
+          "end": 74.99
+        },
+        {
+          "text": "platform",
+          "start": 74.99,
+          "end": 75.41
+        },
+        {
+          "text": "kullanıyor.",
+          "start": 75.41,
+          "end": 75.99
+        }
+      ]
+    },
+    {
+      "id": "s4_take",
+      "kind": "take",
+      "segment": 4,
+      "start": 76.72,
+      "end": 82.8,
+      "words": [
+        {
+          "text": "Bir",
+          "start": 76.72,
+          "end": 76.916
+        },
+        {
+          "text": "SKILL.md",
+          "start": 76.916,
+          "end": 77.44
+        },
+        {
+          "text": "dosyasıyla",
+          "start": 77.44,
+          "end": 78.1
+        },
+        {
+          "text": "kendi",
+          "start": 78.1,
+          "end": 78.4
+        },
+        {
+          "text": "ajan",
+          "start": 78.4,
+          "end": 78.82
+        },
+        {
+          "text": "yeteneğini",
+          "start": 78.82,
+          "end": 79.3
+        },
+        {
+          "text": "yaz,",
+          "start": 79.3,
+          "end": 79.6
+        },
+        {
+          "text": "spesifikasyon",
+          "start": 79.6,
+          "end": 80.789
+        },
+        {
+          "text": "agentskills.io'da.",
+          "start": 80.789,
+          "end": 82.8
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "kind": "outro",
+      "segment": null,
+      "start": 83.25,
+      "end": 85.17,
+      "words": [
+        {
+          "text": "Haftaya",
+          "start": 83.297,
+          "end": 83.55
+        },
+        {
+          "text": "görüşmek",
+          "start": 83.55,
+          "end": 83.97
+        },
+        {
+          "text": "üzere,",
+          "start": 83.97,
+          "end": 84.27
+        },
+        {
+          "text": "takipte",
+          "start": 84.27,
+          "end": 84.73
+        },
+        {
+          "text": "kal!",
+          "start": 84.73,
+          "end": 84.93
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "index": 1,
+      "headline": "Siri AI'a Türkçe geliyor",
+      "studentTake": "Uygulama geliştiriyorsan, Türkçe sesli asistan senaryolarını şimdiden planlamaya başla.",
+      "sourceLabel": "Kaynak: webrazzi.com",
+      "visuals": [
+        {
+          "component": "HeadlineCard",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": null
+        },
+        {
+          "component": "SourceScreenshot",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": "https://webrazzi.com/2026/10/27/siri-ai-yil-sonuna-kadar-turkce-dil-destegi-kazanacak/",
+          "screenshot": "screenshots/15e1e4352c52.png",
+          "title_box": {
+            "y": 140,
+            "h": 95,
+            "x": 235,
+            "w": 609.984375
+          },
+          "domain": "webrazzi.com"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "headline": "Cloudflare'dan PHP CTF yarışması",
+      "studentTake": "Güvenliğe ilgin varsa HackerOne hesabı aç, kuralları oku ve süre dolmadan dene.",
+      "sourceLabel": "Kaynak: blog.cloudflare.com",
+      "visuals": [
+        {
+          "component": "HeadlineCard",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": null
+        },
+        {
+          "component": "Terminal",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": "bash",
+          "code_lines": [
+            "# Hedef: PHP 8.5.11 + Apache 2",
+            "# Kapsam: yalnızca POST /php/*",
+            "# Bayrak: /flag"
+          ],
+          "screenshot_url": null
+        },
+        {
+          "component": "SourceScreenshot",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": "https://blog.cloudflare.com/php-ctf/",
+          "screenshot": "screenshots/54be98d07f34.png",
+          "title_box": {
+            "y": 221.5,
+            "h": 84,
+            "x": 48,
+            "w": 654
+          },
+          "domain": "blog.cloudflare.com"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "headline": "Android'de rehber izni değişiyor",
+      "studentTake": "Android uygulaman rehbere yazıyorsa, kodunu ACTION_INSERT intent'ine taşımaya başla.",
+      "sourceLabel": "Kaynak: developer.android.com",
+      "visuals": [
+        {
+          "component": "HeadlineCard",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": null
+        },
+        {
+          "component": "CodeBlock",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": "kotlin",
+          "code_lines": [
+            "val intent = Intent(Intent.ACTION_INSERT,",
+            "    ContactsContract.Contacts.CONTENT_URI)",
+            "context.startActivity(intent)"
+          ],
+          "screenshot_url": null
+        },
+        {
+          "component": "SourceScreenshot",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": "https://developer.android.com/blog/posts/reliable-way-to-add-and-edit-contacts-android",
+          "screenshot": "screenshots/e3e7e625ac59.png",
+          "title_box": {
+            "y": 140,
+            "h": 108,
+            "x": 32,
+            "w": 1015.984375
+          },
+          "domain": "developer.android.com"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "headline": "Agent Skills artık bir vakfın",
+      "studentTake": "Bir SKILL.md dosyasıyla kendi ajan yeteneğini yaz, spesifikasyon agentskills.io'da.",
+      "sourceLabel": "Kaynak: anthropic.com",
+      "visuals": [
+        {
+          "component": "HeadlineCard",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": null
+        },
+        {
+          "component": "StatCounter",
+          "stat_value": 70.0,
+          "stat_prefix": "",
+          "stat_suffix": "+",
+          "stat_label": "platform Agent Skills kullanıyor",
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": null
+        },
+        {
+          "component": "SourceScreenshot",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "screenshot": "screenshots/86405d6d1e9f.png",
+          "title_box": {
+            "y": 140,
+            "h": 35.953125,
+            "x": 163.625,
+            "w": 737.734375
+          },
+          "domain": "anthropic.com"
+        }
+      ]
+    }
+  ],
+  "musicVolume": 0.18,
+  "duckVolume": 0.06
+}

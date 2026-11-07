@@ -1,0 +1,177 @@
+{
+  "hook": "Google hesabınla ayda üç yapay zeka videosu ücretsiz!",
+  "teaser": "Dört haber var; sonuncusu lisans öğrencilerine açık bir burs.",
+  "segments": [
+    {
+      "bridge": "",
+      "headline": "Google Vids'te ücretsiz yapay zeka videosu",
+      "narration": "Google, yeni video modeli Omni 1.2 Flash'ı Google Vids'e getirdi. Google hesabı olan herkes ayda en fazla 3 adet 15 saniyelik videoyu ücretsiz üretebiliyor. Konuşmalar da artık daha doğal.",
+      "student_take": "Proje tanıtım videon için Google Vids'te hemen deneyebilirsin.",
+      "visuals": [
+        {
+          "component": "HeadlineCard"
+        },
+        {
+          "component": "StatCounter",
+          "stat_value": 3,
+          "stat_prefix": "",
+          "stat_suffix": " video",
+          "stat_label": "her ay ücretsiz, 15 saniyelik"
+        },
+        {
+          "component": "SourceScreenshot",
+          "screenshot_url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/"
+        }
+      ],
+      "sources": [
+        "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/"
+      ],
+      "claims": [
+        {
+          "text": "Google Vids artık Google'ın en yeni video modeli Omni 1.2 Flash ile çalışıyor",
+          "source_url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/",
+          "uncertain": false
+        },
+        {
+          "text": "Google hesabı olan herkes Vids'te ayda en fazla 3 adet 15 saniyelik videoyu ücretsiz üretebiliyor",
+          "source_url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/",
+          "uncertain": false
+        },
+        {
+          "text": "Gelişmiş konuşma seslendirmesiyle klipler daha doğal duyuluyor",
+          "source_url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "bridge": "Videodan sonra sıra uygulamada.",
+      "headline": "Gemini, kâğıttaki çizimi uygulamaya çeviriyor",
+      "narration": "Kâğıda çizdiğin uygulama taslağının fotoğrafını Gemini'ye yükle, Canvas aracını seç ve kodlamasını iste. Gemini çizimi okuyup kodu yazıyor; renkleri ve özellikleri anında değiştirebiliyor.",
+      "student_take": "Proje fikrini önce kâğıda çiz, ilk sürümü Gemini'ye yazdır.",
+      "visuals": [
+        {
+          "component": "HeadlineCard"
+        },
+        {
+          "component": "SourceScreenshot",
+          "screenshot_url": "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/"
+        }
+      ],
+      "sources": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/"
+      ],
+      "claims": [
+        {
+          "text": "Uygulama taslağı gibi bir çizimin fotoğrafı Gemini'ye yüklenebiliyor",
+          "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/",
+          "uncertain": false
+        },
+        {
+          "text": "Canvas aracı seçilip Gemini'den uygulamayı kodlaması istenebiliyor",
+          "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/",
+          "uncertain": false
+        },
+        {
+          "text": "Gemini görseli okuyup kodu yazıyor",
+          "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/",
+          "uncertain": false
+        },
+        {
+          "text": "Gemini renkleri, yazı tiplerini ve özellikleri gerçek zamanlı değiştirebiliyor",
+          "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "bridge": "Kod demişken, bu ay oyun yapsana.",
+      "headline": "GitHub Game Off 2026 başladı",
+      "narration": "GitHub'ın bir ay süren oyun yarışması Game Off 14. kez başladı. Bu yılın teması SHIFT. Tek başına ya da takımla, istediğin motorla katılabilirsin; son teslim 1 Aralık.",
+      "student_take": "İlk oyununu yapacaksan tek mekanik ve tek bölümle başla.",
+      "visuals": [
+        {
+          "component": "HeadlineCard"
+        },
+        {
+          "component": "SourceScreenshot",
+          "screenshot_url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/"
+        }
+      ],
+      "sources": [
+        "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/"
+      ],
+      "claims": [
+        {
+          "text": "GitHub'ın bir ay süren oyun yarışması Game Off 14. kez Kasım'da düzenleniyor",
+          "source_url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+          "uncertain": false
+        },
+        {
+          "text": "Game Off 2026'nın teması SHIFT",
+          "source_url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+          "uncertain": false
+        },
+        {
+          "text": "Katılımcılar tek başına ya da takım olarak, istedikleri dil ve oyun motoruyla katılabilir",
+          "source_url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+          "uncertain": false
+        },
+        {
+          "text": "Oyunların son teslim tarihi 1 Aralık 2026",
+          "source_url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+          "uncertain": false
+        },
+        {
+          "text": "Kaynak, önce tek bir mekanik ve oynanabilir tek bir bölümle başlamayı tavsiye ediyor",
+          "source_url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "bridge": "Ve sona sakladığımız burs geldi.",
+      "headline": "TÜBİTAK STAR: Lisans başvuruları açık",
+      "narration": "TÜBİTAK'ın STAR programıyla lisans öğrencileri, araştırma projelerinde bursiyer olarak görev alabiliyor. Başvurular 2 Kasım'da başladı ve 16 Kasım saat 17.30'da kapanıyor.",
+      "student_take": "Projeleri BİDEB sisteminde incele; başvuru TÜBİTAK Yönetim Bilgi Sistemi'nden.",
+      "visuals": [
+        {
+          "component": "HeadlineCard"
+        },
+        {
+          "component": "StatCounter",
+          "stat_value": 16,
+          "stat_prefix": "",
+          "stat_suffix": " Kasım",
+          "stat_label": "son başvuru, saat 17.30"
+        },
+        {
+          "component": "SourceScreenshot",
+          "screenshot_url": "https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi"
+        }
+      ],
+      "sources": [
+        "https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi"
+      ],
+      "claims": [
+        {
+          "text": "2247-C STAR programıyla lisans öğrencileri araştırma projelerinde bursiyer olarak görev alabiliyor",
+          "source_url": "https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi",
+          "uncertain": false
+        },
+        {
+          "text": "Başvurular 2 Kasım 2026'da başladı, 16 Kasım 2026 saat 17.30'da (TSİ) kapanıyor",
+          "source_url": "https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi",
+          "uncertain": false
+        },
+        {
+          "text": "Proje listesine BİDEB Başvuru ve İzleme Sistemi'nden ulaşılıyor, başvurular TÜBİTAK Yönetim Bilgi Sistemi üzerinden alınıyor",
+          "source_url": "https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi",
+          "uncertain": false
+        }
+      ]
+    }
+  ],
+  "question": "Sen Game Off'a nasıl bir oyunla katılırdın? Yorumlara yaz.",
+  "outro": "Takip et, haftaya yeni gündemle buradayız."
+}

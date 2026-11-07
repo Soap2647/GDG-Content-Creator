@@ -1,0 +1,233 @@
+{
+  "model": "chatterbox_v3",
+  "reference": "research/reference/pocket_female_1.wav",
+  "load_s": 223.5,
+  "peak_vram_mb": 3386.92822265625,
+  "mean_rtf": 1.1544,
+  "items": [
+    {
+      "id": "s01",
+      "variant": "raw",
+      "gen_s": 5.302,
+      "audio_s": 5.04,
+      "rtf": 1.052
+    },
+    {
+      "id": "s01",
+      "variant": "phonetic",
+      "gen_s": 5.127,
+      "audio_s": 4.92,
+      "rtf": 1.0421
+    },
+    {
+      "id": "s02",
+      "variant": "raw",
+      "gen_s": 5.205,
+      "audio_s": 4.88,
+      "rtf": 1.0666
+    },
+    {
+      "id": "s02",
+      "variant": "phonetic",
+      "gen_s": 5.66,
+      "audio_s": 5.36,
+      "rtf": 1.0559
+    },
+    {
+      "id": "s03",
+      "variant": "raw",
+      "gen_s": 4.629,
+      "audio_s": 4.12,
+      "rtf": 1.1234
+    },
+    {
+      "id": "s03",
+      "variant": "phonetic",
+      "gen_s": 4.719,
+      "audio_s": 4.2,
+      "rtf": 1.1237
+    },
+    {
+      "id": "s04",
+      "variant": "raw",
+      "gen_s": 5.469,
+      "audio_s": 5.0,
+      "rtf": 1.0938
+    },
+    {
+      "id": "s04",
+      "variant": "phonetic",
+      "gen_s": 5.506,
+      "audio_s": 5.24,
+      "rtf": 1.0508
+    },
+    {
+      "id": "s05",
+      "variant": "raw",
+      "gen_s": 5.191,
+      "audio_s": 4.64,
+      "rtf": 1.1186
+    },
+    {
+      "id": "s05",
+      "variant": "phonetic",
+      "gen_s": 5.543,
+      "audio_s": 4.8,
+      "rtf": 1.1548
+    },
+    {
+      "id": "s06",
+      "variant": "raw",
+      "gen_s": 6.197,
+      "audio_s": 5.44,
+      "rtf": 1.1392
+    },
+    {
+      "id": "s06",
+      "variant": "phonetic",
+      "gen_s": 6.71,
+      "audio_s": 5.2,
+      "rtf": 1.2903
+    },
+    {
+      "id": "s07",
+      "variant": "raw",
+      "gen_s": 5.682,
+      "audio_s": 4.88,
+      "rtf": 1.1644
+    },
+    {
+      "id": "s07",
+      "variant": "phonetic",
+      "gen_s": 5.92,
+      "audio_s": 5.52,
+      "rtf": 1.0724
+    },
+    {
+      "id": "s08",
+      "variant": "raw",
+      "gen_s": 5.12,
+      "audio_s": 4.6,
+      "rtf": 1.1131
+    },
+    {
+      "id": "s08",
+      "variant": "phonetic",
+      "gen_s": 6.209,
+      "audio_s": 5.84,
+      "rtf": 1.0632
+    },
+    {
+      "id": "s09",
+      "variant": "raw",
+      "gen_s": 6.318,
+      "audio_s": 5.8,
+      "rtf": 1.0894
+    },
+    {
+      "id": "s09",
+      "variant": "phonetic",
+      "gen_s": 6.79,
+      "audio_s": 6.32,
+      "rtf": 1.0744
+    },
+    {
+      "id": "s10",
+      "variant": "raw",
+      "gen_s": 8.983,
+      "audio_s": 7.84,
+      "rtf": 1.1458
+    },
+    {
+      "id": "s10",
+      "variant": "phonetic",
+      "gen_s": 10.407,
+      "audio_s": 7.72,
+      "rtf": 1.3481
+    },
+    {
+      "id": "s11",
+      "variant": "raw",
+      "gen_s": 8.662,
+      "audio_s": 7.6,
+      "rtf": 1.1397
+    },
+    {
+      "id": "s11",
+      "variant": "phonetic",
+      "gen_s": 8.744,
+      "audio_s": 7.32,
+      "rtf": 1.1946
+    },
+    {
+      "id": "s12",
+      "variant": "raw",
+      "gen_s": 8.167,
+      "audio_s": 5.96,
+      "rtf": 1.3702
+    },
+    {
+      "id": "s12",
+      "variant": "phonetic",
+      "gen_s": 6.617,
+      "audio_s": 5.76,
+      "rtf": 1.1487
+    },
+    {
+      "id": "s13",
+      "variant": "raw",
+      "gen_s": 7.612,
+      "audio_s": 6.32,
+      "rtf": 1.2044
+    },
+    {
+      "id": "s13",
+      "variant": "phonetic",
+      "gen_s": 7.284,
+      "audio_s": 6.52,
+      "rtf": 1.1171
+    },
+    {
+      "id": "s14",
+      "variant": "raw",
+      "gen_s": 8.691,
+      "audio_s": 7.16,
+      "rtf": 1.2138
+    },
+    {
+      "id": "s14",
+      "variant": "phonetic",
+      "gen_s": 7.852,
+      "audio_s": 7.08,
+      "rtf": 1.109
+    },
+    {
+      "id": "s15",
+      "variant": "raw",
+      "gen_s": 6.275,
+      "audio_s": 4.76,
+      "rtf": 1.3184
+    },
+    {
+      "id": "s15",
+      "variant": "phonetic",
+      "gen_s": 6.764,
+      "audio_s": 4.68,
+      "rtf": 1.4454
+    },
+    {
+      "id": "s16",
+      "variant": "raw",
+      "gen_s": 9.601,
+      "audio_s": 7.8,
+      "rtf": 1.2309
+    },
+    {
+      "id": "s16",
+      "variant": "phonetic",
+      "gen_s": 8.099,
+      "audio_s": 7.6,
+      "rtf": 1.0657
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "week": "2026-W45",
+  "sources": [
+    {
+      "segment": 1,
+      "headline": "Google Vids'te ücretsiz yapay zeka videosu",
+      "url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/",
+      "domain": "blog.google",
+      "claims": [
+        {
+          "text": "Google Vids artık Google'ın en yeni video modeli Omni 1.2 Flash ile çalışıyor",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Google hesabı olan herkes Vids'te ayda en fazla 3 adet 15 saniyelik videoyu ücretsiz üretebiliyor",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Gelişmiş konuşma seslendirmesiyle klipler daha doğal duyuluyor",
+          "uncertain": false,
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "segment": 2,
+      "headline": "Gemini, kâğıttaki çizimi uygulamaya çeviriyor",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/",
+      "domain": "blog.google",
+      "claims": [
+        {
+          "text": "Uygulama taslağı gibi bir çizimin fotoğrafı Gemini'ye yüklenebiliyor",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Canvas aracı seçilip Gemini'den uygulamayı kodlaması istenebiliyor",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Gemini görseli okuyup kodu yazıyor",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Gemini renkleri, yazı tiplerini ve özellikleri gerçek zamanlı değiştirebiliyor",
+          "uncertain": false,
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "segment": 3,
+      "headline": "GitHub Game Off 2026 başladı",
+      "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+      "domain": "github.blog",
+      "claims": [
+        {
+          "text": "GitHub'ın bir ay süren oyun yarışması Game Off 14. kez Kasım'da düzenleniyor",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Game Off 2026'nın teması SHIFT",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Katılımcılar tek başına ya da takım olarak, istedikleri dil ve oyun motoruyla katılabilir",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Oyunların son teslim tarihi 1 Aralık 2026",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Kaynak, önce tek bir mekanik ve oynanabilir tek bir bölümle başlamayı tavsiye ediyor",
+          "uncertain": false,
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "segment": 4,
+      "headline": "TÜBİTAK STAR: Lisans başvuruları açık",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi",
+      "domain": "tubitak.gov.tr",
+      "claims": [
+        {
+          "text": "2247-C STAR programıyla lisans öğrencileri araştırma projelerinde bursiyer olarak görev alabiliyor",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Başvurular 2 Kasım 2026'da başladı, 16 Kasım 2026 saat 17.30'da (TSİ) kapanıyor",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Proje listesine BİDEB Başvuru ve İzleme Sistemi'nden ulaşılıyor, başvurular TÜBİTAK Yönetim Bilgi Sistemi üzerinden alınıyor",
+          "uncertain": false,
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

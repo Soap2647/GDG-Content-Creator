@@ -1,0 +1,1279 @@
+{
+  "week": "2026-W45",
+  "fps": 30,
+  "durationInFrames": 2805,
+  "voice": "audio/voice.wav",
+  "music": "media/bed.mp3",
+  "whoosh": "media/whoosh.mp3",
+  "pop": "media/pop.mp3",
+  "logo": "media/gdg_logo_light.png",
+  "hook": "Google hesabınla ayda üç yapay zeka videosu ücretsiz!",
+  "outroText": "Takip et, haftaya yeni gündemle buradayız.",
+  "outroSeconds": 3.5,
+  "teaser": "Dört haber var; sonuncusu lisans öğrencilerine açık bir burs.",
+  "question": "Sen Game Off'a nasıl bir oyunla katılırdın? Yorumlara yaz.",
+  "handle": "",
+  "units": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "segment": null,
+      "start": 0.283,
+      "end": 4.26,
+      "words": [
+        {
+          "text": "Google",
+          "start": 0.283,
+          "end": 0.52
+        },
+        {
+          "text": "hesabınla",
+          "start": 0.52,
+          "end": 1.16
+        },
+        {
+          "text": "ayda",
+          "start": 1.16,
+          "end": 1.72
+        },
+        {
+          "text": "üç",
+          "start": 1.72,
+          "end": 1.96
+        },
+        {
+          "text": "yapay",
+          "start": 1.96,
+          "end": 2.6
+        },
+        {
+          "text": "zeka",
+          "start": 2.6,
+          "end": 2.92
+        },
+        {
+          "text": "videosu",
+          "start": 2.92,
+          "end": 3.44
+        },
+        {
+          "text": "ücretsiz!",
+          "start": 3.44,
+          "end": 4.26
+        }
+      ]
+    },
+    {
+      "id": "teaser",
+      "kind": "teaser",
+      "segment": null,
+      "start": 4.26,
+      "end": 8.32,
+      "words": [
+        {
+          "text": "Dört",
+          "start": 4.26,
+          "end": 4.98
+        },
+        {
+          "text": "haber",
+          "start": 4.98,
+          "end": 5.24
+        },
+        {
+          "text": "var;",
+          "start": 5.24,
+          "end": 5.48
+        },
+        {
+          "text": "sonuncusu",
+          "start": 5.58,
+          "end": 6.36
+        },
+        {
+          "text": "lisans",
+          "start": 6.36,
+          "end": 6.8
+        },
+        {
+          "text": "öğrencilerine",
+          "start": 6.8,
+          "end": 7.52
+        },
+        {
+          "text": "açık",
+          "start": 7.52,
+          "end": 7.86
+        },
+        {
+          "text": "bir",
+          "start": 7.86,
+          "end": 8.06
+        },
+        {
+          "text": "burs.",
+          "start": 8.06,
+          "end": 8.32
+        }
+      ]
+    },
+    {
+      "id": "s1_narration",
+      "kind": "narration",
+      "segment": 1,
+      "start": 9.261,
+      "end": 21.64,
+      "words": [
+        {
+          "text": "Google,",
+          "start": 9.261,
+          "end": 9.58
+        },
+        {
+          "text": "yeni",
+          "start": 9.7,
+          "end": 10.0
+        },
+        {
+          "text": "video",
+          "start": 10.0,
+          "end": 10.38
+        },
+        {
+          "text": "modeli",
+          "start": 10.38,
+          "end": 10.84
+        },
+        {
+          "text": "Omni",
+          "start": 10.84,
+          "end": 11.2
+        },
+        {
+          "text": "1.2",
+          "start": 11.2,
+          "end": 11.512
+        },
+        {
+          "text": "Flash'ı",
+          "start": 11.512,
+          "end": 12.24
+        },
+        {
+          "text": "Google",
+          "start": 12.24,
+          "end": 12.52
+        },
+        {
+          "text": "Vids'e",
+          "start": 12.52,
+          "end": 13.04
+        },
+        {
+          "text": "getirdi.",
+          "start": 13.04,
+          "end": 13.42
+        },
+        {
+          "text": "Google",
+          "start": 13.6,
+          "end": 13.98
+        },
+        {
+          "text": "hesabı",
+          "start": 13.98,
+          "end": 14.5
+        },
+        {
+          "text": "olan",
+          "start": 14.5,
+          "end": 14.64
+        },
+        {
+          "text": "herkes",
+          "start": 14.64,
+          "end": 15.16
+        },
+        {
+          "text": "ayda",
+          "start": 15.16,
+          "end": 15.72
+        },
+        {
+          "text": "en",
+          "start": 15.72,
+          "end": 15.88
+        },
+        {
+          "text": "fazla",
+          "start": 15.88,
+          "end": 16.24
+        },
+        {
+          "text": "3",
+          "start": 16.24,
+          "end": 16.56
+        },
+        {
+          "text": "adet",
+          "start": 16.56,
+          "end": 16.9
+        },
+        {
+          "text": "15",
+          "start": 16.9,
+          "end": 17.24
+        },
+        {
+          "text": "saniyelik",
+          "start": 17.24,
+          "end": 17.94
+        },
+        {
+          "text": "videoyu",
+          "start": 17.94,
+          "end": 18.34
+        },
+        {
+          "text": "ücretsiz",
+          "start": 18.34,
+          "end": 19.04
+        },
+        {
+          "text": "üretebiliyor.",
+          "start": 19.04,
+          "end": 19.58
+        },
+        {
+          "text": "Konuşmalar",
+          "start": 19.84,
+          "end": 20.54
+        },
+        {
+          "text": "da",
+          "start": 20.54,
+          "end": 20.62
+        },
+        {
+          "text": "artık",
+          "start": 20.62,
+          "end": 20.9
+        },
+        {
+          "text": "daha",
+          "start": 20.9,
+          "end": 21.16
+        },
+        {
+          "text": "doğal.",
+          "start": 21.16,
+          "end": 21.64
+        }
+      ]
+    },
+    {
+      "id": "s1_take",
+      "kind": "take",
+      "segment": 1,
+      "start": 22.06,
+      "end": 25.46,
+      "words": [
+        {
+          "text": "Proje",
+          "start": 22.06,
+          "end": 22.72
+        },
+        {
+          "text": "tanıtım",
+          "start": 22.72,
+          "end": 23.06
+        },
+        {
+          "text": "videon",
+          "start": 23.06,
+          "end": 23.4
+        },
+        {
+          "text": "için",
+          "start": 23.4,
+          "end": 23.52
+        },
+        {
+          "text": "Google",
+          "start": 23.52,
+          "end": 23.86
+        },
+        {
+          "text": "Vids'te",
+          "start": 23.86,
+          "end": 24.38
+        },
+        {
+          "text": "hemen",
+          "start": 24.38,
+          "end": 24.66
+        },
+        {
+          "text": "deneyebilirsin.",
+          "start": 24.66,
+          "end": 25.46
+        }
+      ]
+    },
+    {
+      "id": "s2_bridge",
+      "kind": "bridge",
+      "segment": 2,
+      "start": 26.423,
+      "end": 28.42,
+      "words": [
+        {
+          "text": "Videodan",
+          "start": 26.423,
+          "end": 26.94
+        },
+        {
+          "text": "sonra",
+          "start": 26.94,
+          "end": 27.22
+        },
+        {
+          "text": "sıra",
+          "start": 27.22,
+          "end": 27.82
+        },
+        {
+          "text": "uygulamada.",
+          "start": 27.82,
+          "end": 28.42
+        }
+      ]
+    },
+    {
+      "id": "s2_narration",
+      "kind": "narration",
+      "segment": 2,
+      "start": 28.42,
+      "end": 40.84,
+      "words": [
+        {
+          "text": "Kâğıda",
+          "start": 28.42,
+          "end": 29.22
+        },
+        {
+          "text": "çizdiğin",
+          "start": 29.22,
+          "end": 29.74
+        },
+        {
+          "text": "uygulama",
+          "start": 29.74,
+          "end": 30.24
+        },
+        {
+          "text": "taslağının",
+          "start": 30.24,
+          "end": 30.76
+        },
+        {
+          "text": "fotoğrafını",
+          "start": 30.76,
+          "end": 31.42
+        },
+        {
+          "text": "Gemini'ye",
+          "start": 31.42,
+          "end": 31.98
+        },
+        {
+          "text": "yükle,",
+          "start": 31.98,
+          "end": 32.42
+        },
+        {
+          "text": "Canvas",
+          "start": 32.42,
+          "end": 33.16
+        },
+        {
+          "text": "aracını",
+          "start": 33.16,
+          "end": 33.58
+        },
+        {
+          "text": "seç",
+          "start": 33.58,
+          "end": 33.84
+        },
+        {
+          "text": "ve",
+          "start": 33.84,
+          "end": 34.14
+        },
+        {
+          "text": "kodlamasını",
+          "start": 34.14,
+          "end": 34.8
+        },
+        {
+          "text": "iste.",
+          "start": 34.8,
+          "end": 35.06
+        },
+        {
+          "text": "Gemini",
+          "start": 35.28,
+          "end": 36.06
+        },
+        {
+          "text": "çizimi",
+          "start": 36.06,
+          "end": 36.52
+        },
+        {
+          "text": "okuyup",
+          "start": 36.52,
+          "end": 37.08
+        },
+        {
+          "text": "kodu",
+          "start": 37.08,
+          "end": 37.4
+        },
+        {
+          "text": "yazıyor;",
+          "start": 37.4,
+          "end": 37.78
+        },
+        {
+          "text": "renkleri",
+          "start": 37.9,
+          "end": 38.56
+        },
+        {
+          "text": "ve",
+          "start": 38.56,
+          "end": 38.74
+        },
+        {
+          "text": "özellikleri",
+          "start": 38.74,
+          "end": 39.4
+        },
+        {
+          "text": "anında",
+          "start": 39.4,
+          "end": 40.06
+        },
+        {
+          "text": "değiştirebiliyor.",
+          "start": 40.06,
+          "end": 40.84
+        }
+      ]
+    },
+    {
+      "id": "s2_take",
+      "kind": "take",
+      "segment": 2,
+      "start": 41.26,
+      "end": 45.22,
+      "words": [
+        {
+          "text": "Proje",
+          "start": 41.26,
+          "end": 41.94
+        },
+        {
+          "text": "fikrini",
+          "start": 41.94,
+          "end": 42.34
+        },
+        {
+          "text": "önce",
+          "start": 42.34,
+          "end": 42.68
+        },
+        {
+          "text": "kâğıda",
+          "start": 42.68,
+          "end": 43.2
+        },
+        {
+          "text": "çiz,",
+          "start": 43.2,
+          "end": 43.52
+        },
+        {
+          "text": "ilk",
+          "start": 43.56,
+          "end": 43.94
+        },
+        {
+          "text": "sürümü",
+          "start": 43.94,
+          "end": 44.3
+        },
+        {
+          "text": "Gemini'ye",
+          "start": 44.3,
+          "end": 44.86
+        },
+        {
+          "text": "yazdır.",
+          "start": 44.86,
+          "end": 45.22
+        }
+      ]
+    },
+    {
+      "id": "s3_bridge",
+      "kind": "bridge",
+      "segment": 3,
+      "start": 46.154,
+      "end": 48.56,
+      "words": [
+        {
+          "text": "Kod",
+          "start": 46.154,
+          "end": 46.36
+        },
+        {
+          "text": "demişken,",
+          "start": 46.36,
+          "end": 46.98
+        },
+        {
+          "text": "bu",
+          "start": 47.0,
+          "end": 47.36
+        },
+        {
+          "text": "ay",
+          "start": 47.36,
+          "end": 47.64
+        },
+        {
+          "text": "oyun",
+          "start": 47.64,
+          "end": 47.98
+        },
+        {
+          "text": "yapsana.",
+          "start": 47.98,
+          "end": 48.56
+        }
+      ]
+    },
+    {
+      "id": "s3_narration",
+      "kind": "narration",
+      "segment": 3,
+      "start": 48.56,
+      "end": 60.64,
+      "words": [
+        {
+          "text": "GitHub'ın",
+          "start": 48.56,
+          "end": 49.62
+        },
+        {
+          "text": "bir",
+          "start": 49.62,
+          "end": 49.8
+        },
+        {
+          "text": "ay",
+          "start": 49.8,
+          "end": 50.0
+        },
+        {
+          "text": "süren",
+          "start": 50.0,
+          "end": 50.34
+        },
+        {
+          "text": "oyun",
+          "start": 50.34,
+          "end": 50.64
+        },
+        {
+          "text": "yarışması",
+          "start": 50.64,
+          "end": 51.22
+        },
+        {
+          "text": "Game",
+          "start": 51.22,
+          "end": 51.54
+        },
+        {
+          "text": "Off",
+          "start": 51.54,
+          "end": 51.78
+        },
+        {
+          "text": "14.",
+          "start": 51.78,
+          "end": 52.24
+        },
+        {
+          "text": "kez",
+          "start": 52.72,
+          "end": 53.04
+        },
+        {
+          "text": "başladı.",
+          "start": 53.04,
+          "end": 53.44
+        },
+        {
+          "text": "Bu",
+          "start": 53.54,
+          "end": 53.98
+        },
+        {
+          "text": "yılın",
+          "start": 53.98,
+          "end": 54.34
+        },
+        {
+          "text": "teması",
+          "start": 54.34,
+          "end": 54.78
+        },
+        {
+          "text": "SHIFT.",
+          "start": 54.78,
+          "end": 55.36
+        },
+        {
+          "text": "Tek",
+          "start": 55.36,
+          "end": 55.92
+        },
+        {
+          "text": "başına",
+          "start": 55.92,
+          "end": 56.38
+        },
+        {
+          "text": "ya",
+          "start": 56.38,
+          "end": 56.48
+        },
+        {
+          "text": "da",
+          "start": 56.48,
+          "end": 56.6
+        },
+        {
+          "text": "takımla,",
+          "start": 56.6,
+          "end": 57.04
+        },
+        {
+          "text": "istediğin",
+          "start": 57.14,
+          "end": 57.9
+        },
+        {
+          "text": "motorla",
+          "start": 57.9,
+          "end": 58.3
+        },
+        {
+          "text": "katılabilirsin;",
+          "start": 58.3,
+          "end": 59.02
+        },
+        {
+          "text": "son",
+          "start": 59.2,
+          "end": 59.58
+        },
+        {
+          "text": "teslim",
+          "start": 59.58,
+          "end": 60.04
+        },
+        {
+          "text": "1",
+          "start": 60.04,
+          "end": 60.18
+        },
+        {
+          "text": "Aralık.",
+          "start": 60.18,
+          "end": 60.64
+        }
+      ]
+    },
+    {
+      "id": "s3_take",
+      "kind": "take",
+      "segment": 3,
+      "start": 61.3,
+      "end": 64.69,
+      "words": [
+        {
+          "text": "İlk",
+          "start": 61.3,
+          "end": 61.65
+        },
+        {
+          "text": "oyununu",
+          "start": 61.65,
+          "end": 61.97
+        },
+        {
+          "text": "yapacaksan",
+          "start": 61.97,
+          "end": 62.69
+        },
+        {
+          "text": "tek",
+          "start": 62.69,
+          "end": 63.01
+        },
+        {
+          "text": "mekanik",
+          "start": 63.01,
+          "end": 63.59
+        },
+        {
+          "text": "ve",
+          "start": 63.59,
+          "end": 63.75
+        },
+        {
+          "text": "tek",
+          "start": 63.75,
+          "end": 63.97
+        },
+        {
+          "text": "bölümle",
+          "start": 63.97,
+          "end": 64.35
+        },
+        {
+          "text": "başla.",
+          "start": 64.35,
+          "end": 64.69
+        }
+      ]
+    },
+    {
+      "id": "s4_bridge",
+      "kind": "bridge",
+      "segment": 4,
+      "start": 65.633,
+      "end": 67.71,
+      "words": [
+        {
+          "text": "Ve",
+          "start": 65.633,
+          "end": 65.77
+        },
+        {
+          "text": "sona",
+          "start": 65.77,
+          "end": 66.25
+        },
+        {
+          "text": "sakladığımız",
+          "start": 66.25,
+          "end": 66.91
+        },
+        {
+          "text": "burs",
+          "start": 66.91,
+          "end": 67.45
+        },
+        {
+          "text": "geldi.",
+          "start": 67.45,
+          "end": 67.71
+        }
+      ]
+    },
+    {
+      "id": "s4_narration",
+      "kind": "narration",
+      "segment": 4,
+      "start": 67.8,
+      "end": 79.7,
+      "words": [
+        {
+          "text": "TÜBİTAK'ın",
+          "start": 67.8,
+          "end": 69.28
+        },
+        {
+          "text": "STAR",
+          "start": 69.28,
+          "end": 69.48
+        },
+        {
+          "text": "programıyla",
+          "start": 69.48,
+          "end": 70.16
+        },
+        {
+          "text": "lisans",
+          "start": 70.16,
+          "end": 70.82
+        },
+        {
+          "text": "öğrencileri,",
+          "start": 70.82,
+          "end": 71.46
+        },
+        {
+          "text": "araştırma",
+          "start": 71.46,
+          "end": 72.06
+        },
+        {
+          "text": "projelerinde",
+          "start": 72.06,
+          "end": 72.7
+        },
+        {
+          "text": "bursiyer",
+          "start": 72.7,
+          "end": 73.36
+        },
+        {
+          "text": "olarak",
+          "start": 73.36,
+          "end": 73.52
+        },
+        {
+          "text": "görev",
+          "start": 73.52,
+          "end": 73.98
+        },
+        {
+          "text": "alabiliyor.",
+          "start": 73.98,
+          "end": 74.38
+        },
+        {
+          "text": "Başvurular",
+          "start": 74.64,
+          "end": 75.58
+        },
+        {
+          "text": "2",
+          "start": 75.58,
+          "end": 75.78
+        },
+        {
+          "text": "Kasım'da",
+          "start": 75.78,
+          "end": 76.3
+        },
+        {
+          "text": "başladı",
+          "start": 76.3,
+          "end": 76.66
+        },
+        {
+          "text": "ve",
+          "start": 76.66,
+          "end": 77.08
+        },
+        {
+          "text": "16",
+          "start": 77.08,
+          "end": 77.52
+        },
+        {
+          "text": "Kasım",
+          "start": 77.52,
+          "end": 78.1
+        },
+        {
+          "text": "saat",
+          "start": 78.1,
+          "end": 78.26
+        },
+        {
+          "text": "17.30'da",
+          "start": 78.26,
+          "end": 79.26
+        },
+        {
+          "text": "kapanıyor.",
+          "start": 79.26,
+          "end": 79.7
+        }
+      ]
+    },
+    {
+      "id": "s4_take",
+      "kind": "take",
+      "segment": 4,
+      "start": 80.14,
+      "end": 84.98,
+      "words": [
+        {
+          "text": "Projeleri",
+          "start": 80.14,
+          "end": 81.0
+        },
+        {
+          "text": "BİDEB",
+          "start": 81.0,
+          "end": 81.36
+        },
+        {
+          "text": "sisteminde",
+          "start": 81.36,
+          "end": 81.94
+        },
+        {
+          "text": "incele;",
+          "start": 81.94,
+          "end": 82.42
+        },
+        {
+          "text": "başvuru",
+          "start": 82.56,
+          "end": 83.28
+        },
+        {
+          "text": "TÜBİTAK",
+          "start": 83.28,
+          "end": 83.84
+        },
+        {
+          "text": "Yönetim",
+          "start": 83.84,
+          "end": 84.22
+        },
+        {
+          "text": "Bilgi",
+          "start": 84.22,
+          "end": 84.5
+        },
+        {
+          "text": "Sistemi'nden.",
+          "start": 84.5,
+          "end": 84.98
+        }
+      ]
+    },
+    {
+      "id": "question",
+      "kind": "question",
+      "segment": null,
+      "start": 86.086,
+      "end": 89.38,
+      "words": [
+        {
+          "text": "Sen",
+          "start": 86.086,
+          "end": 86.32
+        },
+        {
+          "text": "Game",
+          "start": 86.32,
+          "end": 86.6
+        },
+        {
+          "text": "Off'a",
+          "start": 86.6,
+          "end": 87.0
+        },
+        {
+          "text": "nasıl",
+          "start": 87.0,
+          "end": 87.16
+        },
+        {
+          "text": "bir",
+          "start": 87.16,
+          "end": 87.38
+        },
+        {
+          "text": "oyunla",
+          "start": 87.38,
+          "end": 87.74
+        },
+        {
+          "text": "katılırdın?",
+          "start": 87.74,
+          "end": 88.38
+        },
+        {
+          "text": "Yorumlara",
+          "start": 88.6,
+          "end": 89.14
+        },
+        {
+          "text": "yaz.",
+          "start": 89.14,
+          "end": 89.38
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "kind": "outro",
+      "segment": null,
+      "start": 90.01,
+      "end": 92.55,
+      "words": [
+        {
+          "text": "Takip",
+          "start": 90.01,
+          "end": 90.55
+        },
+        {
+          "text": "et,",
+          "start": 90.55,
+          "end": 90.65
+        },
+        {
+          "text": "haftaya",
+          "start": 90.73,
+          "end": 91.25
+        },
+        {
+          "text": "yeni",
+          "start": 91.25,
+          "end": 91.57
+        },
+        {
+          "text": "gündemle",
+          "start": 91.57,
+          "end": 92.11
+        },
+        {
+          "text": "buradayız.",
+          "start": 92.11,
+          "end": 92.55
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "index": 1,
+      "headline": "Google Vids'te ücretsiz yapay zeka videosu",
+      "studentTake": "Proje tanıtım videon için Google Vids'te hemen deneyebilirsin.",
+      "bridge": "",
+      "icon": "spark",
+      "sourceLabel": "Kaynak: blog.google",
+      "visuals": [
+        {
+          "component": "HeadlineCard",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": null
+        },
+        {
+          "component": "StatCounter",
+          "stat_value": 3.0,
+          "stat_prefix": "",
+          "stat_suffix": " video",
+          "stat_label": "her ay ücretsiz, 15 saniyelik",
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": null
+        },
+        {
+          "component": "SourceScreenshot",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/",
+          "screenshot": "screenshots/137f54d08c5c.png",
+          "title_box": {
+            "y": 136,
+            "h": 108,
+            "x": 312,
+            "w": 456
+          },
+          "domain": "blog.google"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "headline": "Gemini, kâğıttaki çizimi uygulamaya çeviriyor",
+      "studentTake": "Proje fikrini önce kâğıda çiz, ilk sürümü Gemini'ye yazdır.",
+      "bridge": "Videodan sonra sıra uygulamada.",
+      "icon": "code",
+      "sourceLabel": "Kaynak: blog.google",
+      "visuals": [
+        {
+          "component": "HeadlineCard",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": null
+        },
+        {
+          "component": "SourceScreenshot",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/",
+          "screenshot": "screenshots/b0683f2a38d4.png",
+          "title_box": {
+            "y": 136,
+            "h": 72,
+            "x": 312,
+            "w": 456
+          },
+          "domain": "blog.google"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "headline": "GitHub Game Off 2026 başladı",
+      "studentTake": "İlk oyununu yapacaksan tek mekanik ve tek bölümle başla.",
+      "bridge": "Kod demişken, bu ay oyun yapsana.",
+      "icon": "flag",
+      "sourceLabel": "Kaynak: github.blog",
+      "visuals": [
+        {
+          "component": "HeadlineCard",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": null
+        },
+        {
+          "component": "SourceScreenshot",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+          "screenshot": "screenshots/8efc4c266dc3.png",
+          "title_box": {
+            "y": 139.59375,
+            "h": 52,
+            "x": 114,
+            "w": 852
+          },
+          "domain": "github.blog"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "headline": "TÜBİTAK STAR: Lisans başvuruları açık",
+      "studentTake": "Projeleri BİDEB sisteminde incele; başvuru TÜBİTAK Yönetim Bilgi Sistemi'nden.",
+      "bridge": "Ve sona sakladığımız burs geldi.",
+      "icon": "calendar",
+      "sourceLabel": "Kaynak: tubitak.gov.tr",
+      "visuals": [
+        {
+          "component": "HeadlineCard",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": null
+        },
+        {
+          "component": "StatCounter",
+          "stat_value": 16.0,
+          "stat_prefix": "",
+          "stat_suffix": " Kasım",
+          "stat_label": "son başvuru, saat 17.30",
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": null
+        },
+        {
+          "component": "SourceScreenshot",
+          "stat_value": null,
+          "stat_prefix": null,
+          "stat_suffix": null,
+          "stat_label": null,
+          "chart_title": null,
+          "chart_labels": null,
+          "chart_values": null,
+          "chart_unit": null,
+          "code_language": null,
+          "code_lines": null,
+          "screenshot_url": "https://tubitak.gov.tr/tr/duyuru/2247-c-stajyer-arastirmaci-burs-programi-star-2026-yili-2-donem-star-lisans-ve-star-ogretmen-cagrilari-acildi",
+          "screenshot": "screenshots/ad74c5dd2b66.png",
+          "title_box": {
+            "y": 140,
+            "h": 117,
+            "x": 20,
+            "w": 707.1875
+          },
+          "domain": "tubitak.gov.tr"
+        }
+      ]
+    }
+  ],
+  "musicVolume": 0.18,
+  "duckVolume": 0.06
+}

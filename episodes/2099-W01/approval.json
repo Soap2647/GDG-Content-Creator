@@ -1,0 +1,11 @@
+{
+  "week": "2099-W01",
+  "approved_by": "Mert Yasin YÄ±lmaz",
+  "approved_at": "2026-10-27T18:25:03",
+  "accepted_flags": 2,
+  "hashes": {
+    "script": "aab1df6facabf957",
+    "normalized": "ec9856a3de394bf2"
+  },
+  "tts_backend": "pocket_tr"
+}

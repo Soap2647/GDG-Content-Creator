@@ -1,0 +1,112 @@
+{
+  "week": "2026-W44",
+  "sources": [
+    {
+      "segment": 1,
+      "headline": "Siri AI'a Türkçe geliyor",
+      "url": "https://webrazzi.com/2026/10/27/siri-ai-yil-sonuna-kadar-turkce-dil-destegi-kazanacak/",
+      "domain": "webrazzi.com",
+      "claims": [
+        {
+          "text": "Apple, Siri AI'ın yıl sonuna kadar Türkçe desteği kazanacağını açıkladı",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Siri AI eylülde beta olarak yalnızca İngilizceyle kullanıma açılmıştı",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Türkçe desteğinin kesin tarihi paylaşılmadı",
+          "uncertain": false,
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "segment": 2,
+      "headline": "Cloudflare'dan PHP CTF yarışması",
+      "url": "https://blog.cloudflare.com/php-ctf/",
+      "domain": "blog.cloudflare.com",
+      "claims": [
+        {
+          "text": "Cloudflare, PHP Capture the Flag yarışması başlattı",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Yarışma php2shell açıklarına karşı WAF korumasını test ediyor",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Amaç WAF'ı aşıp /flag dosyasının içeriğini ele geçirmek",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Yarışma HackerOne üzerindeki Bug Bounty programıyla yürütülüyor ve süreli",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Hedef PHP 8.5.11 ve Apache 2 çalıştırıyor; kapsam yalnızca POST /php/*",
+          "uncertain": false,
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "segment": 3,
+      "headline": "Android'de rehber izni değişiyor",
+      "url": "https://developer.android.com/blog/posts/reliable-way-to-add-and-edit-contacts-android",
+      "domain": "developer.android.com",
+      "claims": [
+        {
+          "text": "Yeni Android sürümünü hedefleyen uygulamalar WRITE_CONTACTS izniyle rehbere doğrudan yazamayacak",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Standart rehber intent'leri (ACTION_INSERT, ACTION_EDIT, ACTION_INSERT_OR_EDIT) izin gerektirmeyecek",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Geniş erişim gereken uygulamalar için MANAGE_CONTACTS izni geliyor",
+          "uncertain": false,
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "segment": 4,
+      "headline": "Agent Skills artık bir vakfın",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "domain": "anthropic.com",
+      "claims": [
+        {
+          "text": "Anthropic, Agent Skills standardını Agentic AI Foundation'a bağışladı",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Agentic AI Foundation, Linux Foundation bünyesinde",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "ChatGPT, Cursor ve GitHub Copilot dahil 70'ten fazla platform Agent Skills'i entegre etti",
+          "uncertain": false,
+          "verdict": "supported"
+        },
+        {
+          "text": "Bir skill, SKILL.md dosyası içeren bir klasördür; spesifikasyon agentskills.io'da",
+          "uncertain": false,
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "week": "2099-W01",
+  "script_word_count": 110,
+  "units": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "segment": null,
+      "display_text": "Yapay zekâ arayüzleri üç kat hızlanıyor!",
+      "tts_text": "Yapay zekâ arayüzleri üç kat hızlanıyor!",
+      "tokens": [
+        {
+          "display": "Yapay",
+          "tts": "Yapay",
+          "unknown": false
+        },
+        {
+          "display": "zekâ",
+          "tts": "zekâ",
+          "unknown": false
+        },
+        {
+          "display": "arayüzleri",
+          "tts": "arayüzleri",
+          "unknown": false
+        },
+        {
+          "display": "üç",
+          "tts": "üç",
+          "unknown": false
+        },
+        {
+          "display": "kat",
+          "tts": "kat",
+          "unknown": false
+        },
+        {
+          "display": "hızlanıyor!",
+          "tts": "hızlanıyor!",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s1_narration",
+      "kind": "narration",
+      "segment": 1,
+      "display_text": "Google, yapay zekânın arayüz üretmesini sağlayan A2UI için yeni bir format duyurdu. A2UI Express, %300'e varan değil, 3 kata varan oranda daha az token kullanıyor ve bilinen ekranları 300 ms altında çiziyor.",
+      "tts_text": "gugıl, yapay zekânın arayüz üretmesini sağlayan A iki u ı için yeni bir format duyurdu. A iki u ı Express, yüzde üç yüze varan değil, üç kata varan oranda daha az token kullanıyor ve bilinen ekranları üç yüz ms altında çiziyor.",
+      "tokens": [
+        {
+          "display": "Google,",
+          "tts": "gugıl,",
+          "unknown": false
+        },
+        {
+          "display": "yapay",
+          "tts": "yapay",
+          "unknown": false
+        },
+        {
+          "display": "zekânın",
+          "tts": "zekânın",
+          "unknown": false
+        },
+        {
+          "display": "arayüz",
+          "tts": "arayüz",
+          "unknown": false
+        },
+        {
+          "display": "üretmesini",
+          "tts": "üretmesini",
+          "unknown": false
+        },
+        {
+          "display": "sağlayan",
+          "tts": "sağlayan",
+          "unknown": false
+        },
+        {
+          "display": "A2UI",
+          "tts": "A iki u ı",
+          "unknown": true
+        },
+        {
+          "display": "için",
+          "tts": "için",
+          "unknown": false
+        },
+        {
+          "display": "yeni",
+          "tts": "yeni",
+          "unknown": false
+        },
+        {
+          "display": "bir",
+          "tts": "bir",
+          "unknown": false
+        },
+        {
+          "display": "format",
+          "tts": "format",
+          "unknown": false
+        },
+        {
+          "display": "duyurdu.",
+          "tts": "duyurdu.",
+          "unknown": false
+        },
+        {
+          "display": "A2UI",
+          "tts": "A iki u ı",
+          "unknown": true
+        },
+        {
+          "display": "Express,",
+          "tts": "Express,",
+          "unknown": true
+        },
+        {
+          "display": "%300'e",
+          "tts": "yüzde üç yüze",
+          "unknown": false
+        },
+        {
+          "display": "varan",
+          "tts": "varan",
+          "unknown": false
+        },
+        {
+          "display": "değil,",
+          "tts": "değil,",
+          "unknown": false
+        },
+        {
+          "display": "3",
+          "tts": "üç",
+          "unknown": false
+        },
+        {
+          "display": "kata",
+          "tts": "kata",
+          "unknown": false
+        },
+        {
+          "display": "varan",
+          "tts": "varan",
+          "unknown": false
+        },
+        {
+          "display": "oranda",
+          "tts": "oranda",
+          "unknown": false
+        },
+        {
+          "display": "daha",
+          "tts": "daha",
+          "unknown": false
+        },
+        {
+          "display": "az",
+          "tts": "az",
+          "unknown": false
+        },
+        {
+          "display": "token",
+          "tts": "token",
+          "unknown": false
+        },
+        {
+          "display": "kullanıyor",
+          "tts": "kullanıyor",
+          "unknown": false
+        },
+        {
+          "display": "ve",
+          "tts": "ve",
+          "unknown": false
+        },
+        {
+          "display": "bilinen",
+          "tts": "bilinen",
+          "unknown": false
+        },
+        {
+          "display": "ekranları",
+          "tts": "ekranları",
+          "unknown": false
+        },
+        {
+          "display": "300",
+          "tts": "üç yüz",
+          "unknown": false
+        },
+        {
+          "display": "ms",
+          "tts": "ms",
+          "unknown": false
+        },
+        {
+          "display": "altında",
+          "tts": "altında",
+          "unknown": false
+        },
+        {
+          "display": "çiziyor.",
+          "tts": "çiziyor.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": [
+        "A2UI",
+        "Express"
+      ]
+    },
+    {
+      "id": "s1_take",
+      "kind": "take",
+      "segment": 1,
+      "display_text": "Python, TypeScript veya Dart biliyorsan, Agent SDK ile kendi üretken arayüzünü dene.",
+      "tts_text": "paytın, tayp skript veya Dart biliyorsan, eycınt es di key ile kendi üretken arayüzünü dene.",
+      "tokens": [
+        {
+          "display": "Python,",
+          "tts": "paytın,",
+          "unknown": false
+        },
+        {
+          "display": "TypeScript",
+          "tts": "tayp skript",
+          "unknown": false
+        },
+        {
+          "display": "veya",
+          "tts": "veya",
+          "unknown": false
+        },
+        {
+          "display": "Dart",
+          "tts": "Dart",
+          "unknown": false
+        },
+        {
+          "display": "biliyorsan,",
+          "tts": "biliyorsan,",
+          "unknown": false
+        },
+        {
+          "display": "Agent",
+          "tts": "eycınt",
+          "unknown": false
+        },
+        {
+          "display": "SDK",
+          "tts": "es di key",
+          "unknown": false
+        },
+        {
+          "display": "ile",
+          "tts": "ile",
+          "unknown": false
+        },
+        {
+          "display": "kendi",
+          "tts": "kendi",
+          "unknown": false
+        },
+        {
+          "display": "üretken",
+          "tts": "üretken",
+          "unknown": false
+        },
+        {
+          "display": "arayüzünü",
+          "tts": "arayüzünü",
+          "unknown": false
+        },
+        {
+          "display": "dene.",
+          "tts": "dene.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s2_narration",
+      "kind": "narration",
+      "segment": 2,
+      "display_text": "TÜBİTAK, Eureka Network kapsamında Türkiye ve İspanya arasındaki 2026 yılı ortak Ar-Ge çağrısını açtı.",
+      "tts_text": "tübitak, Eureka Network kapsamında Türkiye ve İspanya arasındaki iki bin yirmi altı yılı ortak ey ar Ge çağrısını açtı.",
+      "tokens": [
+        {
+          "display": "TÜBİTAK,",
+          "tts": "tübitak,",
+          "unknown": false
+        },
+        {
+          "display": "Eureka",
+          "tts": "Eureka",
+          "unknown": false
+        },
+        {
+          "display": "Network",
+          "tts": "Network",
+          "unknown": true
+        },
+        {
+          "display": "kapsamında",
+          "tts": "kapsamında",
+          "unknown": false
+        },
+        {
+          "display": "Türkiye",
+          "tts": "Türkiye",
+          "unknown": false
+        },
+        {
+          "display": "ve",
+          "tts": "ve",
+          "unknown": false
+        },
+        {
+          "display": "İspanya",
+          "tts": "İspanya",
+          "unknown": false
+        },
+        {
+          "display": "arasındaki",
+          "tts": "arasındaki",
+          "unknown": false
+        },
+        {
+          "display": "2026",
+          "tts": "iki bin yirmi altı",
+          "unknown": false
+        },
+        {
+          "display": "yılı",
+          "tts": "yılı",
+          "unknown": false
+        },
+        {
+          "display": "ortak",
+          "tts": "ortak",
+          "unknown": false
+        },
+        {
+          "display": "Ar-Ge",
+          "tts": "ey ar Ge",
+          "unknown": false
+        },
+        {
+          "display": "çağrısını",
+          "tts": "çağrısını",
+          "unknown": false
+        },
+        {
+          "display": "açtı.",
+          "tts": "açtı.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": [
+        "Network"
+      ]
+    },
+    {
+      "id": "s2_take",
+      "kind": "take",
+      "segment": 2,
+      "display_text": "Girişim ya da proje ekibindeysen çağrı metnini incele, ortak bulma sürecini kaçırma.",
+      "tts_text": "Girişim ya da proje ekibindeysen çağrı metnini incele, ortak bulma sürecini kaçırma.",
+      "tokens": [
+        {
+          "display": "Girişim",
+          "tts": "Girişim",
+          "unknown": false
+        },
+        {
+          "display": "ya",
+          "tts": "ya",
+          "unknown": false
+        },
+        {
+          "display": "da",
+          "tts": "da",
+          "unknown": false
+        },
+        {
+          "display": "proje",
+          "tts": "proje",
+          "unknown": false
+        },
+        {
+          "display": "ekibindeysen",
+          "tts": "ekibindeysen",
+          "unknown": false
+        },
+        {
+          "display": "çağrı",
+          "tts": "çağrı",
+          "unknown": false
+        },
+        {
+          "display": "metnini",
+          "tts": "metnini",
+          "unknown": false
+        },
+        {
+          "display": "incele,",
+          "tts": "incele,",
+          "unknown": false
+        },
+        {
+          "display": "ortak",
+          "tts": "ortak",
+          "unknown": false
+        },
+        {
+          "display": "bulma",
+          "tts": "bulma",
+          "unknown": false
+        },
+        {
+          "display": "sürecini",
+          "tts": "sürecini",
+          "unknown": false
+        },
+        {
+          "display": "kaçırma.",
+          "tts": "kaçırma.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s3_narration",
+      "kind": "narration",
+      "segment": 3,
+      "display_text": "GitHub, üç Java Champion'ın GitHub Copilot ile üretkenliklerini nasıl artırdığını anlattı. Örnekler, test yazımı ve kod incelemesi gibi günlük işlere odaklanıyor.",
+      "tts_text": "githab, üç Java Championın githab kopaylıt ile üretkenliklerini nasıl artırdığını anlattı. Örnekler, test yazımı ve kod incelemesi gibi günlük işlere odaklanıyor.",
+      "tokens": [
+        {
+          "display": "GitHub,",
+          "tts": "githab,",
+          "unknown": false
+        },
+        {
+          "display": "üç",
+          "tts": "üç",
+          "unknown": false
+        },
+        {
+          "display": "Java",
+          "tts": "Java",
+          "unknown": false
+        },
+        {
+          "display": "Champion'ın",
+          "tts": "Championın",
+          "unknown": false
+        },
+        {
+          "display": "GitHub",
+          "tts": "githab",
+          "unknown": false
+        },
+        {
+          "display": "Copilot",
+          "tts": "kopaylıt",
+          "unknown": false
+        },
+        {
+          "display": "ile",
+          "tts": "ile",
+          "unknown": false
+        },
+        {
+          "display": "üretkenliklerini",
+          "tts": "üretkenliklerini",
+          "unknown": false
+        },
+        {
+          "display": "nasıl",
+          "tts": "nasıl",
+          "unknown": false
+        },
+        {
+          "display": "artırdığını",
+          "tts": "artırdığını",
+          "unknown": false
+        },
+        {
+          "display": "anlattı.",
+          "tts": "anlattı.",
+          "unknown": false
+        },
+        {
+          "display": "Örnekler,",
+          "tts": "Örnekler,",
+          "unknown": false
+        },
+        {
+          "display": "test",
+          "tts": "test",
+          "unknown": false
+        },
+        {
+          "display": "yazımı",
+          "tts": "yazımı",
+          "unknown": false
+        },
+        {
+          "display": "ve",
+          "tts": "ve",
+          "unknown": false
+        },
+        {
+          "display": "kod",
+          "tts": "kod",
+          "unknown": false
+        },
+        {
+          "display": "incelemesi",
+          "tts": "incelemesi",
+          "unknown": false
+        },
+        {
+          "display": "gibi",
+          "tts": "gibi",
+          "unknown": false
+        },
+        {
+          "display": "günlük",
+          "tts": "günlük",
+          "unknown": false
+        },
+        {
+          "display": "işlere",
+          "tts": "işlere",
+          "unknown": false
+        },
+        {
+          "display": "odaklanıyor.",
+          "tts": "odaklanıyor.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "s3_take",
+      "kind": "take",
+      "segment": 3,
+      "display_text": "GitHub Student Developer Pack ile Copilot'u projende dene.",
+      "tts_text": "githab studınt divelopır pek ile kopaylıtu projende dene.",
+      "tokens": [
+        {
+          "display": "GitHub",
+          "tts": "githab",
+          "unknown": false
+        },
+        {
+          "display": "Student",
+          "tts": "studınt",
+          "unknown": false
+        },
+        {
+          "display": "Developer",
+          "tts": "divelopır",
+          "unknown": false
+        },
+        {
+          "display": "Pack",
+          "tts": "pek",
+          "unknown": false
+        },
+        {
+          "display": "ile",
+          "tts": "ile",
+          "unknown": false
+        },
+        {
+          "display": "Copilot'u",
+          "tts": "kopaylıtu",
+          "unknown": false
+        },
+        {
+          "display": "projende",
+          "tts": "projende",
+          "unknown": false
+        },
+        {
+          "display": "dene.",
+          "tts": "dene.",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    },
+    {
+      "id": "outro",
+      "kind": "outro",
+      "segment": null,
+      "display_text": "Haftaya görüşmek üzere, takipte kal!",
+      "tts_text": "Haftaya görüşmek üzere, takipte kal!",
+      "tokens": [
+        {
+          "display": "Haftaya",
+          "tts": "Haftaya",
+          "unknown": false
+        },
+        {
+          "display": "görüşmek",
+          "tts": "görüşmek",
+          "unknown": false
+        },
+        {
+          "display": "üzere,",
+          "tts": "üzere,",
+          "unknown": false
+        },
+        {
+          "display": "takipte",
+          "tts": "takipte",
+          "unknown": false
+        },
+        {
+          "display": "kal!",
+          "tts": "kal!",
+          "unknown": false
+        }
+      ],
+      "unknown_terms": []
+    }
+  ],
+  "unknown_terms": [
+    "A2UI",
+    "Express",
+    "Network"
+  ]
+}

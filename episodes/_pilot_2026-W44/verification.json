@@ -1,0 +1,157 @@
+{
+  "week": "2026-W44",
+  "script_word_count": 160,
+  "checks": [
+    {
+      "segment": 1,
+      "claim_index": 0,
+      "verdict": "supported",
+      "evidence": "Apple, yapay zeka destekli asistanı Siri AI'ın yıl sonuna kadar Türkçe dil desteği kazanacağını açıkladı.",
+      "note": "Kaynak Webrazzi (ikincil kaynak); Apple'ın kendi duyurusu değil."
+    },
+    {
+      "segment": 1,
+      "claim_index": 1,
+      "verdict": "supported",
+      "evidence": "Asistan, eylül ayında beta sürümüyle ilk kez kullanıma açıldığında yalnızca İngilizceyi destekliyordu.",
+      "note": ""
+    },
+    {
+      "segment": 1,
+      "claim_index": 2,
+      "verdict": "supported",
+      "evidence": "Şirket, Türkçe desteğinin hangi tarihte ve hangi yazılım güncellemesiyle sunulacağını ise paylaşmadı.",
+      "note": "Kaynaktaki iOS 27.3 tahmini Apple tarafından doğrulanmadığı için senaryoda kullanılmamış; doğru."
+    },
+    {
+      "segment": 2,
+      "claim_index": 0,
+      "verdict": "supported",
+      "evidence": "today we're launching the Cloudflare PHP Capture the Flag challenge, run through our Bug Bounty program.",
+      "note": ""
+    },
+    {
+      "segment": 2,
+      "claim_index": 1,
+      "verdict": "supported",
+      "evidence": "The challenge focuses on CVE-2026-109618 and CVE-2026-109619, the two PHP vulnerabilities behind php2shell.",
+      "note": "WAF'ı test etme amacı: 'Put our WAF to the test'."
+    },
+    {
+      "segment": 2,
+      "claim_index": 2,
+      "verdict": "supported",
+      "evidence": "bypass the WAF protections, exploit the PHP sandbox, and recover the contents of /flag.",
+      "note": "Anlatımda 'sunucudaki' deniyor; kaynakta dosya bir sandbox (Cloudflare Container) içinde. Anlam korunuyor."
+    },
+    {
+      "segment": 2,
+      "claim_index": 3,
+      "verdict": "supported",
+      "evidence": "This limited-time challenge is run via Cloudflare's Bug Bounty program on HackerOne.",
+      "note": ""
+    },
+    {
+      "segment": 2,
+      "claim_index": 4,
+      "verdict": "supported",
+      "evidence": "The target runs stock PHP 8.5.11 (with standard PHP extensions), Apache 2 (via mod_php)",
+      "note": "Kapsam: 'WAF-protected /php/* endpoints (POST method only)'."
+    },
+    {
+      "segment": 3,
+      "claim_index": 0,
+      "verdict": "supported",
+      "evidence": "Apps that target the upcoming Android release will no longer be able to directly write to contacts with the WRITE_CONTACTS permission.",
+      "note": ""
+    },
+    {
+      "segment": 3,
+      "claim_index": 1,
+      "verdict": "supported",
+      "evidence": "On devices running the upcoming Android release, these three contact intents will behave consistently and need no permission at all.",
+      "note": ""
+    },
+    {
+      "segment": 3,
+      "claim_index": 2,
+      "verdict": "supported",
+      "evidence": "For the small set of apps which require broad access to create and modify contacts, a new special app access permission, MANAGE_CONTACTS, arrives in Android 17 QPR2 (Q4 2026).",
+      "note": ""
+    },
+    {
+      "segment": 4,
+      "claim_index": 0,
+      "verdict": "supported",
+      "evidence": "Today, we're donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation (AAIF).",
+      "note": ""
+    },
+    {
+      "segment": 4,
+      "claim_index": 1,
+      "verdict": "supported",
+      "evidence": "we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation",
+      "note": ""
+    },
+    {
+      "segment": 4,
+      "claim_index": 2,
+      "verdict": "supported",
+      "evidence": "More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills",
+      "note": "Kaynak 'entegre etti' diyor; anlatımdaki 'kullanıyor' ifadesi kabul edilebilir yakınlıkta."
+    },
+    {
+      "segment": 4,
+      "claim_index": 3,
+      "verdict": "supported",
+      "evidence": "A skill is a folder containing a SKILL.md file that teaches an agent a specific task or domain",
+      "note": "Spesifikasyon: 'Read the specification at agentskills.io'."
+    }
+  ],
+  "missed": [
+    {
+      "segment": 2,
+      "text": "Katılım için HackerOne hesabı açıp kuralları okumak gerekiyor (öğrenci notu)",
+      "verdict": "supported",
+      "evidence": "All participants must sign up for a HackerOne account and review and agree to the Bounty Terms before participating in the CTF."
+    },
+    {
+      "segment": 3,
+      "text": "Rehbere yazan kodu ACTION_INSERT intent'ine taşımak (öğrenci notu)",
+      "verdict": "supported",
+      "evidence": "Replace each user-driven write with an intent: ACTION_INSERT for new contacts, and ACTION_EDIT or ACTION_INSERT_OR_EDIT for updates."
+    },
+    {
+      "segment": 4,
+      "text": "Agent Skills, yapay zekâ ajanlarına yetenek kazandıran açık bir standart",
+      "verdict": "supported",
+      "evidence": "the open standard that gives AI agents specialized knowledge and workflows"
+    }
+  ],
+  "numbers": {
+    "1": [],
+    "2": [
+      {
+        "number": "2",
+        "in_source": true
+      },
+      {
+        "number": "8.5.11",
+        "in_source": true
+      }
+    ],
+    "3": [],
+    "4": [
+      {
+        "number": "70",
+        "in_source": true
+      }
+    ]
+  },
+  "source_keys": {
+    "https://webrazzi.com/2026/10/27/siri-ai-yil-sonuna-kadar-turkce-dil-destegi-kazanacak/": "15e1e4352c52",
+    "https://blog.cloudflare.com/php-ctf/": "54be98d07f34",
+    "https://developer.android.com/blog/posts/reliable-way-to-add-and-edit-contacts-android": "e3e7e625ac59",
+    "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation": "86405d6d1e9f"
+  }
+}

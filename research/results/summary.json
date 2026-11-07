@@ -1,0 +1,82 @@
+[
+  {
+    "model": "chatterbox_v3",
+    "variant": "phonetic",
+    "n": 16,
+    "wer": 0.0424,
+    "cer": 0.0075,
+    "term_acc": 0.8889,
+    "mean_rtf": 1.1544,
+    "peak_vram_mb": 3386.92822265625
+  },
+  {
+    "model": "chatterbox_v3",
+    "variant": "raw",
+    "n": 16,
+    "wer": 0.2667,
+    "cer": 0.1211,
+    "term_acc": 0.7407,
+    "mean_rtf": 1.1544,
+    "peak_vram_mb": 3386.92822265625
+  },
+  {
+    "model": "freya",
+    "variant": "phonetic",
+    "n": 16,
+    "wer": 0.2667,
+    "cer": 0.1312,
+    "term_acc": 0.5926,
+    "mean_rtf": 0.2614,
+    "peak_vram_mb": 1451.94775390625
+  },
+  {
+    "model": "freya",
+    "variant": "raw",
+    "n": 16,
+    "wer": 0.3152,
+    "cer": 0.1579,
+    "term_acc": 0.4444,
+    "mean_rtf": 0.2614,
+    "peak_vram_mb": 1451.94775390625
+  },
+  {
+    "model": "pocket_tr_kaan",
+    "variant": "phonetic",
+    "n": 16,
+    "wer": 0.0485,
+    "cer": 0.015,
+    "term_acc": 0.8889,
+    "mean_rtf": 0.9163,
+    "peak_vram_mb": 0.0
+  },
+  {
+    "model": "pocket_tr_kaan",
+    "variant": "raw",
+    "n": 16,
+    "wer": 0.3879,
+    "cer": 0.2598,
+    "term_acc": 0.6296,
+    "mean_rtf": 0.9163,
+    "peak_vram_mb": 0.0
+  },
+  {
+    "model": "pocket_tr_wite",
+    "variant": "phonetic",
+    "n": 16,
+    "wer": 0.0485,
+    "cer": 0.0109,
+    "term_acc": 0.8519,
+    "mean_rtf": 0.2708,
+    "peak_vram_mb": 517.7880859375
+  },
+  {
+    "model": "pocket_tr_wite",
+    "variant": "raw",
+    "n": 16,
+    "wer": 0.1212,
+    "cer": 0.0459,
+    "term_acc": 0.6296,
+    "mean_rtf": 0.2708,
+    "peak_vram_mb": 517.7880859375
+  }
+]

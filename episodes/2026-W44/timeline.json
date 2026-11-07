@@ -1,0 +1,1121 @@
+{
+  "week": "2026-W44",
+  "backend": "gemini",
+  "voice": "Kore",
+  "sample_rate": 24000,
+  "duration": 101.82,
+  "units": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "segment": null,
+      "start": 0.372,
+      "end": 4.82,
+      "words": [
+        {
+          "text": "Kritik",
+          "start": 0.372,
+          "end": 0.76
+        },
+        {
+          "text": "tesislerde",
+          "start": 0.76,
+          "end": 1.46
+        },
+        {
+          "text": "1071",
+          "start": 1.46,
+          "end": 2.46
+        },
+        {
+          "text": "ve",
+          "start": 2.46,
+          "end": 2.78
+        },
+        {
+          "text": "1453",
+          "start": 2.78,
+          "end": 3.7
+        },
+        {
+          "text": "şifreleri",
+          "start": 3.7,
+          "end": 4.3
+        },
+        {
+          "text": "bulundu!",
+          "start": 4.3,
+          "end": 4.82
+        }
+      ]
+    },
+    {
+      "id": "teaser",
+      "kind": "teaser",
+      "segment": null,
+      "start": 5.27,
+      "end": 8.7,
+      "words": [
+        {
+          "text": "Dört",
+          "start": 5.27,
+          "end": 5.78
+        },
+        {
+          "text": "haber",
+          "start": 5.78,
+          "end": 5.94
+        },
+        {
+          "text": "var;",
+          "start": 5.94,
+          "end": 6.26
+        },
+        {
+          "text": "sonuncusu",
+          "start": 6.36,
+          "end": 7.0
+        },
+        {
+          "text": "senin",
+          "start": 7.0,
+          "end": 7.28
+        },
+        {
+          "text": "başvurabileceğin",
+          "start": 7.28,
+          "end": 8.22
+        },
+        {
+          "text": "bir",
+          "start": 8.22,
+          "end": 8.3
+        },
+        {
+          "text": "fırsat.",
+          "start": 8.3,
+          "end": 8.7
+        }
+      ]
+    },
+    {
+      "id": "s1_narration",
+      "kind": "narration",
+      "segment": 1,
+      "start": 9.53,
+      "end": 22.96,
+      "words": [
+        {
+          "text": "Bağımsız",
+          "start": 9.53,
+          "end": 10.04
+        },
+        {
+          "text": "bir",
+          "start": 10.04,
+          "end": 10.16
+        },
+        {
+          "text": "araştırmacı,",
+          "start": 10.16,
+          "end": 10.94
+        },
+        {
+          "text": "Türkiye'deki",
+          "start": 10.94,
+          "end": 11.66
+        },
+        {
+          "text": "kritik",
+          "start": 11.66,
+          "end": 12.18
+        },
+        {
+          "text": "altyapılarda",
+          "start": 12.18,
+          "end": 12.9
+        },
+        {
+          "text": "1071",
+          "start": 12.9,
+          "end": 13.92
+        },
+        {
+          "text": "ve",
+          "start": 13.92,
+          "end": 14.26
+        },
+        {
+          "text": "1453",
+          "start": 14.26,
+          "end": 15.08
+        },
+        {
+          "text": "gibi",
+          "start": 15.08,
+          "end": 15.38
+        },
+        {
+          "text": "şifreler",
+          "start": 15.38,
+          "end": 15.86
+        },
+        {
+          "text": "kullanıldığını",
+          "start": 15.86,
+          "end": 16.58
+        },
+        {
+          "text": "tespit",
+          "start": 16.58,
+          "end": 17.02
+        },
+        {
+          "text": "etti.",
+          "start": 17.02,
+          "end": 17.16
+        },
+        {
+          "text": "Bu",
+          "start": 17.46,
+          "end": 17.94
+        },
+        {
+          "text": "zayıf",
+          "start": 17.94,
+          "end": 18.4
+        },
+        {
+          "text": "parolalarla",
+          "start": 18.4,
+          "end": 19.08
+        },
+        {
+          "text": "su",
+          "start": 19.08,
+          "end": 19.34
+        },
+        {
+          "text": "pompaları",
+          "start": 19.34,
+          "end": 19.92
+        },
+        {
+          "text": "dahil",
+          "start": 19.92,
+          "end": 20.44
+        },
+        {
+          "text": "430",
+          "start": 20.44,
+          "end": 21.14
+        },
+        {
+          "text": "sisteme",
+          "start": 21.14,
+          "end": 21.84
+        },
+        {
+          "text": "erişildiği",
+          "start": 21.84,
+          "end": 22.36
+        },
+        {
+          "text": "bildirildi.",
+          "start": 22.36,
+          "end": 22.96
+        }
+      ]
+    },
+    {
+      "id": "s1_take",
+      "kind": "take",
+      "segment": 1,
+      "start": 23.41,
+      "end": 28.0,
+      "words": [
+        {
+          "text": "Kendi",
+          "start": 23.41,
+          "end": 23.92
+        },
+        {
+          "text": "hesaplarında",
+          "start": 23.92,
+          "end": 24.52
+        },
+        {
+          "text": "tahmin",
+          "start": 24.52,
+          "end": 25.02
+        },
+        {
+          "text": "edilebilir",
+          "start": 25.02,
+          "end": 25.46
+        },
+        {
+          "text": "şifre",
+          "start": 25.46,
+          "end": 25.8
+        },
+        {
+          "text": "kullanma,",
+          "start": 25.8,
+          "end": 26.34
+        },
+        {
+          "text": "iki",
+          "start": 26.42,
+          "end": 26.84
+        },
+        {
+          "text": "adımlı",
+          "start": 26.84,
+          "end": 27.26
+        },
+        {
+          "text": "doğrulamayı",
+          "start": 27.26,
+          "end": 27.78
+        },
+        {
+          "text": "aç.",
+          "start": 27.78,
+          "end": 28.0
+        }
+      ]
+    },
+    {
+      "id": "s2_bridge",
+      "kind": "bridge",
+      "segment": 2,
+      "start": 28.45,
+      "end": 31.67,
+      "words": [
+        {
+          "text": "Peki",
+          "start": 28.45,
+          "end": 29.31
+        },
+        {
+          "text": "savunmayı",
+          "start": 29.49,
+          "end": 30.19
+        },
+        {
+          "text": "sen",
+          "start": 30.19,
+          "end": 30.45
+        },
+        {
+          "text": "test",
+          "start": 30.45,
+          "end": 30.77
+        },
+        {
+          "text": "etmek",
+          "start": 30.77,
+          "end": 31.05
+        },
+        {
+          "text": "istersen?",
+          "start": 31.05,
+          "end": 31.67
+        }
+      ]
+    },
+    {
+      "id": "s2_narration",
+      "kind": "narration",
+      "segment": 2,
+      "start": 32.05,
+      "end": 45.71,
+      "words": [
+        {
+          "text": "Cloudflare,",
+          "start": 32.05,
+          "end": 32.85
+        },
+        {
+          "text": "kasıtlı",
+          "start": 33.03,
+          "end": 33.65
+        },
+        {
+          "text": "olarak",
+          "start": 33.65,
+          "end": 33.91
+        },
+        {
+          "text": "açık",
+          "start": 33.91,
+          "end": 34.29
+        },
+        {
+          "text": "bırakılmış",
+          "start": 34.29,
+          "end": 34.75
+        },
+        {
+          "text": "bir",
+          "start": 34.75,
+          "end": 34.99
+        },
+        {
+          "text": "PHP",
+          "start": 34.99,
+          "end": 35.29
+        },
+        {
+          "text": "kurulumunu",
+          "start": 35.29,
+          "end": 36.05
+        },
+        {
+          "text": "güvenlik",
+          "start": 36.05,
+          "end": 36.65
+        },
+        {
+          "text": "duvarının",
+          "start": 36.65,
+          "end": 37.01
+        },
+        {
+          "text": "arkasına",
+          "start": 37.01,
+          "end": 37.49
+        },
+        {
+          "text": "koydu.",
+          "start": 37.49,
+          "end": 37.85
+        },
+        {
+          "text": "Görev:",
+          "start": 37.95,
+          "end": 38.65
+        },
+        {
+          "text": "korumayı",
+          "start": 38.67,
+          "end": 39.33
+        },
+        {
+          "text": "aşıp",
+          "start": 39.33,
+          "end": 39.79
+        },
+        {
+          "text": "flag",
+          "start": 39.79,
+          "end": 40.15
+        },
+        {
+          "text": "dosyasını",
+          "start": 40.15,
+          "end": 40.77
+        },
+        {
+          "text": "ele",
+          "start": 40.77,
+          "end": 40.91
+        },
+        {
+          "text": "geçirmek.",
+          "start": 40.91,
+          "end": 41.45
+        },
+        {
+          "text": "Yarışma",
+          "start": 41.65,
+          "end": 42.45
+        },
+        {
+          "text": "sınırlı",
+          "start": 42.45,
+          "end": 42.91
+        },
+        {
+          "text": "süreli,",
+          "start": 42.91,
+          "end": 43.17
+        },
+        {
+          "text": "HackerOne'daki",
+          "start": 43.29,
+          "end": 44.13
+        },
+        {
+          "text": "ödül",
+          "start": 44.13,
+          "end": 44.49
+        },
+        {
+          "text": "programı",
+          "start": 44.49,
+          "end": 44.97
+        },
+        {
+          "text": "üzerinden",
+          "start": 44.97,
+          "end": 45.31
+        },
+        {
+          "text": "yürüyor.",
+          "start": 45.31,
+          "end": 45.71
+        }
+      ]
+    },
+    {
+      "id": "s2_take",
+      "kind": "take",
+      "segment": 2,
+      "start": 46.16,
+      "end": 50.6,
+      "words": [
+        {
+          "text": "Katılmak",
+          "start": 46.16,
+          "end": 46.94
+        },
+        {
+          "text": "için",
+          "start": 46.94,
+          "end": 47.16
+        },
+        {
+          "text": "HackerOne",
+          "start": 47.16,
+          "end": 47.66
+        },
+        {
+          "text": "hesabı",
+          "start": 47.66,
+          "end": 48.14
+        },
+        {
+          "text": "gerekiyor;",
+          "start": 48.14,
+          "end": 48.58
+        },
+        {
+          "text": "önce",
+          "start": 48.64,
+          "end": 49.12
+        },
+        {
+          "text": "kuralları",
+          "start": 49.12,
+          "end": 49.64
+        },
+        {
+          "text": "dikkatlice",
+          "start": 49.64,
+          "end": 50.3
+        },
+        {
+          "text": "oku.",
+          "start": 50.3,
+          "end": 50.6
+        }
+      ]
+    },
+    {
+      "id": "s3_bridge",
+      "kind": "bridge",
+      "segment": 3,
+      "start": 51.12,
+      "end": 53.6,
+      "words": [
+        {
+          "text": "Güvenlikten",
+          "start": 51.12,
+          "end": 51.92
+        },
+        {
+          "text": "çıkıp",
+          "start": 51.92,
+          "end": 52.34
+        },
+        {
+          "text": "sanal",
+          "start": 52.34,
+          "end": 52.78
+        },
+        {
+          "text": "dünyalara",
+          "start": 52.78,
+          "end": 53.26
+        },
+        {
+          "text": "geçelim.",
+          "start": 53.26,
+          "end": 53.6
+        }
+      ]
+    },
+    {
+      "id": "s3_narration",
+      "kind": "narration",
+      "segment": 3,
+      "start": 53.82,
+      "end": 66.64,
+      "words": [
+        {
+          "text": "Google",
+          "start": 53.82,
+          "end": 54.4
+        },
+        {
+          "text": "DeepMind,",
+          "start": 54.4,
+          "end": 55.16
+        },
+        {
+          "text": "yeni",
+          "start": 55.24,
+          "end": 55.5
+        },
+        {
+          "text": "dünya",
+          "start": 55.5,
+          "end": 56.08
+        },
+        {
+          "text": "modeli",
+          "start": 56.08,
+          "end": 56.48
+        },
+        {
+          "text": "Genie",
+          "start": 56.48,
+          "end": 56.9
+        },
+        {
+          "text": "4'ü",
+          "start": 56.9,
+          "end": 57.32
+        },
+        {
+          "text": "duyurdu.",
+          "start": 57.32,
+          "end": 57.74
+        },
+        {
+          "text": "Doğal",
+          "start": 57.74,
+          "end": 58.6
+        },
+        {
+          "text": "dille",
+          "start": 58.6,
+          "end": 58.86
+        },
+        {
+          "text": "sahneyi",
+          "start": 58.86,
+          "end": 59.44
+        },
+        {
+          "text": "gerçek",
+          "start": 59.44,
+          "end": 59.76
+        },
+        {
+          "text": "zamanlı",
+          "start": 59.76,
+          "end": 60.34
+        },
+        {
+          "text": "yönetebiliyor,",
+          "start": 60.34,
+          "end": 60.9
+        },
+        {
+          "text": "havayı",
+          "start": 61.0,
+          "end": 61.56
+        },
+        {
+          "text": "değiştirip",
+          "start": 61.56,
+          "end": 62.12
+        },
+        {
+          "text": "yeni",
+          "start": 62.12,
+          "end": 62.34
+        },
+        {
+          "text": "karakter",
+          "start": 62.34,
+          "end": 62.84
+        },
+        {
+          "text": "ekleyebiliyorsun.",
+          "start": 62.84,
+          "end": 63.56
+        },
+        {
+          "text": "Her",
+          "start": 63.7,
+          "end": 64.2
+        },
+        {
+          "text": "dünya",
+          "start": 64.2,
+          "end": 64.7
+        },
+        {
+          "text": "kendi",
+          "start": 64.7,
+          "end": 64.98
+        },
+        {
+          "text": "sesini",
+          "start": 64.98,
+          "end": 65.44
+        },
+        {
+          "text": "de",
+          "start": 65.44,
+          "end": 65.58
+        },
+        {
+          "text": "anında",
+          "start": 65.58,
+          "end": 66.16
+        },
+        {
+          "text": "üretiyor.",
+          "start": 66.16,
+          "end": 66.64
+        }
+      ]
+    },
+    {
+      "id": "s3_take",
+      "kind": "take",
+      "segment": 3,
+      "start": 67.28,
+      "end": 71.34,
+      "words": [
+        {
+          "text": "Şimdilik",
+          "start": 67.28,
+          "end": 67.76
+        },
+        {
+          "text": "sınırlı",
+          "start": 67.76,
+          "end": 68.18
+        },
+        {
+          "text": "test",
+          "start": 68.18,
+          "end": 68.34
+        },
+        {
+          "text": "grubunda;",
+          "start": 68.34,
+          "end": 68.82
+        },
+        {
+          "text": "geniş",
+          "start": 68.82,
+          "end": 69.44
+        },
+        {
+          "text": "erişim",
+          "start": 69.44,
+          "end": 69.76
+        },
+        {
+          "text": "için",
+          "start": 69.76,
+          "end": 69.92
+        },
+        {
+          "text": "Google",
+          "start": 69.92,
+          "end": 70.24
+        },
+        {
+          "text": "duyurularını",
+          "start": 70.24,
+          "end": 70.88
+        },
+        {
+          "text": "takip",
+          "start": 70.88,
+          "end": 71.24
+        },
+        {
+          "text": "et.",
+          "start": 71.24,
+          "end": 71.34
+        }
+      ]
+    },
+    {
+      "id": "s4_bridge",
+      "kind": "bridge",
+      "segment": 4,
+      "start": 71.79,
+      "end": 74.09,
+      "words": [
+        {
+          "text": "Ve",
+          "start": 71.79,
+          "end": 72.27
+        },
+        {
+          "text": "sona",
+          "start": 72.27,
+          "end": 72.69
+        },
+        {
+          "text": "sakladığımız",
+          "start": 72.69,
+          "end": 73.25
+        },
+        {
+          "text": "fırsat",
+          "start": 73.25,
+          "end": 73.85
+        },
+        {
+          "text": "geldi.",
+          "start": 73.85,
+          "end": 74.09
+        }
+      ]
+    },
+    {
+      "id": "s4_narration",
+      "kind": "narration",
+      "segment": 4,
+      "start": 74.73,
+      "end": 88.49,
+      "words": [
+        {
+          "text": "TÜBİTAK,",
+          "start": 74.73,
+          "end": 75.27
+        },
+        {
+          "text": "6G",
+          "start": 75.27,
+          "end": 75.97
+        },
+        {
+          "text": "ağları",
+          "start": 75.97,
+          "end": 76.37
+        },
+        {
+          "text": "için",
+          "start": 76.37,
+          "end": 76.63
+        },
+        {
+          "text": "kilit",
+          "start": 76.63,
+          "end": 77.11
+        },
+        {
+          "text": "teknoloji",
+          "start": 77.11,
+          "end": 77.61
+        },
+        {
+          "text": "olan",
+          "start": 77.61,
+          "end": 77.77
+        },
+        {
+          "text": "Bütünleşik",
+          "start": 77.77,
+          "end": 78.57
+        },
+        {
+          "text": "Algılama",
+          "start": 78.57,
+          "end": 79.05
+        },
+        {
+          "text": "ve",
+          "start": 79.05,
+          "end": 79.17
+        },
+        {
+          "text": "Haberleşme",
+          "start": 79.17,
+          "end": 79.75
+        },
+        {
+          "text": "üzerine",
+          "start": 79.75,
+          "end": 79.97
+        },
+        {
+          "text": "kış",
+          "start": 79.97,
+          "end": 80.53
+        },
+        {
+          "text": "okulu",
+          "start": 80.53,
+          "end": 80.75
+        },
+        {
+          "text": "düzenliyor.",
+          "start": 80.75,
+          "end": 81.23
+        },
+        {
+          "text": "23",
+          "start": 81.43,
+          "end": 82.19
+        },
+        {
+          "text": "ile",
+          "start": 82.19,
+          "end": 82.45
+        },
+        {
+          "text": "25",
+          "start": 82.45,
+          "end": 82.81
+        },
+        {
+          "text": "Kasım",
+          "start": 82.81,
+          "end": 83.29
+        },
+        {
+          "text": "arasında",
+          "start": 83.29,
+          "end": 83.67
+        },
+        {
+          "text": "Gebze'de;",
+          "start": 83.67,
+          "end": 84.27
+        },
+        {
+          "text": "seçilenlere",
+          "start": 84.27,
+          "end": 85.21
+        },
+        {
+          "text": "ücretsiz",
+          "start": 85.21,
+          "end": 85.93
+        },
+        {
+          "text": "konaklama",
+          "start": 85.93,
+          "end": 86.41
+        },
+        {
+          "text": "ve",
+          "start": 86.41,
+          "end": 86.75
+        },
+        {
+          "text": "Türkiye",
+          "start": 86.75,
+          "end": 87.13
+        },
+        {
+          "text": "içi",
+          "start": 87.13,
+          "end": 87.53
+        },
+        {
+          "text": "ulaşım",
+          "start": 87.75,
+          "end": 87.97
+        },
+        {
+          "text": "desteği",
+          "start": 87.97,
+          "end": 88.37
+        },
+        {
+          "text": "var.",
+          "start": 88.37,
+          "end": 88.49
+        }
+      ]
+    },
+    {
+      "id": "s4_take",
+      "kind": "take",
+      "segment": 4,
+      "start": 88.94,
+      "end": 94.76,
+      "words": [
+        {
+          "text": "Son",
+          "start": 88.94,
+          "end": 89.62
+        },
+        {
+          "text": "başvuru",
+          "start": 89.62,
+          "end": 90.12
+        },
+        {
+          "text": "12",
+          "start": 90.12,
+          "end": 90.38
+        },
+        {
+          "text": "Kasım;",
+          "start": 90.38,
+          "end": 90.88
+        },
+        {
+          "text": "yüz",
+          "start": 90.9,
+          "end": 91.4
+        },
+        {
+          "text": "yüze",
+          "start": 91.4,
+          "end": 91.6
+        },
+        {
+          "text": "öncelik",
+          "start": 91.6,
+          "end": 92.12
+        },
+        {
+          "text": "lisansüstünde,",
+          "start": 92.12,
+          "end": 92.951
+        },
+        {
+          "text": "çevrim",
+          "start": 92.951,
+          "end": 93.307
+        },
+        {
+          "text": "içi",
+          "start": 93.307,
+          "end": 93.485
+        },
+        {
+          "text": "katılıma",
+          "start": 93.485,
+          "end": 93.96
+        },
+        {
+          "text": "da",
+          "start": 93.96,
+          "end": 94.08
+        },
+        {
+          "text": "başvurabilirsin.",
+          "start": 94.08,
+          "end": 94.76
+        }
+      ]
+    },
+    {
+      "id": "question",
+      "kind": "question",
+      "segment": null,
+      "start": 95.22,
+      "end": 98.4,
+      "words": [
+        {
+          "text": "Genie",
+          "start": 95.22,
+          "end": 95.9
+        },
+        {
+          "text": "4'le",
+          "start": 95.9,
+          "end": 96.24
+        },
+        {
+          "text": "nasıl",
+          "start": 96.24,
+          "end": 96.5
+        },
+        {
+          "text": "bir",
+          "start": 96.5,
+          "end": 96.76
+        },
+        {
+          "text": "dünya",
+          "start": 96.76,
+          "end": 97.08
+        },
+        {
+          "text": "kurardın?",
+          "start": 97.08,
+          "end": 97.54
+        },
+        {
+          "text": "Yorumlara",
+          "start": 97.58,
+          "end": 98.2
+        },
+        {
+          "text": "yaz.",
+          "start": 98.2,
+          "end": 98.4
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "kind": "outro",
+      "segment": null,
+      "start": 98.86,
+      "end": 101.44,
+      "words": [
+        {
+          "text": "Takip",
+          "start": 98.86,
+          "end": 99.54
+        },
+        {
+          "text": "et,",
+          "start": 99.54,
+          "end": 99.64
+        },
+        {
+          "text": "haftaya",
+          "start": 99.72,
+          "end": 100.24
+        },
+        {
+          "text": "yeni",
+          "start": 100.24,
+          "end": 100.52
+        },
+        {
+          "text": "gündemle",
+          "start": 100.52,
+          "end": 101.0
+        },
+        {
+          "text": "buradayız.",
+          "start": 101.0,
+          "end": 101.44
+        }
+      ]
+    }
+  ],
+  "license_note": "Seslendirme: Google Gemini TTS (yapay zeka sesi)",
+  "caption_credit": ""
+}

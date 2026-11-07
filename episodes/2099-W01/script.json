@@ -1,0 +1,199 @@
+{
+  "week": "2099-W01",
+  "word_count": 110,
+  "est_seconds": 47.8,
+  "candidate_ids": [],
+  "script": {
+    "hook": "Yapay zekâ arayüzleri üç kat hızlanıyor!",
+    "segments": [
+      {
+        "headline": "A2UI Express: 3 kat daha az token",
+        "narration": "Google, yapay zekânın arayüz üretmesini sağlayan A2UI için yeni bir format duyurdu. A2UI Express, %300'e varan değil, 3 kata varan oranda daha az token kullanıyor ve bilinen ekranları 300 ms altında çiziyor.",
+        "student_take": "Python, TypeScript veya Dart biliyorsan, Agent SDK ile kendi üretken arayüzünü dene.",
+        "visuals": [
+          {
+            "component": "HeadlineCard",
+            "stat_value": null,
+            "stat_prefix": null,
+            "stat_suffix": null,
+            "stat_label": null,
+            "chart_title": null,
+            "chart_labels": null,
+            "chart_values": null,
+            "chart_unit": null,
+            "code_language": null,
+            "code_lines": null,
+            "screenshot_url": null
+          },
+          {
+            "component": "StatCounter",
+            "stat_value": 3.0,
+            "stat_prefix": null,
+            "stat_suffix": "x",
+            "stat_label": "daha az token",
+            "chart_title": null,
+            "chart_labels": null,
+            "chart_values": null,
+            "chart_unit": null,
+            "code_language": null,
+            "code_lines": null,
+            "screenshot_url": null
+          },
+          {
+            "component": "MiniChart",
+            "stat_value": null,
+            "stat_prefix": null,
+            "stat_suffix": null,
+            "stat_label": null,
+            "chart_title": "Ekran çizim süresi",
+            "chart_labels": [
+              "Hedef",
+              "A2UI controlled"
+            ],
+            "chart_values": [
+              1000.0,
+              300.0
+            ],
+            "chart_unit": "ms",
+            "code_language": null,
+            "code_lines": null,
+            "screenshot_url": null
+          },
+          {
+            "component": "SourceScreenshot",
+            "stat_value": null,
+            "stat_prefix": null,
+            "stat_suffix": null,
+            "stat_label": null,
+            "chart_title": null,
+            "chart_labels": null,
+            "chart_values": null,
+            "chart_unit": null,
+            "code_language": null,
+            "code_lines": null,
+            "screenshot_url": "https://developers.googleblog.com/fast-reliable-a2ui/"
+          }
+        ],
+        "sources": [
+          "https://developers.googleblog.com/fast-reliable-a2ui/"
+        ],
+        "claims": [
+          {
+            "text": "A2UI Express 3 kata kadar daha az token kullanıyor",
+            "source_url": "https://developers.googleblog.com/fast-reliable-a2ui/",
+            "uncertain": false
+          }
+        ]
+      },
+      {
+        "headline": "TÜBİTAK Eureka çağrısı açıldı",
+        "narration": "TÜBİTAK, Eureka Network kapsamında Türkiye ve İspanya arasındaki 2026 yılı ortak Ar-Ge çağrısını açtı.",
+        "student_take": "Girişim ya da proje ekibindeysen çağrı metnini incele, ortak bulma sürecini kaçırma.",
+        "visuals": [
+          {
+            "component": "HeadlineCard",
+            "stat_value": null,
+            "stat_prefix": null,
+            "stat_suffix": null,
+            "stat_label": null,
+            "chart_title": null,
+            "chart_labels": null,
+            "chart_values": null,
+            "chart_unit": null,
+            "code_language": null,
+            "code_lines": null,
+            "screenshot_url": null
+          },
+          {
+            "component": "SourceScreenshot",
+            "stat_value": null,
+            "stat_prefix": null,
+            "stat_suffix": null,
+            "stat_label": null,
+            "chart_title": null,
+            "chart_labels": null,
+            "chart_values": null,
+            "chart_unit": null,
+            "code_language": null,
+            "code_lines": null,
+            "screenshot_url": "https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi"
+          }
+        ],
+        "sources": [
+          "https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi"
+        ],
+        "claims": [
+          {
+            "text": "Türkiye-İspanya 2026 çağrısı açıldı",
+            "source_url": "https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi",
+            "uncertain": false
+          }
+        ]
+      },
+      {
+        "headline": "Java uzmanları Copilot'u nasıl kullanıyor?",
+        "narration": "GitHub, üç Java Champion'ın GitHub Copilot ile üretkenliklerini nasıl artırdığını anlattı. Örnekler, test yazımı ve kod incelemesi gibi günlük işlere odaklanıyor.",
+        "student_take": "GitHub Student Developer Pack ile Copilot'u projende dene.",
+        "visuals": [
+          {
+            "component": "HeadlineCard",
+            "stat_value": null,
+            "stat_prefix": null,
+            "stat_suffix": null,
+            "stat_label": null,
+            "chart_title": null,
+            "chart_labels": null,
+            "chart_values": null,
+            "chart_unit": null,
+            "code_language": null,
+            "code_lines": null,
+            "screenshot_url": null
+          },
+          {
+            "component": "Terminal",
+            "stat_value": null,
+            "stat_prefix": null,
+            "stat_suffix": null,
+            "stat_label": null,
+            "chart_title": null,
+            "chart_labels": null,
+            "chart_values": null,
+            "chart_unit": null,
+            "code_language": null,
+            "code_lines": [
+              "gh extension install github/gh-copilot",
+              "gh copilot suggest \"run tests\""
+            ],
+            "screenshot_url": null
+          },
+          {
+            "component": "SourceScreenshot",
+            "stat_value": null,
+            "stat_prefix": null,
+            "stat_suffix": null,
+            "stat_label": null,
+            "chart_title": null,
+            "chart_labels": null,
+            "chart_values": null,
+            "chart_unit": null,
+            "code_language": null,
+            "code_lines": null,
+            "screenshot_url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/"
+          }
+        ],
+        "sources": [
+          "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/"
+        ],
+        "claims": [
+          {
+            "text": "Üç Java Champion Copilot kullanımını anlattı",
+            "source_url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+            "uncertain": true
+          }
+        ]
+      }
+    ],
+    "outro": "Haftaya görüşmek üzere, takipte kal!"
+  },
+  "_fixture": "TEST — elle yazıldı, yayınlanmaz"
+}

@@ -1,0 +1,33 @@
+# Gizli anahtarlar
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+research/.venvs/
+
+# Node / Remotion
+node_modules/
+video/out/
+video/.remotion/
+
+# Bölüm çıktıları: metin/JSON izlenir, büyük medya izlenmez
+episodes/*/audio/
+episodes/*/media/
+episodes/*/screenshots/
+episodes/*/sources/
+episodes/*/*.mp4
+episodes/*/*.wav
+
+# Faz 1 araştırma sesleri
+research/audio/
+research/bt_*.mp3
+
+# Araştırma/deneme medyası (büyük; yerelde kalır)
+research/episode_ab/
+research/ses_karsilastirma/
+research/**/*.wav
+research/**/*.mp3
+research/**/*.mp4
+research/**/*.zip

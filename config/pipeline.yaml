@@ -1,0 +1,59 @@
+# Pipeline ayarları. Her adım bu dosyayı okur.
+
+llm:
+  # claude_code: istemler episodes/<hafta>/llm/ altına yazılır, Claude Code yanıtlar (API anahtarı gerekmez)
+  # api: Anthropic API ile doğrudan (ANTHROPIC_API_KEY gerekir)
+  mode: claude_code
+  model: claude-opus-5-5
+  effort: high            # low | medium | high | xhigh | max
+
+collector:
+  days: 7                 # haftanın son kaç günü
+  max_per_source: 15
+  dedupe_threshold: 82    # başlık benzerliği (0-100); üstündekiler birleştirilir
+  shortlist: 12           # Claude'a senaryo için verilecek en yüksek puanlı aday sayısı
+
+episode:
+  # 2026-10-28: ekip kararıyla 4 haber (önceki bölüm 3 haberdi).
+  min_items: 4
+  max_items: 4
+  # Paragraf sentezinde ölçülen hız ~1.9 kelime/sn (pilot: 160 kelime → 84 sn konuşma).
+  # 4 haberle 80-105 sn: kanca, teaser, köprüler, haberler, soru ve kapanış toplamı 155-195 kelime.
+  words_per_second: 1.9
+  max_words: 195
+  min_words: 155
+
+tts:
+  # ahenk | ahenk_cep | pocket_tr | omnivoice | chatterbox_v3 | elevenlabs | gemini   (modeli değiştirmek için tek satır)
+  # Bulut modelleri (.env'de anahtar gerekir, python: "" olmalı): elevenlabs_model / gemini_model ile model seçilir.
+  # 2026-10-28: ekip dinlemesinde bulut sesleri (Gemini Kore 3.1, ElevenLabs Sarah/Brian v3) yerel modellerden belirgin iyi bulundu; varsayılan gemini (ücretsiz, günde 10 istek; bölüm 1 istek).
+  backend: gemini
+  # Backend ayrı bir sanal ortamda çalışacaksa python yolunu ver; boşsa ana .venv kullanılır.
+  python: research/.venvs/pocket/Scripts/python
+  # Ses listesi (model adına göre): ISO hafta çiftse ilk ses, tekse ikinci; tek ses verilirse her hafta o.
+  # Tek bir haftayı değiştirmek için: tts --voice Leda --force
+  voices:
+    pocket_tr: [female_1, male_1]     # female_1-3, male_1-3
+    elevenlabs: [Sarah, Brian]        # 2026-10-28 dinleme: Sarah v3 ve Brian v3 beğenildi
+    gemini: [Kore, Algenib]           # 2026-11-07: çift hafta Kore (kadın), tek hafta Algenib (kalın, tok erkek sesi)
+  voice: ""               # boş değilse dönüşümü ezer ve her hafta bu ses kullanılır
+  emotion: ""             # pocket_tr: boş = nötr | mutlu | sakin ... ; gemini: okuma tarzı talimatı (boşsa enerjik Reels anlatıcısı)
+  # Sese özel okuma tarzı (emotion'ı o ses için ezer). Algenib bu talimatla dinlendi ve seçildi (2026-11-07).
+  voice_styles:
+    Algenib: "Aşağıdaki Türkçe metni, üniversite öğrencilerine teknoloji haberlerini anlatan, tok, güven veren ve ciddiye alınan bir haber anlatıcısı gibi oku. Akıcı ve doğal konuş, abartılı heyecan yok. Yalnızca metni oku:"
+  chunk: unit             # unit: birim tek parça (doğal tonlama) | sentence: cümle cümle + sabit durak
+  sentence_pause_ms: 280  # yalnızca chunk: sentence
+  unit_pause_ms: 450      # haber anlatımı ile "senin için" kısmı arası
+  target_lufs: -14
+  elevenlabs_model: eleven_v3
+  gemini_model: gemini-3.1-flash-tts-preview
+
+video:
+  fps: 30
+  width: 1080
+  height: 1920
+  outro_seconds: 3.5     # takip butonu animasyonu ~1.5 sn sürer
+  host_label: ""          # sunucu ismi yok (Faz 0 kararı)
+  instagram_handle: ""    # kapanıştaki takip çağrısında gösterilir, ör. "@gdgkastamonu"; boşsa yalnızca "Takip et"
+  music_volume: 0.18
+  music_duck_volume: 0.06

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Onay 2099-W01</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --text:#1b1f24; --muted:#5f6b7a; --border:#dde2e8;
+          --ok:#188038; --ok-bg:#e6f4ea; --warn:#b06000; --warn-bg:#fef7e0; --bad:#c5221f; --bad-bg:#fce8e6; --accent:#1a73e8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111418; --card:#1b2026; --text:#e8eaed; --muted:#9aa4b1; --border:#2c333b;
+            --ok:#81c995; --ok-bg:#1e3a29; --warn:#fdd663; --warn-bg:#3d3418; --bad:#f28b82; --bad-bg:#47201e; --accent:#8ab4f8; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 16px 80px; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; } h2 { font-size: 1.15rem; margin: 0 0 8px; }
+  .muted { color: var(--muted); }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; margin-top:16px; }
+  .gate { border-left: 4px solid var(--accent); }
+  .gate code, .cmd { display:block; background:var(--bg); border:1px solid var(--border); border-radius:8px; padding:8px 10px; margin-top:6px; font: 13px ui-monospace, Consolas, monospace; overflow-x:auto; }
+  .stats { display:flex; gap:16px; flex-wrap:wrap; margin-top:8px; }
+  .stat b { font-size: 1.25rem; display:block; }
+  .label { font-size:.75rem; font-weight:600; letter-spacing:.05em; color:var(--muted); text-transform:uppercase; margin-top:12px; }
+  .hook { font-size: 1.3rem; font-weight: 700; }
+  .take { background: var(--warn-bg); border-radius: 8px; padding: 8px 10px; }
+  table { width:100%; border-collapse: collapse; margin-top:6px; font-size: .92rem; }
+  td, th { text-align:left; vertical-align: top; padding: 6px 8px; border-top: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; font-size: .8rem; }
+  .pill { display:inline-block; padding: 1px 8px; border-radius: 999px; font-size:.78rem; font-weight:600; white-space:nowrap; }
+  .supported { background:var(--ok-bg); color:var(--ok); }
+  .partial { background:var(--warn-bg); color:var(--warn); }
+  .unsupported, .not_found, .uncertain { background:var(--bad-bg); color:var(--bad); }
+  tr.flag td { background: var(--bad-bg); }
+  .evidence { color: var(--muted); font-style: italic; }
+  details summary { cursor:pointer; color: var(--accent); margin-top: 8px; }
+  a { color: var(--accent); word-break: break-all; }
+  .unknown li { margin: 2px 0; }
+  .visual { display:inline-block; border:1px solid var(--border); border-radius:6px; padding:2px 8px; margin: 2px 4px 2px 0; font-size:.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Bölüm onayı — 2099-W01</h1>
+  <div class="muted">Üretim: 2026-10-27 18:25 · Bu sayfa senaryoyu, her iddianın kaynağını ve doğrulama sonucunu gösterir.</div>
+  <div class="stats">
+    <div class="stat"><b>3</b><span class="muted">haber</span></div>
+    <div class="stat"><b>110</b><span class="muted">kelime</span></div>
+    <div class="stat"><b>~47.8 sn</b><span class="muted">tahmini süre</span></div>
+    <div class="stat"><b style="color:var(--bad)">2</b><span class="muted">kırmızı işaret</span></div>
+    <div class="stat"><b>3</b><span class="muted">sözlükte olmayan terim</span></div>
+  </div>
+
+  <section class="card gate">
+    <h2>Onay kapısı</h2>
+    
+      <div><span class="pill supported">ONAYLANDI</span> Mert Yasin YÄ±lmaz · 2026-10-27T18:25:03</div>
+    
+  </section>
+
+  <section class="card">
+    <div class="label">Kanca (0-2 sn)</div>
+    <div class="hook">Yapay zekâ arayüzleri üç kat hızlanıyor!</div>
+  </section>
+
+  
+  <section class="card">
+    <h2>Haber 1/3 — A2UI Express: 3 kat daha az token</h2>
+    <div class="label">Anlatım</div>
+    <div>Google, yapay zekânın arayüz üretmesini sağlayan A2UI için yeni bir format duyurdu. A2UI Express, %300&#39;e varan değil, 3 kata varan oranda daha az token kullanıyor ve bilinen ekranları 300 ms altında çiziyor.</div>
+    <div class="label">Bu senin için ne demek?</div>
+    <div class="take">Python, TypeScript veya Dart biliyorsan, Agent SDK ile kendi üretken arayüzünü dene.</div>
+    <details><summary>TTS'e gidecek fonetik metin</summary>
+      <div class="cmd">gugıl, yapay zekânın arayüz üretmesini sağlayan A iki u ı için yeni bir format duyurdu. A iki u ı Express, yüzde üç yüze varan değil, üç kata varan oranda daha az token kullanıyor ve bilinen ekranları üç yüz ms altında çiziyor.</div><div class="cmd">paytın, tayp skript veya Dart biliyorsan, eycınt es di key ile kendi üretken arayüzünü dene.</div></details>
+
+    <div class="label">İddialar ve doğrulama</div>
+    <table>
+      <tr><th>İddia</th><th>Sonuç</th><th>Kanıt / not</th></tr>
+      
+      <tr class="">
+        <td>A2UI Express 3 kata kadar daha az token kullanıyor
+          <div><a href="https://developers.googleblog.com/fast-reliable-a2ui/" target="_blank" rel="noopener">https://developers.googleblog.com/fast-reliable-a2ui/</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“(test stub)”</div><div>TEST: Claude doğrulaması yapılmadı</div></td>
+      </tr>
+      
+      
+    </table>
+
+    
+    <div class="label">Rakam taraması (kaynak metinde birebir geçiyor mu?)</div>
+    <div><span class="pill unsupported" style="margin-right:4px">1000.0</span><span class="pill supported" style="margin-right:4px">2</span><span class="pill supported" style="margin-right:4px">3</span><span class="pill supported" style="margin-right:4px">3.0</span><span class="pill supported" style="margin-right:4px">300</span><span class="pill supported" style="margin-right:4px">300.0</span></div>
+    
+
+    <div class="label">Görseller</div>
+    <div><span class="visual">HeadlineCard</span><span class="visual">StatCounter: 3.0x — daha az token</span><span class="visual">MiniChart: Ekran çizim süresi [(&#39;Hedef&#39;, 1000.0), (&#39;A2UI controlled&#39;, 300.0)]</span><span class="visual">SourceScreenshot: https://developers.googleblog.com/fast-reliable-a2ui/</span></div>
+    <div class="label">Kaynaklar</div>
+    <ul><li><a href="https://developers.googleblog.com/fast-reliable-a2ui/" target="_blank" rel="noopener">https://developers.googleblog.com/fast-reliable-a2ui/</a></li></ul>
+  </section>
+  
+  <section class="card">
+    <h2>Haber 2/3 — TÜBİTAK Eureka çağrısı açıldı</h2>
+    <div class="label">Anlatım</div>
+    <div>TÜBİTAK, Eureka Network kapsamında Türkiye ve İspanya arasındaki 2026 yılı ortak Ar-Ge çağrısını açtı.</div>
+    <div class="label">Bu senin için ne demek?</div>
+    <div class="take">Girişim ya da proje ekibindeysen çağrı metnini incele, ortak bulma sürecini kaçırma.</div>
+    <details><summary>TTS'e gidecek fonetik metin</summary>
+      <div class="cmd">tübitak, Eureka Network kapsamında Türkiye ve İspanya arasındaki iki bin yirmi altı yılı ortak ey ar Ge çağrısını açtı.</div><div class="cmd">Girişim ya da proje ekibindeysen çağrı metnini incele, ortak bulma sürecini kaçırma.</div></details>
+
+    <div class="label">İddialar ve doğrulama</div>
+    <table>
+      <tr><th>İddia</th><th>Sonuç</th><th>Kanıt / not</th></tr>
+      
+      <tr class="">
+        <td>Türkiye-İspanya 2026 çağrısı açıldı
+          <div><a href="https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi" target="_blank" rel="noopener">https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“(test stub)”</div><div>TEST: Claude doğrulaması yapılmadı</div></td>
+      </tr>
+      
+      
+    </table>
+
+    
+    <div class="label">Rakam taraması (kaynak metinde birebir geçiyor mu?)</div>
+    <div><span class="pill supported" style="margin-right:4px">2026</span></div>
+    
+
+    <div class="label">Görseller</div>
+    <div><span class="visual">HeadlineCard</span><span class="visual">SourceScreenshot: https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi</span></div>
+    <div class="label">Kaynaklar</div>
+    <ul><li><a href="https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi" target="_blank" rel="noopener">https://tubitak.gov.tr/tr/duyuru/eureka-network-turkiye-ispanya-2026-yili-cagrisi-acildi</a></li></ul>
+  </section>
+  
+  <section class="card">
+    <h2>Haber 3/3 — Java uzmanları Copilot&#39;u nasıl kullanıyor?</h2>
+    <div class="label">Anlatım</div>
+    <div>GitHub, üç Java Champion&#39;ın GitHub Copilot ile üretkenliklerini nasıl artırdığını anlattı. Örnekler, test yazımı ve kod incelemesi gibi günlük işlere odaklanıyor.</div>
+    <div class="label">Bu senin için ne demek?</div>
+    <div class="take">GitHub Student Developer Pack ile Copilot&#39;u projende dene.</div>
+    <details><summary>TTS'e gidecek fonetik metin</summary>
+      <div class="cmd">githab, üç Java Championın githab kopaylıt ile üretkenliklerini nasıl artırdığını anlattı. Örnekler, test yazımı ve kod incelemesi gibi günlük işlere odaklanıyor.</div><div class="cmd">githab studınt divelopır pek ile kopaylıtu projende dene.</div></details>
+
+    <div class="label">İddialar ve doğrulama</div>
+    <table>
+      <tr><th>İddia</th><th>Sonuç</th><th>Kanıt / not</th></tr>
+      
+      <tr class="flag">
+        <td>Üç Java Champion Copilot kullanımını anlattı <span class="pill uncertain">UNCERTAIN</span>
+          <div><a href="https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/" target="_blank" rel="noopener">https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/</a></div></td>
+        <td><span class="pill supported">supported</span></td>
+        <td><div class="evidence">“(test stub)”</div><div>TEST: Claude doğrulaması yapılmadı</div></td>
+      </tr>
+      
+      
+    </table>
+
+    
+
+    <div class="label">Görseller</div>
+    <div><span class="visual">HeadlineCard</span><span class="visual">Terminal: gh extension install github/gh-copilot / gh copilot suggest &#34;run tests&#34;</span><span class="visual">SourceScreenshot: https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/</span></div>
+    <div class="label">Kaynaklar</div>
+    <ul><li><a href="https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/" target="_blank" rel="noopener">https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/</a></li></ul>
+  </section>
+  
+
+  <section class="card">
+    <div class="label">Kapanış</div>
+    <div>Haftaya görüşmek üzere, takipte kal!</div>
+  </section>
+
+  <section class="card unknown">
+    <h2>Sözlükte olmayan terimler</h2>
+    
+    <div class="muted">Bunlar İngilizce/kısaltma gibi görünüyor ve <code>config/pronunciation.json</code>'da yok. Doğru okunuşu ekleyip <code>python -m pipeline normalize --week 2099-W01 --force</code> çalıştırın.</div>
+    <ul><li><b>A2UI</b> → şu an: <i>A iki u ı</i></li><li><b>Express</b> → şu an: <i>Express</i></li><li><b>Network</b> → şu an: <i>Network</i></li></ul>
+    <div class="label">Eklenecek satırlar (okunuşu düzeltip yapıştırın)</div>
+    <div class="cmd">"A2UI": "A iki u ı",<br>"Express": "Express",<br>"Network": "Network",<br></div>
+    
+  </section>
+</main>
+</body>
+</html>

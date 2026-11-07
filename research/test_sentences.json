@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "description": "Türkçe teknoloji haberi TTS test seti. raw: orijinal yazım (TTS'e doğrudan verilir). phonetic: İngilizce terimler Türkçe okunuşla, rakamlar yazıyla (TTS'e verilir). spoken: doğru okunuşun insan tarafından yazılmış hali (bilgi amaçlı; rakamlar yazıyla, terimler orijinal yazımla). WER/CER referansı: research/eval/textnorm.py normalize(raw); Whisper çıktısı da aynı fonksiyondan geçirilir. terms: terim isabeti için aranan kanonik terimler.",
+  "sentences": [
+    {
+      "id": "s01",
+      "tags": ["en_terms", "version", "date"],
+      "raw": "OpenAI, yeni modeli GPT-6'yı 15 Kasım'da tanıttı.",
+      "phonetic": "Opın-ey-ay, yeni modeli ci-pi-ti altıyı on beş Kasım'da tanıttı.",
+      "spoken": "OpenAI yeni modeli GPT altıyı on beş Kasım'da tanıttı",
+      "terms": ["OpenAI", "GPT"]
+    },
+    {
+      "id": "s02",
+      "tags": ["en_terms", "currency", "decimal"],
+      "raw": "Nvidia'nın çeyreklik geliri 47,3 milyar dolara ulaştı.",
+      "phonetic": "En-vidya'nın çeyreklik geliri kırk yedi virgül üç milyar dolara ulaştı.",
+      "spoken": "Nvidia'nın çeyreklik geliri kırk yedi virgül üç milyar dolara ulaştı",
+      "terms": ["Nvidia"]
+    },
+    {
+      "id": "s03",
+      "tags": ["en_terms", "acronym"],
+      "raw": "Anthropic, Claude için yeni bir API sürümü yayımladı.",
+      "phonetic": "Entropik, Klod için yeni bir ey-pi-ay sürümü yayımladı.",
+      "spoken": "Anthropic Claude için yeni bir API sürümü yayımladı",
+      "terms": ["Anthropic", "Claude", "API"]
+    },
+    {
+      "id": "s04",
+      "tags": ["en_terms", "news_tone"],
+      "raw": "GitHub Copilot artık tüm üniversite öğrencilerine ücretsiz sunuluyor.",
+      "phonetic": "Git-hab Kopaylıt artık tüm üniversite öğrencilerine ücretsiz sunuluyor.",
+      "spoken": "GitHub Copilot artık tüm üniversite öğrencilerine ücretsiz sunuluyor",
+      "terms": ["GitHub", "Copilot"]
+    },
+    {
+      "id": "s05",
+      "tags": ["en_terms", "version", "suffix_on_number"],
+      "raw": "Google, Android 17'nin ilk beta sürümünü geliştiricilere açtı.",
+      "phonetic": "Gugıl, Android on yedinin ilk beta sürümünü geliştiricilere açtı.",
+      "spoken": "Google Android on yedinin ilk beta sürümünü geliştiricilere açtı",
+      "terms": ["Google", "Android"]
+    },
+    {
+      "id": "s06",
+      "tags": ["en_terms", "acronym", "percent"],
+      "raw": "Kubernetes kümelerinde GPU paylaşımı %12 daha verimli hale geldi.",
+      "phonetic": "Kubernetis kümelerinde ci-pi-yu paylaşımı yüzde on iki daha verimli hale geldi.",
+      "spoken": "Kubernetes kümelerinde GPU paylaşımı yüzde on iki daha verimli hale geldi",
+      "terms": ["Kubernetes", "GPU"]
+    },
+    {
+      "id": "s07",
+      "tags": ["tr_acronym", "program_code", "date"],
+      "raw": "TÜBİTAK 2209-A başvuruları 31 Ekim'e kadar uzatıldı.",
+      "phonetic": "Tübitak yirmi iki sıfır dokuz A başvuruları otuz bir Ekim'e kadar uzatıldı.",
+      "spoken": "TÜBİTAK yirmi iki sıfır dokuz A başvuruları otuz bir Ekim'e kadar uzatıldı",
+      "terms": ["TÜBİTAK"]
+    },
+    {
+      "id": "s08",
+      "tags": ["tr_acronym", "suffix_on_acronym"],
+      "raw": "AB'nin yapay zeka yasası ABD'li şirketleri de doğrudan etkileyecek.",
+      "phonetic": "A-Be'nin yapay zeka yasası A-Be-De'li şirketleri de doğrudan etkileyecek.",
+      "spoken": "AB'nin yapay zeka yasası ABD'li şirketleri de doğrudan etkileyecek",
+      "terms": ["AB", "ABD"]
+    },
+    {
+      "id": "s09",
+      "tags": ["en_terms", "acronym", "percent"],
+      "raw": "Yeni iPhone'daki çip, CPU'da %20, RAM'de ise iki kat artış sunuyor.",
+      "phonetic": "Yeni ayfondaki çip, si-pi-yu'da yüzde yirmi, ramde ise iki kat artış sunuyor.",
+      "spoken": "Yeni iPhone'daki çip CPU'da yüzde yirmi RAM'de ise iki kat artış sunuyor",
+      "terms": ["iPhone", "CPU", "RAM"]
+    },
+    {
+      "id": "s10",
+      "tags": ["agglutinative", "long_sentence"],
+      "raw": "Teknofest'e başvuracak takımların değerlendirilebilmeleri için proje raporlarını zamanında yüklemeleri gerekiyor.",
+      "phonetic": "Teknofest'e başvuracak takımların değerlendirilebilmeleri için proje raporlarını zamanında yüklemeleri gerekiyor.",
+      "spoken": "Teknofest'e başvuracak takımların değerlendirilebilmeleri için proje raporlarını zamanında yüklemeleri gerekiyor",
+      "terms": ["Teknofest"]
+    },
+    {
+      "id": "s11",
+      "tags": ["agglutinative"],
+      "raw": "Kişiselleştirilmiş öneri sistemlerinin şeffaflaştırılmasına yönelik düzenlemeler Avrupa'da tartışılıyor.",
+      "phonetic": "Kişiselleştirilmiş öneri sistemlerinin şeffaflaştırılmasına yönelik düzenlemeler Avrupa'da tartışılıyor.",
+      "spoken": "Kişiselleştirilmiş öneri sistemlerinin şeffaflaştırılmasına yönelik düzenlemeler Avrupa'da tartışılıyor",
+      "terms": []
+    },
+    {
+      "id": "s12",
+      "tags": ["en_terms", "acronym", "units"],
+      "raw": "Açık kaynak LLM'ler artık 8 GB VRAM'li dizüstülerde çalışabiliyor.",
+      "phonetic": "Açık kaynak el-el-em'ler artık sekiz gigabayt vi-ram'li dizüstülerde çalışabiliyor.",
+      "spoken": "Açık kaynak LLM'ler artık sekiz gigabayt VRAM'li dizüstülerde çalışabiliyor",
+      "terms": ["LLM", "VRAM"]
+    },
+    {
+      "id": "s13",
+      "tags": ["en_terms", "version", "percent"],
+      "raw": "Python 3.14 sürümüyle birlikte yorumlayıcı %30'a varan hız kazandı.",
+      "phonetic": "Paytın üç nokta on dört sürümüyle birlikte yorumlayıcı yüzde otuza varan hız kazandı.",
+      "spoken": "Python üç nokta on dört sürümüyle birlikte yorumlayıcı yüzde otuza varan hız kazandı",
+      "terms": ["Python"]
+    },
+    {
+      "id": "s14",
+      "tags": ["year", "currency"],
+      "raw": "Meta, yapay zeka altyapısına 2026'da 65 milyar dolar harcamayı planlıyor.",
+      "phonetic": "Meta, yapay zeka altyapısına iki bin yirmi altıda altmış beş milyar dolar harcamayı planlıyor.",
+      "spoken": "Meta yapay zeka altyapısına iki bin yirmi altıda altmış beş milyar dolar harcamayı planlıyor",
+      "terms": ["Meta"]
+    },
+    {
+      "id": "s15",
+      "tags": ["news_tone", "hook"],
+      "raw": "Bu hafta teknoloji dünyasında neler oldu? Hadi birlikte bakalım!",
+      "phonetic": "Bu hafta teknoloji dünyasında neler oldu? Hadi birlikte bakalım!",
+      "spoken": "Bu hafta teknoloji dünyasında neler oldu Hadi birlikte bakalım",
+      "terms": []
+    },
+    {
+      "id": "s16",
+      "tags": ["en_terms", "date", "time", "student_take"],
+      "raw": "Öğrenciysen, GitHub Student Developer Pack ile bu araçlara 2 Aralık'a kadar ücretsiz erişebilirsin.",
+      "phonetic": "Öğrenciysen, Git-hab Studınt Divelopır Pek ile bu araçlara iki Aralık'a kadar ücretsiz erişebilirsin.",
+      "spoken": "Öğrenciysen GitHub Student Developer Pack ile bu araçlara iki Aralık'a kadar ücretsiz erişebilirsin",
+      "terms": ["GitHub", "Student", "Developer", "Pack"]
+    }
+  ]
+}
