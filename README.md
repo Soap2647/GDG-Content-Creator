@@ -193,6 +193,7 @@ GDG logosu: `assets/brand/gdg_logo_original.jpg`. `python assets/brand/make_dark
 
 ## Lisanslar
 
+- **Bu repodaki kod:** MIT, bkz. [LICENSE](LICENSE). GDG logosu ve marka dosyaları (`assets/brand/`) MIT kapsamında değildir; Google Developer Groups marka kurallarına tabidir.
 - **Remotion:** [Remotion Lisansı](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md). Ücretsiz lisans, bireyler, en fazla 3 çalışanı olan şirketler ve **kâr amacı gütmeyen kuruluşlar** için geçerli (2026-10-27'de doğrulandı). GDG on Campus Kastamonu kâr amacı gütmeyen bir öğrenci topluluğu olduğu için ücretsiz lisans kapsamında. Kâr amaçlı bir kuruluş bu repoyu kullanacaksa Company License gerekebilir. Remotion 5.0'da lisansın değişeceği duyuruldu; sürüm yükseltmeden önce tekrar kontrol edin.
 - **Seslendirme modeli:** Pocket TTS Turkish (wite-tech), CC BY 4.0; atıf `post.md`'de.
 - **Müzik ve efektler:** Ekip tarafından sentezlendi. Bkz. [`assets/LICENSES.md`](assets/LICENSES.md).
